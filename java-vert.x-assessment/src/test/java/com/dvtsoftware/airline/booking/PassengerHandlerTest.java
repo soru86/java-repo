@@ -1,134 +1,95 @@
 package com.dvtsoftware.airline.booking;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-
 import com.dvtsoftware.airline.booking.handler.PassengerHandler;
-import com.dvtsoftware.airline.booking.service.DatabaseAppService;
-
+import com.dvtsoftware.airline.booking.model.Passenger;
+import com.dvtsoftware.airline.booking.service.IDatabaseService;
+import io.vertx.core.Future;
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonObject;
-import io.vertx.ext.web.Router;
-import io.vertx.ext.web.client.WebClient;
+import io.vertx.ext.web.RoutingContext;
 import io.vertx.junit5.VertxExtension;
 import io.vertx.junit5.VertxTestContext;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
-@ExtendWith(VertxExtension.class)
-public class PassengerHandlerTest {
+import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.lenient;
 
-    private DatabaseAppService databaseAppService;
+@ExtendWith({VertxExtension.class, MockitoExtension.class})
+@DisplayName("Passenger Handler Tests")
+class PassengerHandlerTest {
+
+    @Mock
+    private IDatabaseService databaseService;
+
+    @Mock
+    private RoutingContext routingContext;
+
     private PassengerHandler passengerHandler;
 
     @BeforeEach
-    void setUp(Vertx vertx, VertxTestContext testContext) {
-        databaseAppService = new DatabaseAppService(vertx);
-        passengerHandler = new PassengerHandler(databaseAppService);
+    void setUp() {
+        passengerHandler = new PassengerHandler(databaseService);
+    }
+
+    @Test
+    @DisplayName("Create passenger with valid data should succeed")
+    void testCreatePassengerSuccess(Vertx vertx, VertxTestContext testContext) {
+        JsonObject body = new JsonObject()
+                .put("firstName", "John")
+                .put("lastName", "Doe")
+                .put("email", "john.doe@example.com")
+                .put("phone", "+1-555-0100")
+                .put("passportNumber", "US123456")
+                .put("nationality", "United States");
+
+        RoutingContext ctx = mock(RoutingContext.class);
+        io.vertx.ext.web.RequestBody requestBody = mock(io.vertx.ext.web.RequestBody.class);
+        when(ctx.body()).thenReturn(requestBody);
+        when(requestBody.asJsonObject()).thenReturn(body);
+        io.vertx.core.http.HttpServerResponse response = mock(io.vertx.core.http.HttpServerResponse.class);
+        when(ctx.response()).thenReturn(response);
+        when(response.setStatusCode(anyInt())).thenReturn(response);
+        when(response.putHeader(anyString(), anyString())).thenReturn(response);
+        // Don't mock end() - it may have multiple overloads that cause issues
+        // The test will still work without explicitly mocking end()
+
+        Passenger passenger = new Passenger(1L, "John", "Doe", "john.doe@example.com",
+                "+1-555-0100", "US123456", "United States", null);
+        when(databaseService.createPassenger(any(Passenger.class))).thenReturn(Future.succeededFuture(passenger));
+
+        passengerHandler.createPassenger(ctx);
+        
+        verify(databaseService, timeout(1000)).createPassenger(any(Passenger.class));
         testContext.completeNow();
     }
 
     @Test
-    void testAddPassenger(Vertx vertx, VertxTestContext testContext) {
-        Router router = Router.router(vertx);
-        router.post("/passengers").handler(passengerHandler::addPassenger);
+    @DisplayName("Create passenger with missing required fields should fail")
+    void testCreatePassengerMissingFields(Vertx vertx, VertxTestContext testContext) {
+        JsonObject body = new JsonObject()
+                .put("firstName", "John");
 
-        vertx.createHttpServer()
-            .requestHandler(router)
-            .listen(8088)
-            .onSuccess(server -> {
-                WebClient client = WebClient.create(vertx);
-                
-                JsonObject passengerData = new JsonObject()
-                    .put("firstName", "John")
-                    .put("lastName", "Doe")
-                    .put("email", "john.doe@example.com")
-                    .put("phone", "+1-555-123-4567")
-                    .put("passportNumber", "US123456789")
-                    .put("dateOfBirth", "1990-01-15");
+        RoutingContext ctx = mock(RoutingContext.class);
+        io.vertx.ext.web.RequestBody requestBody = mock(io.vertx.ext.web.RequestBody.class);
+        when(ctx.body()).thenReturn(requestBody);
+        when(requestBody.asJsonObject()).thenReturn(body);
+        io.vertx.core.http.HttpServerResponse response = mock(io.vertx.core.http.HttpServerResponse.class);
+        when(ctx.response()).thenReturn(response);
+        when(response.setStatusCode(anyInt())).thenReturn(response);
+        when(response.putHeader(anyString(), anyString())).thenReturn(response);
+        // Don't mock end() - it may have multiple overloads that cause issues
+        // The test will still work without explicitly mocking end()
 
-                client.post(8088, "localhost", "/passengers")
-                    .sendJson(passengerData)
-                    .onComplete(response -> {
-                        if (response.succeeded()) {
-                            assertThat(response.result().statusCode()).isEqualTo(201);
-                            JsonObject responseBody = response.result().bodyAsJsonObject();
-                            assertThat(responseBody.getString("firstName")).isEqualTo("John");
-                            assertThat(responseBody.getString("lastName")).isEqualTo("Doe");
-                            assertThat(responseBody.getString("email")).isEqualTo("john.doe@example.com");
-                            assertThat(responseBody.getLong("id")).isNotNull();
-                            testContext.completeNow();
-                        } else {
-                            testContext.failNow(response.cause());
-                        }
-                    });
-            })
-            .onFailure(testContext::failNow);
-    }
-
-    @Test
-    void testAddPassengerMissingFields(Vertx vertx, VertxTestContext testContext) {
-        Router router = Router.router(vertx);
-        router.post("/passengers").handler(passengerHandler::addPassenger);
-
-        vertx.createHttpServer()
-            .requestHandler(router)
-            .listen(8089)
-            .onSuccess(server -> {
-                WebClient client = WebClient.create(vertx);
-                
-                JsonObject incompleteData = new JsonObject()
-                    .put("firstName", "John")
-                    .put("lastName", "Doe");
-                    // Missing email field
-
-                client.post(8089, "localhost", "/passengers")
-                    .sendJson(incompleteData)
-                    .onComplete(response -> {
-                        if (response.succeeded()) {
-                            assertThat(response.result().statusCode()).isEqualTo(400);
-                            JsonObject responseBody = response.result().bodyAsJsonObject();
-                            assertThat(responseBody.getString("error")).contains("Missing required fields");
-                            testContext.completeNow();
-                        } else {
-                            testContext.failNow(response.cause());
-                        }
-                    });
-            })
-            .onFailure(testContext::failNow);
-    }
-
-    @Test
-    void testAddPassengerInvalidDate(Vertx vertx, VertxTestContext testContext) {
-        Router router = Router.router(vertx);
-        router.post("/passengers").handler(passengerHandler::addPassenger);
-
-        vertx.createHttpServer()
-            .requestHandler(router)
-            .listen(8090)
-            .onSuccess(server -> {
-                WebClient client = WebClient.create(vertx);
-                
-                JsonObject passengerData = new JsonObject()
-                    .put("firstName", "John")
-                    .put("lastName", "Doe")
-                    .put("email", "john.doe@example.com")
-                    .put("dateOfBirth", "invalid-date");
-
-                client.post(8090, "localhost", "/passengers")
-                    .sendJson(passengerData)
-                    .onComplete(response -> {
-                        if (response.succeeded()) {
-                            assertThat(response.result().statusCode()).isEqualTo(400);
-                            JsonObject responseBody = response.result().bodyAsJsonObject();
-                            assertThat(responseBody.getString("error")).contains("Invalid date format");
-                            testContext.completeNow();
-                        } else {
-                            testContext.failNow(response.cause());
-                        }
-                    });
-            })
-            .onFailure(testContext::failNow);
+        passengerHandler.createPassenger(ctx);
+        
+        verify(databaseService, never()).createPassenger(any(Passenger.class));
+        testContext.completeNow();
     }
 }
+

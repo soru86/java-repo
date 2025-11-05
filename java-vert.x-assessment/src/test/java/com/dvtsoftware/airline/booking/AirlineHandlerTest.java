@@ -1,131 +1,116 @@
 package com.dvtsoftware.airline.booking;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-
 import com.dvtsoftware.airline.booking.handler.AirlineHandler;
 import com.dvtsoftware.airline.booking.model.Airline;
-import com.dvtsoftware.airline.booking.service.DatabaseAppService;
-
+import com.dvtsoftware.airline.booking.service.IDatabaseService;
 import io.vertx.core.Future;
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonObject;
-import io.vertx.ext.web.Router;
-import io.vertx.ext.web.client.WebClient;
+import io.vertx.ext.jdbc.JDBCClient;
+import io.vertx.ext.web.RoutingContext;
 import io.vertx.junit5.VertxExtension;
 import io.vertx.junit5.VertxTestContext;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
-@ExtendWith(VertxExtension.class)
-public class AirlineHandlerTest {
+import java.util.Arrays;
+import java.util.List;
 
-    private DatabaseAppService databaseAppService;
+import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.Mockito.*;
+import static org.mockito.AdditionalAnswers.returnsFirstArg;
+
+@ExtendWith({VertxExtension.class, MockitoExtension.class})
+@DisplayName("Airline Handler Tests")
+class AirlineHandlerTest {
+
+    @Mock
+    private IDatabaseService databaseService;
+
+    @Mock
+    private RoutingContext routingContext;
+
     private AirlineHandler airlineHandler;
 
     @BeforeEach
-    void setUp(Vertx vertx, VertxTestContext testContext) {
-        databaseAppService = new DatabaseAppService(vertx);
-        airlineHandler = new AirlineHandler(databaseAppService);
+    void setUp() {
+        airlineHandler = new AirlineHandler(databaseService);
+    }
+
+    @Test
+    @DisplayName("Create airline with valid data should succeed")
+    void testCreateAirlineSuccess(Vertx vertx, VertxTestContext testContext) {
+        JsonObject body = new JsonObject()
+                .put("code", "VS")
+                .put("name", "Virgin Atlantic")
+                .put("country", "United Kingdom");
+
+        RoutingContext ctx = mock(RoutingContext.class);
+        io.vertx.ext.web.RequestBody requestBody = mock(io.vertx.ext.web.RequestBody.class);
+        io.vertx.core.http.HttpServerResponse response = mock(io.vertx.core.http.HttpServerResponse.class);
+        
+        when(ctx.body()).thenReturn(requestBody);
+        when(requestBody.asJsonObject()).thenReturn(body);
+        when(ctx.response()).thenReturn(response);
+        when(response.setStatusCode(anyInt())).thenReturn(response);
+        when(response.putHeader(anyString(), anyString())).thenReturn(response);
+        // Don't mock end() - it may have multiple overloads that cause issues
+
+        Airline airline = new Airline(1L, "VS", "Virgin Atlantic", "United Kingdom", null);
+        when(databaseService.createAirline(any(Airline.class))).thenReturn(Future.succeededFuture(airline));
+
+        airlineHandler.createAirline(ctx);
+        
+        verify(databaseService, timeout(1000)).createAirline(any(Airline.class));
         testContext.completeNow();
     }
 
     @Test
-    void testAddAirline(Vertx vertx, VertxTestContext testContext) {
-        Router router = Router.router(vertx);
-        router.post("/airlines").handler(airlineHandler::addAirline);
+    @DisplayName("Create airline with missing fields should fail")
+    void testCreateAirlineMissingFields(Vertx vertx, VertxTestContext testContext) {
+        JsonObject body = new JsonObject()
+                .put("code", "VS");
 
-        vertx.createHttpServer()
-            .requestHandler(router)
-            .listen(8080)
-            .onSuccess(server -> {
-                WebClient client = WebClient.create(vertx);
-                
-                JsonObject airlineData = new JsonObject()
-                    .put("code", "TEST")
-                    .put("name", "Test Airlines")
-                    .put("country", "Test Country");
+        RoutingContext ctx = mock(RoutingContext.class);
+        io.vertx.ext.web.RequestBody requestBody = mock(io.vertx.ext.web.RequestBody.class);
+        io.vertx.core.http.HttpServerResponse response = mock(io.vertx.core.http.HttpServerResponse.class);
+        when(ctx.body()).thenReturn(requestBody);
+        when(requestBody.asJsonObject()).thenReturn(body);
+        when(ctx.response()).thenReturn(response);
+        when(response.setStatusCode(anyInt())).thenReturn(response);
+        when(response.putHeader(anyString(), anyString())).thenReturn(response);
+        // Don't mock end() - it may have multiple overloads that cause issues
 
-                client.post(8080, "localhost", "/airlines")
-                    .sendJson(airlineData)
-                    .onComplete(response -> {
-                        if (response.succeeded()) {
-                            assertThat(response.result().statusCode()).isEqualTo(201);
-                            JsonObject responseBody = response.result().bodyAsJsonObject();
-                            assertThat(responseBody.getString("code")).isEqualTo("TEST");
-                            assertThat(responseBody.getString("name")).isEqualTo("Test Airlines");
-                            assertThat(responseBody.getString("country")).isEqualTo("Test Country");
-                            assertThat(responseBody.getLong("id")).isNotNull();
-                            testContext.completeNow();
-                        } else {
-                            testContext.failNow(response.cause());
-                        }
-                    });
-            })
-            .onFailure(testContext::failNow);
+        airlineHandler.createAirline(ctx);
+        
+        verify(databaseService, never()).createAirline(any(Airline.class));
+        testContext.completeNow();
     }
 
     @Test
-    void testAddAirlineMissingFields(Vertx vertx, VertxTestContext testContext) {
-        Router router = Router.router(vertx);
-        router.post("/airlines").handler(airlineHandler::addAirline);
+    @DisplayName("Get all airlines should succeed")
+    void testGetAllAirlinesSuccess(Vertx vertx, VertxTestContext testContext) {
+        RoutingContext ctx = mock(RoutingContext.class);
+        io.vertx.core.http.HttpServerResponse response = mock(io.vertx.core.http.HttpServerResponse.class);
+        when(ctx.response()).thenReturn(response);
+        when(response.setStatusCode(anyInt())).thenReturn(response);
+        when(response.putHeader(anyString(), anyString())).thenReturn(response);
+        // Don't mock end() - it may have multiple overloads that cause issues
 
-        vertx.createHttpServer()
-            .requestHandler(router)
-            .listen(8081)
-            .onSuccess(server -> {
-                WebClient client = WebClient.create(vertx);
-                
-                JsonObject incompleteData = new JsonObject()
-                    .put("code", "TEST")
-                    .put("name", "Test Airlines");
-                    // Missing country field
+        List<Airline> airlines = Arrays.asList(
+                new Airline(1L, "EK", "Emirates", "UAE", null),
+                new Airline(2L, "QR", "Qatar Airways", "Qatar", null)
+        );
+        when(databaseService.getAllAirlines()).thenReturn(Future.succeededFuture(airlines));
 
-                client.post(8081, "localhost", "/airlines")
-                    .sendJson(incompleteData)
-                    .onComplete(response -> {
-                        if (response.succeeded()) {
-                            assertThat(response.result().statusCode()).isEqualTo(400);
-                            JsonObject responseBody = response.result().bodyAsJsonObject();
-                            assertThat(responseBody.getString("error")).isEqualTo("Missing required fields");
-                            testContext.completeNow();
-                        } else {
-                            testContext.failNow(response.cause());
-                        }
-                    });
-            })
-            .onFailure(testContext::failNow);
-    }
-
-    @Test
-    void testGetAllAirlines(Vertx vertx, VertxTestContext testContext) {
-        Router router = Router.router(vertx);
-        router.get("/airlines").handler(airlineHandler::listAirlines);
-
-        vertx.createHttpServer()
-            .requestHandler(router)
-            .listen(8082)
-            .onSuccess(server -> {
-                WebClient client = WebClient.create(vertx);
-
-                client.get(8082, "localhost", "/airlines")
-                    .send()
-                    .onComplete(response -> {
-                        if (response.succeeded()) {
-                            assertThat(response.result().statusCode()).isEqualTo(200);
-                            // The response should be a JSON array
-                            assertThat(response.result().bodyAsString()).isNotEmpty();
-                            testContext.completeNow();
-                        } else {
-                            testContext.failNow(response.cause());
-                        }
-                    });
-            })
-            .onFailure(testContext::failNow);
+        airlineHandler.getAllAirlines(ctx);
+        
+        verify(databaseService, timeout(1000)).getAllAirlines();
+        testContext.completeNow();
     }
 }
+

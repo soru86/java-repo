@@ -1,46 +1,47 @@
-# Dockerfile for Airline Booking System
-# Multi-stage build for optimized container size
+# Multi-stage Dockerfile for Airline Booking System
 
-# Build stage
-FROM openjdk:21-jdk-slim AS builder
+# Stage 1: Build
+FROM maven:3.9-eclipse-temurin-21 AS build
 
-# Set working directory
 WORKDIR /app
 
-# Copy Maven files
+# Copy pom.xml and download dependencies
 COPY pom.xml .
-COPY .mvn .mvn
-COPY mvnw .
-
-# Download dependencies (this layer will be cached if pom.xml doesn't change)
-RUN ./mvnw dependency:go-offline -B
+RUN mvn dependency:go-offline -B
 
 # Copy source code
 COPY src ./src
 
 # Build the application
-RUN ./mvnw clean package -DskipTests
+RUN mvn clean package -DskipTests
 
-# Runtime stage
-FROM openjdk:21-jre-slim
+# Stage 2: Runtime
+FROM eclipse-temurin:21-jre-alpine
 
-# Set working directory
 WORKDIR /app
 
-# Copy the built JAR from builder stage
-COPY --from=builder /app/target/airline-booking-assessment-1.0.0-SNAPSHOT.jar app.jar
+# Install wget for health check
+RUN apk add --no-cache wget
 
-# Create non-root user for security
-RUN groupadd -r appuser && useradd -r -g appuser appuser
-RUN chown -R appuser:appuser /app
-USER appuser
+# Create non-root user
+RUN addgroup -S airline && adduser -S airline -G airline
+
+# Copy the JAR from build stage
+COPY --from=build /app/target/*.jar app.jar
+
+# Change ownership
+RUN chown airline:airline app.jar
+
+# Switch to non-root user
+USER airline
 
 # Expose port
 EXPOSE 8080
 
 # Health check
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:8080/airlines || exit 1
+HEALTHCHECK --interval=30s --timeout=3s --start-period=40s --retries=3 \
+  CMD wget --no-verbose --tries=1 --spider http://localhost:8080/health || exit 1
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
+

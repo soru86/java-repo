@@ -2,15 +2,18 @@ package com.dvtsoftware.airline.booking.model;
 
 import java.time.LocalDateTime;
 
+/**
+ * Domain model representing an airline company.
+ */
 public class Airline {
     private Long id;
     private String code;
     private String name;
     private String country;
     private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
 
-    public Airline() {}
+    public Airline() {
+    }
 
     public Airline(String code, String name, String country) {
         this.code = code;
@@ -18,13 +21,12 @@ public class Airline {
         this.country = country;
     }
 
-    public Airline(Long id, String code, String name, String country, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Airline(Long id, String code, String name, String country, LocalDateTime createdAt) {
         this.id = id;
         this.code = code;
         this.name = name;
         this.country = country;
         this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
     }
 
     public Long getId() {
@@ -66,12 +68,6 @@ public class Airline {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
-
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt;
-    }
 }
+
+

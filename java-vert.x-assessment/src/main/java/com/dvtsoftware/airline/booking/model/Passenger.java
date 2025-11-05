@@ -1,8 +1,10 @@
 package com.dvtsoftware.airline.booking.model;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+/**
+ * Domain model representing a passenger.
+ */
 public class Passenger {
     private Long id;
     private String firstName;
@@ -10,20 +12,32 @@ public class Passenger {
     private String email;
     private String phone;
     private String passportNumber;
-    private LocalDate dateOfBirth;
+    private String nationality;
     private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
 
-    public Passenger() {}
+    public Passenger() {
+    }
 
-    public Passenger(String firstName, String lastName, String email, String phone, 
-                     String passportNumber, LocalDate dateOfBirth) {
+    public Passenger(String firstName, String lastName, String email, String phone,
+                     String passportNumber, String nationality) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phone = phone;
         this.passportNumber = passportNumber;
-        this.dateOfBirth = dateOfBirth;
+        this.nationality = nationality;
+    }
+
+    public Passenger(Long id, String firstName, String lastName, String email, String phone,
+                     String passportNumber, String nationality, LocalDateTime createdAt) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.phone = phone;
+        this.passportNumber = passportNumber;
+        this.nationality = nationality;
+        this.createdAt = createdAt;
     }
 
     public Long getId() {
@@ -74,12 +88,12 @@ public class Passenger {
         this.passportNumber = passportNumber;
     }
 
-    public LocalDate getDateOfBirth() {
-        return dateOfBirth;
+    public String getNationality() {
+        return nationality;
     }
 
-    public void setDateOfBirth(LocalDate dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
     }
 
     public LocalDateTime getCreatedAt() {
@@ -89,12 +103,6 @@ public class Passenger {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
-
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt;
-    }
 }
+
+

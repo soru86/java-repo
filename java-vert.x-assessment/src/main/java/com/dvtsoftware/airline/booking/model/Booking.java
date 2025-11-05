@@ -1,30 +1,43 @@
 package com.dvtsoftware.airline.booking.model;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * Domain model representing a booking.
+ */
 public class Booking {
     private Long id;
-    private String bookingReference;
     private Long passengerId;
     private Long flightId;
-    private LocalDateTime bookingDate;
+    private String bookingReference;
     private String seatNumber;
-    private String status;
-    private BigDecimal totalAmount;
+    private String bookingStatus;
+    private LocalDateTime bookingDate;
     private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
 
-    public Booking() {}
+    public Booking() {
+    }
 
-    public Booking(String bookingReference, Long passengerId, Long flightId, 
-                   String seatNumber, String status, BigDecimal totalAmount) {
-        this.bookingReference = bookingReference;
+    public Booking(Long passengerId, Long flightId, String bookingReference,
+                   String seatNumber, String bookingStatus) {
         this.passengerId = passengerId;
         this.flightId = flightId;
+        this.bookingReference = bookingReference;
         this.seatNumber = seatNumber;
-        this.status = status;
-        this.totalAmount = totalAmount;
+        this.bookingStatus = bookingStatus;
+    }
+
+    public Booking(Long id, Long passengerId, Long flightId, String bookingReference,
+                   String seatNumber, String bookingStatus,
+                   LocalDateTime bookingDate, LocalDateTime createdAt) {
+        this.id = id;
+        this.passengerId = passengerId;
+        this.flightId = flightId;
+        this.bookingReference = bookingReference;
+        this.seatNumber = seatNumber;
+        this.bookingStatus = bookingStatus;
+        this.bookingDate = bookingDate;
+        this.createdAt = createdAt;
     }
 
     public Long getId() {
@@ -33,14 +46,6 @@ public class Booking {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getBookingReference() {
-        return bookingReference;
-    }
-
-    public void setBookingReference(String bookingReference) {
-        this.bookingReference = bookingReference;
     }
 
     public Long getPassengerId() {
@@ -59,12 +64,12 @@ public class Booking {
         this.flightId = flightId;
     }
 
-    public LocalDateTime getBookingDate() {
-        return bookingDate;
+    public String getBookingReference() {
+        return bookingReference;
     }
 
-    public void setBookingDate(LocalDateTime bookingDate) {
-        this.bookingDate = bookingDate;
+    public void setBookingReference(String bookingReference) {
+        this.bookingReference = bookingReference;
     }
 
     public String getSeatNumber() {
@@ -75,20 +80,20 @@ public class Booking {
         this.seatNumber = seatNumber;
     }
 
-    public String getStatus() {
-        return status;
+    public String getBookingStatus() {
+        return bookingStatus;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setBookingStatus(String bookingStatus) {
+        this.bookingStatus = bookingStatus;
     }
 
-    public BigDecimal getTotalAmount() {
-        return totalAmount;
+    public LocalDateTime getBookingDate() {
+        return bookingDate;
     }
 
-    public void setTotalAmount(BigDecimal totalAmount) {
-        this.totalAmount = totalAmount;
+    public void setBookingDate(LocalDateTime bookingDate) {
+        this.bookingDate = bookingDate;
     }
 
     public LocalDateTime getCreatedAt() {
@@ -98,12 +103,6 @@ public class Booking {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
-
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt;
-    }
 }
+
+

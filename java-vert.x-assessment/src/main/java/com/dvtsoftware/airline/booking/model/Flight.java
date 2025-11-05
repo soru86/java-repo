@@ -3,36 +3,53 @@ package com.dvtsoftware.airline.booking.model;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * Domain model representing a flight schedule.
+ */
 public class Flight {
     private Long id;
-    private String flightNumber;
     private Long airlineId;
-    private String departureAirport;
-    private String arrivalAirport;
+    private String flightNumber;
+    private String origin;
+    private String destination;
     private LocalDateTime departureTime;
     private LocalDateTime arrivalTime;
-    private Integer availableSeats;
     private Integer totalSeats;
+    private Integer availableSeats;
     private BigDecimal price;
-    private String status;
     private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
 
-    public Flight() {}
+    public Flight() {
+    }
 
-    public Flight(String flightNumber, Long airlineId, String departureAirport, String arrivalAirport,
-                  LocalDateTime departureTime, LocalDateTime arrivalTime, Integer availableSeats,
-                  Integer totalSeats, BigDecimal price, String status) {
-        this.flightNumber = flightNumber;
+    public Flight(Long airlineId, String flightNumber, String origin, String destination,
+                  LocalDateTime departureTime, LocalDateTime arrivalTime,
+                  Integer totalSeats, Integer availableSeats, BigDecimal price) {
         this.airlineId = airlineId;
-        this.departureAirport = departureAirport;
-        this.arrivalAirport = arrivalAirport;
+        this.flightNumber = flightNumber;
+        this.origin = origin;
+        this.destination = destination;
         this.departureTime = departureTime;
         this.arrivalTime = arrivalTime;
-        this.availableSeats = availableSeats;
         this.totalSeats = totalSeats;
+        this.availableSeats = availableSeats;
         this.price = price;
-        this.status = status;
+    }
+
+    public Flight(Long id, Long airlineId, String flightNumber, String origin, String destination,
+                  LocalDateTime departureTime, LocalDateTime arrivalTime,
+                  Integer totalSeats, Integer availableSeats, BigDecimal price, LocalDateTime createdAt) {
+        this.id = id;
+        this.airlineId = airlineId;
+        this.flightNumber = flightNumber;
+        this.origin = origin;
+        this.destination = destination;
+        this.departureTime = departureTime;
+        this.arrivalTime = arrivalTime;
+        this.totalSeats = totalSeats;
+        this.availableSeats = availableSeats;
+        this.price = price;
+        this.createdAt = createdAt;
     }
 
     public Long getId() {
@@ -43,14 +60,6 @@ public class Flight {
         this.id = id;
     }
 
-    public String getFlightNumber() {
-        return flightNumber;
-    }
-
-    public void setFlightNumber(String flightNumber) {
-        this.flightNumber = flightNumber;
-    }
-
     public Long getAirlineId() {
         return airlineId;
     }
@@ -59,20 +68,28 @@ public class Flight {
         this.airlineId = airlineId;
     }
 
-    public String getDepartureAirport() {
-        return departureAirport;
+    public String getFlightNumber() {
+        return flightNumber;
     }
 
-    public void setDepartureAirport(String departureAirport) {
-        this.departureAirport = departureAirport;
+    public void setFlightNumber(String flightNumber) {
+        this.flightNumber = flightNumber;
     }
 
-    public String getArrivalAirport() {
-        return arrivalAirport;
+    public String getOrigin() {
+        return origin;
     }
 
-    public void setArrivalAirport(String arrivalAirport) {
-        this.arrivalAirport = arrivalAirport;
+    public void setOrigin(String origin) {
+        this.origin = origin;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
     }
 
     public LocalDateTime getDepartureTime() {
@@ -91,20 +108,20 @@ public class Flight {
         this.arrivalTime = arrivalTime;
     }
 
-    public Integer getAvailableSeats() {
-        return availableSeats;
-    }
-
-    public void setAvailableSeats(Integer availableSeats) {
-        this.availableSeats = availableSeats;
-    }
-
     public Integer getTotalSeats() {
         return totalSeats;
     }
 
     public void setTotalSeats(Integer totalSeats) {
         this.totalSeats = totalSeats;
+    }
+
+    public Integer getAvailableSeats() {
+        return availableSeats;
+    }
+
+    public void setAvailableSeats(Integer availableSeats) {
+        this.availableSeats = availableSeats;
     }
 
     public BigDecimal getPrice() {
@@ -115,14 +132,6 @@ public class Flight {
         this.price = price;
     }
 
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
@@ -130,12 +139,6 @@ public class Flight {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
-
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt;
-    }
 }
+
+

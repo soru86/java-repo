@@ -1,107 +1,73 @@
 package com.dvtsoftware.airline.booking.handler;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-
-import com.dvtsoftware.airline.booking.service.DatabaseAppService;
-
+import com.dvtsoftware.airline.booking.model.Passenger;
+import com.dvtsoftware.airline.booking.service.IDatabaseService;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.RoutingContext;
-import io.vertx.sqlclient.Tuple;
 
+/**
+ * HTTP request handler for passenger operations.
+ */
 public class PassengerHandler {
-    private DatabaseAppService databaseAppService;
+    private final IDatabaseService databaseService;
 
-    public PassengerHandler(DatabaseAppService databaseService) {
-        this.databaseAppService = databaseService;
+    public PassengerHandler(IDatabaseService databaseService) {
+        this.databaseService = databaseService;
     }
-    
-	public void addPassenger(RoutingContext ctx) {
-		ctx.request().bodyHandler(body -> {
-			JsonObject requestBody = body.toJsonObject();
-			if (requestBody == null ||
-				requestBody.getString("firstName") == null ||
-				requestBody.getString("lastName") == null ||
-				requestBody.getString("email") == null) {
-				ctx.response()
-					.setStatusCode(400)
-					.putHeader("Content-Type", "application/json")
-					.end(new JsonObject().put("error", "Missing required fields: firstName, lastName, email").encode());
-				return;
-			}
 
-			String firstName = requestBody.getString("firstName");
-			String lastName = requestBody.getString("lastName");
-			String email = requestBody.getString("email");
-			String phone = requestBody.getString("phone");
-			String passportNumber = requestBody.getString("passportNumber");
-			String dateOfBirthStr = requestBody.getString("dateOfBirth");
+    /**
+     * Handle POST /passengers - Create a new passenger
+     */
+    public void createPassenger(RoutingContext context) {
+        try {
+            JsonObject body = context.body().asJsonObject();
+            if (body == null || body.isEmpty()) {
+                sendError(context, 400, "Request body is required");
+                return;
+            }
 
-			// Parse date of birth if provided
-			LocalDate dateOfBirth = null;
-			if (dateOfBirthStr != null && !dateOfBirthStr.isEmpty()) {
-				try {
-					dateOfBirth = LocalDate.parse(dateOfBirthStr);
-				} catch (Exception e) {
-					ctx.response()
-						.setStatusCode(400)
-						.putHeader("Content-Type", "application/json")
-						.end(new JsonObject().put("error", "Invalid date format for dateOfBirth").encode());
-					return;
-				}
-			}
+            String firstName = body.getString("firstName");
+            String lastName = body.getString("lastName");
+            String email = body.getString("email");
+            String phone = body.getString("phone");
+            String passportNumber = body.getString("passportNumber");
+            String nationality = body.getString("nationality");
 
-			String sql = "INSERT INTO passengers (first_name, last_name, email, phone, passport_number, date_of_birth) " +
-						"VALUES (?, ?, ?, ?, ?, ?)";
+            if (firstName == null || lastName == null || email == null) {
+                sendError(context, 400, "Missing required fields: firstName, lastName, email");
+                return;
+            }
 
-			databaseAppService.getClient()
-				.preparedQuery(sql)
-				.execute(Tuple.of(firstName, lastName, email, phone, passportNumber, dateOfBirth))
-				.onComplete(ar -> {
-					if (ar.succeeded()) {
-						// For H2, we can use a different approach to get the inserted ID
-						// Let's query the last inserted passenger by email
-						String selectSql = "SELECT * FROM passengers WHERE email = ? ORDER BY id DESC LIMIT 1";
-						databaseAppService.getClient()
-							.preparedQuery(selectSql)
-							.execute(Tuple.of(email))
-							.onComplete(selectAr -> {
-								if (selectAr.succeeded()) {
-									io.vertx.sqlclient.RowSet<io.vertx.sqlclient.Row> rows = selectAr.result();
-									if (rows.iterator().hasNext()) {
-										io.vertx.sqlclient.Row row = rows.iterator().next();
-										JsonObject response = new JsonObject()
-											.put("id", row.getLong("id"))
-											.put("firstName", row.getString("first_name"))
-											.put("lastName", row.getString("last_name"))
-											.put("email", row.getString("email"))
-											.put("phone", row.getString("phone"))
-											.put("passportNumber", row.getString("passport_number"))
-											.put("dateOfBirth", row.getLocalDate("date_of_birth") != null ? row.getLocalDate("date_of_birth").toString() : null);
-										ctx.response()
-											.setStatusCode(201)
-											.putHeader("Content-Type", "application/json")
-											.end(response.encode());
-									} else {
-										ctx.response()
-											.setStatusCode(500)
-											.putHeader("Content-Type", "application/json")
-											.end(new JsonObject().put("error", "Failed to retrieve created passenger").encode());
-									}
-								} else {
-									ctx.response()
-										.setStatusCode(500)
-										.putHeader("Content-Type", "application/json")
-										.end(new JsonObject().put("error", "Database error: " + selectAr.cause().getMessage()).encode());
-								}
-							});
-					} else {
-						ctx.response()
-							.setStatusCode(500)
-							.putHeader("Content-Type", "application/json")
-							.end(new JsonObject().put("error", "Database error: " + ar.cause().getMessage()).encode());
-					}
-				});
-		});
-	}
+            Passenger passenger = new Passenger(firstName, lastName, email, phone, passportNumber, nationality);
+
+            databaseService.createPassenger(passenger)
+                    .onSuccess(createdPassenger -> {
+                        context.response()
+                                .setStatusCode(201)
+                                .putHeader("Content-Type", "application/json")
+                                .end(JsonObject.mapFrom(createdPassenger).encodePrettily());
+                    })
+                    .onFailure(error -> {
+                        String errorMessage = error.getMessage();
+                        if (errorMessage != null && errorMessage.contains("unique") || errorMessage.contains("duplicate")) {
+                            sendError(context, 409, "Passenger with this email already exists");
+                        } else {
+                            sendError(context, 500, "Failed to create passenger: " + errorMessage);
+                        }
+                    });
+        } catch (Exception e) {
+            sendError(context, 400, "Invalid request: " + e.getMessage());
+        }
+    }
+
+    private void sendError(RoutingContext context, int statusCode, String message) {
+        JsonObject error = new JsonObject()
+                .put("error", message)
+                .put("statusCode", statusCode);
+        context.response()
+                .setStatusCode(statusCode)
+                .putHeader("Content-Type", "application/json")
+                .end(error.encodePrettily());
+    }
 }
+
