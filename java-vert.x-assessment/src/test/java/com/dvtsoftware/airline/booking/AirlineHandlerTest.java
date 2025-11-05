@@ -24,7 +24,7 @@ import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
 
-@ExtendWith({VertxExtension.class, MockitoExtension.class})
+@ExtendWith({ VertxExtension.class, MockitoExtension.class })
 @DisplayName("Airline Handler Tests")
 class AirlineHandlerTest {
 
@@ -52,7 +52,7 @@ class AirlineHandlerTest {
         RoutingContext ctx = mock(RoutingContext.class);
         io.vertx.ext.web.RequestBody requestBody = mock(io.vertx.ext.web.RequestBody.class);
         io.vertx.core.http.HttpServerResponse response = mock(io.vertx.core.http.HttpServerResponse.class);
-        
+
         when(ctx.body()).thenReturn(requestBody);
         when(requestBody.asJsonObject()).thenReturn(body);
         when(ctx.response()).thenReturn(response);
@@ -64,7 +64,7 @@ class AirlineHandlerTest {
         when(databaseService.createAirline(any(Airline.class))).thenReturn(Future.succeededFuture(airline));
 
         airlineHandler.createAirline(ctx);
-        
+
         verify(databaseService, timeout(1000)).createAirline(any(Airline.class));
         testContext.completeNow();
     }
@@ -86,7 +86,7 @@ class AirlineHandlerTest {
         // Don't mock end() - it may have multiple overloads that cause issues
 
         airlineHandler.createAirline(ctx);
-        
+
         verify(databaseService, never()).createAirline(any(Airline.class));
         testContext.completeNow();
     }
@@ -103,14 +103,12 @@ class AirlineHandlerTest {
 
         List<Airline> airlines = Arrays.asList(
                 new Airline(1L, "EK", "Emirates", "UAE", null),
-                new Airline(2L, "QR", "Qatar Airways", "Qatar", null)
-        );
+                new Airline(2L, "QR", "Qatar Airways", "Qatar", null));
         when(databaseService.getAllAirlines()).thenReturn(Future.succeededFuture(airlines));
 
         airlineHandler.getAllAirlines(ctx);
-        
+
         verify(databaseService, timeout(1000)).getAllAirlines();
         testContext.completeNow();
     }
 }
-

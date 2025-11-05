@@ -56,7 +56,8 @@ public class BookingsHandler {
                                 statusCode = 409;
                             }
                         }
-                        sendError(context, statusCode, errorMessage != null ? errorMessage : "Failed to create booking");
+                        sendError(context, statusCode,
+                                errorMessage != null ? errorMessage : "Failed to create booking");
                     });
         } catch (Exception e) {
             sendError(context, 400, "Invalid request: " + e.getMessage());
@@ -114,7 +115,8 @@ public class BookingsHandler {
                                 statusCode = 409;
                             }
                         }
-                        sendError(context, statusCode, errorMessage != null ? errorMessage : "Failed to cancel booking");
+                        sendError(context, statusCode,
+                                errorMessage != null ? errorMessage : "Failed to cancel booking");
                     });
         } catch (NumberFormatException e) {
             sendError(context, 400, "Invalid booking ID format");
@@ -155,4 +157,3 @@ public class BookingsHandler {
                 .end(error.encodePrettily());
     }
 }
-

@@ -19,7 +19,7 @@ public class Booking {
     }
 
     public Booking(Long passengerId, Long flightId, String bookingReference,
-                   String seatNumber, String bookingStatus) {
+            String seatNumber, String bookingStatus) {
         this.passengerId = passengerId;
         this.flightId = flightId;
         this.bookingReference = bookingReference;
@@ -28,8 +28,8 @@ public class Booking {
     }
 
     public Booking(Long id, Long passengerId, Long flightId, String bookingReference,
-                   String seatNumber, String bookingStatus,
-                   LocalDateTime bookingDate, LocalDateTime createdAt) {
+            String seatNumber, String bookingStatus,
+            LocalDateTime bookingDate, LocalDateTime createdAt) {
         this.id = id;
         this.passengerId = passengerId;
         this.flightId = flightId;
@@ -104,5 +104,3 @@ public class Booking {
         this.createdAt = createdAt;
     }
 }
-
-

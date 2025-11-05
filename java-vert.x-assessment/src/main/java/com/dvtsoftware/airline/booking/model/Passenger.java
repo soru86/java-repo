@@ -19,7 +19,7 @@ public class Passenger {
     }
 
     public Passenger(String firstName, String lastName, String email, String phone,
-                     String passportNumber, String nationality) {
+            String passportNumber, String nationality) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -29,7 +29,7 @@ public class Passenger {
     }
 
     public Passenger(Long id, String firstName, String lastName, String email, String phone,
-                     String passportNumber, String nationality, LocalDateTime createdAt) {
+            String passportNumber, String nationality, LocalDateTime createdAt) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -104,5 +104,3 @@ public class Passenger {
         this.createdAt = createdAt;
     }
 }
-
-

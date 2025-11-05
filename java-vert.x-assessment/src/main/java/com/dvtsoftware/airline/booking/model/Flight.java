@@ -23,8 +23,8 @@ public class Flight {
     }
 
     public Flight(Long airlineId, String flightNumber, String origin, String destination,
-                  LocalDateTime departureTime, LocalDateTime arrivalTime,
-                  Integer totalSeats, Integer availableSeats, BigDecimal price) {
+            LocalDateTime departureTime, LocalDateTime arrivalTime,
+            Integer totalSeats, Integer availableSeats, BigDecimal price) {
         this.airlineId = airlineId;
         this.flightNumber = flightNumber;
         this.origin = origin;
@@ -37,8 +37,8 @@ public class Flight {
     }
 
     public Flight(Long id, Long airlineId, String flightNumber, String origin, String destination,
-                  LocalDateTime departureTime, LocalDateTime arrivalTime,
-                  Integer totalSeats, Integer availableSeats, BigDecimal price, LocalDateTime createdAt) {
+            LocalDateTime departureTime, LocalDateTime arrivalTime,
+            Integer totalSeats, Integer availableSeats, BigDecimal price, LocalDateTime createdAt) {
         this.id = id;
         this.airlineId = airlineId;
         this.flightNumber = flightNumber;
@@ -140,5 +140,3 @@ public class Flight {
         this.createdAt = createdAt;
     }
 }
-
-

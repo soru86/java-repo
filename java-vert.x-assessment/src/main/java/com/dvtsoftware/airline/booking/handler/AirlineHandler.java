@@ -81,4 +81,3 @@ public class AirlineHandler {
                 .end(error.encodePrettily());
     }
 }
-
