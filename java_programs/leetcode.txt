@@ -1,0 +1,116 @@
+eetCode-style Java problems in plain text (flat numbered list)
+Two Sum: Given an array of integers and a target, return indices of two numbers that add up to the target.
+Reverse String: Reverse a string provided as a character array in-place.
+Valid Parentheses: Check if a string of parentheses is valid based on matching pairs and correct order.
+Merge Two Sorted Lists: Merge two sorted linked lists into a single sorted list.
+Maximum Subarray: Find the contiguous subarray with the largest sum and return its sum.
+Best Time to Buy and Sell Stock: Given prices, find the maximum profit from a single buy-sell transaction.
+Contains Duplicate: Determine if an array contains any duplicates.
+Move Zeroes: Move all zeroes to the end while maintaining the order of non-zero elements.
+Rotate Array: Rotate an array to the right by k steps in-place.
+Intersection of Two Arrays II: Return the intersection of two arrays including duplicate counts.
+Roman to Integer: Convert a Roman numeral string to an integer.
+Integer to Roman: Convert an integer to a Roman numeral string.
+Palindrome Number: Check if an integer reads the same backward as forward without converting to a string.
+Reverse Integer: Reverse digits of an integer, handling overflow.
+String to Integer (atoi): Parse a string into an integer with rules for whitespace, sign, and overflow.
+Implement strStr(): Return the index of the first occurrence of a needle in a haystack, or -1.
+Longest Common Prefix: Find the longest common prefix string among an array of strings.
+Valid Anagram: Check if two strings are anagrams of each other.
+Group Anagrams: Group strings into anagram classes.
+Isomorphic Strings: Determine if two strings are isomorphic (character mapping).
+Word Pattern: Check if a pattern matches a string of words with bijective mapping.
+Longest Substring Without Repeating Characters: Find the length of the longest substring with unique characters.
+Longest Palindromic Substring: Return the longest palindromic substring in a string.
+Zigzag Conversion: Convert a string to zigzag pattern and read row-by-row.
+Count and Say: Generate the nth term of the count-and-say sequence.
+Add Binary: Add two binary strings and return the sum as a binary string.
+Valid Palindrome: Check if a string is a palindrome, considering alphanumeric characters and ignoring cases.
+Implement Queue using Stacks: Design a queue using two stacks with standard operations.
+Implement Stack using Queues: Design a stack using one or two queues.
+Min Stack: Design a stack that supports push, pop, top, and retrieving the minimum in O(1).
+Design Circular Queue: Implement a circular queue with fixed capacity and standard operations.
+Binary Search: Implement binary search to find the index of a target in a sorted array.
+Search Insert Position: Return the index to insert a target into a sorted array to maintain order.
+First Bad Version: Find the first bad version using an API with minimal calls.
+Find Peak Element: Find an index of any peak element where neighbors are smaller.
+Search in Rotated Sorted Array: Find a target in a rotated sorted array in O(log n).
+Find Minimum in Rotated Sorted Array: Return the minimum element in a rotated sorted array.
+Merge Intervals: Merge overlapping intervals and return a non-overlapping set.
+Insert Interval: Insert a new interval and merge if necessary.
+Meeting Rooms: Determine if someone can attend all meetings given intervals.
+Meeting Rooms II: Find minimum number of conference rooms required for all meetings.
+Valid Sudoku: Validate a partially filled 9x9 Sudoku board.
+Sudoku Solver: Solve a Sudoku puzzle with backtracking.
+Set Matrix Zeroes: If an element is zero, set its row and column to zero in-place.
+Spiral Matrix: Return elements of a matrix in spiral order.
+Rotate Image: Rotate an n x n matrix by 90 degrees in-place.
+Kth Largest Element in an Array: Find the kth largest element using quickselect or heap.
+Top K Frequent Elements: Return the k most frequent elements in an array.
+Product of Array Except Self: Return array where each element is product of all elements except itself.
+Subarray Sum Equals K: Count subarrays whose sum equals k.
+Sliding Window Maximum: Return max in each window of size k across an array.
+Minimum Size Subarray Sum: Find minimal length subarray with sum at least s.
+Permutation in String: Check if s1’s permutation is a substring of s2.
+Find All Anagrams in a String: Find all start indices of s’s anagrams in p.
+Longest Repeating Character Replacement: Find the length of the longest substring you can get by replacing up to k characters.
+Binary Tree Inorder Traversal: Return inorder traversal of a binary tree iteratively or recursively.
+Binary Tree Level Order Traversal: Return level order traversal of a binary tree.
+Binary Tree Right Side View: Return the visible nodes from right side of a binary tree.
+Maximum Depth of Binary Tree: Return the maximum depth of a binary tree.
+Diameter of Binary Tree: Compute the length of the longest path between any two nodes.
+Balanced Binary Tree: Check if a binary tree is height-balanced.
+Invert Binary Tree: Invert a binary tree (mirror).
+Symmetric Tree: Check if a binary tree is a mirror of itself.
+Path Sum: Determine if there is a root-to-leaf path with a given sum.
+Binary Tree Paths: Return all root-to-leaf paths.
+Lowest Common Ancestor of BST: Find LCA of two nodes in a BST.
+Lowest Common Ancestor of Binary Tree: Find LCA in a general binary tree.
+Serialize and Deserialize Binary Tree: Design methods to serialize/deserialize a binary tree.
+Construct Binary Tree from Preorder and Inorder Traversal: Build a tree from traversals.
+Validate Binary Search Tree: Check if a binary tree is a valid BST.
+Kth Smallest Element in a BST: Find the kth smallest in a BST.
+Binary Search Tree Iterator: Implement an iterator over a BST with next/hasNext.
+Number of Islands: Count islands in a grid using DFS/BFS.
+Clone Graph: Deep copy an undirected graph with cycles.
+Course Schedule: Determine if you can finish all courses given prerequisites (detect cycles).
+Course Schedule II: Return an order of courses using topological sort.
+Word Ladder: Find shortest transformation sequence length from beginWord to endWord.
+Pacific Atlantic Water Flow: Find cells that can flow to both oceans.
+Rotting Oranges: Compute minutes to rot all oranges in a grid.
+Trapping Rain Water: Compute water trapped after raining given elevation map.
+Container With Most Water: Find max water contained between two lines.
+3Sum: Find all unique triplets in an array that sum to zero.
+4Sum: Find all unique quadruplets that sum to target.
+Majority Element: Find the majority element that appears more than n/2 times.
+Find the Duplicate Number: Find one duplicate number without modifying array and using O(1) extra space.
+Missing Number: Find the missing number in an array containing 0..n.
+LRU Cache: Design an LRU cache with O(1) operations.
+Median of Two Sorted Arrays: Find median of two sorted arrays in O(log(m+n)).
+Merge k Sorted Lists: Merge k sorted linked lists and return one sorted list.
+Add Two Numbers: Add two numbers represented by linked lists.
+Remove Nth Node From End of List: Remove the nth node from the end in one pass.
+Linked List Cycle: Detect if a linked list has a cycle.
+Linked List Cycle II: Return the node where the cycle begins.
+Reorder List: Reorder a linked list as L0→Ln→L1→Ln-1…
+Palindrome Linked List: Check if a singly linked list is a palindrome.
+Sort List: Sort a linked list in O(n log n) time.
+Partition List: Partition list around a value x preserving relative order.
+Next Permutation: Rearrange numbers into the next lexicographic permutation.
+Valid Palindrome II: Determine if a string can be a palindrome after deleting at most one character.
+Longest Increasing Subsequence: Find length of LIS in an array.
+Coin Change: Given coins and amount, find minimum coins to make amount.
+Climbing Stairs: Count ways to climb n stairs taking 1 or 2 steps.
+House Robber: Maximize amount without robbing adjacent houses.
+House Robber II: House Robber on a circular street.
+Decode Ways: Count ways to decode a digit string (A-Z).
+Unique Paths: Count unique paths in a grid from top-left to bottom-right.
+Unique Paths II: Count unique paths with obstacles.
+Minimum Path Sum: Find minimum path sum in a grid.
+Edit Distance: Compute minimum operations to convert one string to another.
+Palindrome Partitioning: Partition string into all possible palindrome partitions.
+Palindrome Partitioning II: Minimum cuts to partition a string into palindromes.
+Longest Common Subsequence: Find length of LCS of two strings.
+Maximum Product Subarray: Find maximum product of a contiguous subarray.
+Jump Game: Determine if you can reach the last index.
+Jump Game II: Minimum jumps to reach last index.
