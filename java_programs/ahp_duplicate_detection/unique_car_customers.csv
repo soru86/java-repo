@@ -1,0 +1,862 @@
+CustomerID,FirstName,LastName,Email,Phone,City,State,PostalCode,CarModel,CarMake,ModelYear,PurchaseDate,Dealer
+CUST0637,Jamie,Jones,jamie.jones1@mail.com,567-881-2574,Philadelphia,AZ,36197,Hatchback,Chevrolet,2017,2023-05-12,City Cars
+CUST0607,Jordan,Brown,jordan.brown@carsales.net,473-493-3631,Phoenix,PA,88804,SUV,Toyota,2013,2023-08-01,Prime Motors
+CUST0086,Quinn,Miller,quinn.miller@autoclub.com,916-502-1359,San Antonio,IL,11061,Convertible,Tesla,2019,2025-08-01,Highway Auto
+CUST0651,Casey,Garcia,casey.garcia2@carsales.net,221-365-5718,Houston,TX,55068,Convertible,Honda,2017,2024-07-22,Metro Vehicles
+CUST0368,Avery,Rodriguez,avery.rodriguez2@carsales.net,869-993-3435,Philadelphia,TX,39269,SUV,Chevrolet,2024,2024-03-24,Metro Vehicles
+CUST0489,Jordan,Jones,jordan.jones1@mail.com,361-480-2875,Chicago,AZ,83351,SUV,BMW,2018,2025-04-14,City Cars
+CUST0686,Alex,Smith,alex.smith1@carsales.net,479-812-5110,San Antonio,IL,92864,Coupe,Toyota,2013,2022-12-30,Prime Motors
+CUST0080,Jordan,Garcia,jordan.garcia@autoclub.com,546-838-7512,Los Angeles,IL,98389,Hatchback,Ford,2023,2022-11-13,Highway Auto
+CUST0584,Taylor,Rodriguez,taylor.rodriguez1@example.com,942-301-4506,Dallas,PA,72221,Hatchback,Tesla,2015,2024-10-26,AutoWorld
+CUST0492,Quinn,Garcia,quinn.garcia@autoclub.com,519-540-4246,Dallas,NY,71039,Sedan,Audi,2019,2025-02-13,Highway Auto
+CUST0515,Avery,Brown,avery.brown2@carsales.net,899-922-7390,San Diego,IL,29025,Sedan,Ford,2018,2023-06-03,Highway Auto
+CUST0564,Casey,Johnson,casey.johnson4@carsales.net,714-641-9321,Phoenix,NY,62642,Hatchback,Ford,2019,2024-08-15,AutoWorld
+CUST0565,Casey,Smith,casey.smith1@mail.com,797-739-4639,Houston,CA,12955,Truck,Tesla,2011,2023-05-09,AutoWorld
+CUST0543,Peyton,Smith,peyton.smith2@carsales.net,348-421-8454,Chicago,TX,58953,Truck,Honda,2012,2023-04-17,City Cars
+CUST0263,Morgan,Davis,morgan.davis1@carsales.net,261-345-5584,Los Angeles,NY,40339,Hatchback,Tesla,2024,2022-12-11,City Cars
+CUST0773,Jordan,Miller,jordan.miller5@carsales.net,687-874-2645,San Antonio,IL,89583,Convertible,BMW,2013,2025-01-20,Metro Vehicles
+CUST0620,Jamie,Miller,jamie.miller2@mail.com,602-586-4677,New York,NY,83207,Sedan,Chevrolet,2020,2024-07-29,Prime Motors
+CUST0348,Jordan,Williams,jordan.williams1@carsales.net,952-726-2955,San Antonio,NY,66165,SUV,Honda,2014,2024-05-17,Metro Vehicles
+CUST0746,Peyton,Brown,peyton.brown1@example.com,873-485-7045,New York,NY,38647,Convertible,Chevrolet,2016,2024-03-02,AutoWorld
+CUST0147,Peyton,Brown,peyton.brown@autoclub.com,910-702-4279,Los Angeles,CA,19706,Truck,Chevrolet,2017,2024-11-21,AutoWorld
+CUST0299,Riley,Jones,riley.jones2@autoclub.com,703-912-2609,Houston,CA,49384,Coupe,Ford,2021,2023-05-17,Highway Auto
+CUST0781,Quinn,Miller,quinn.miller3@autoclub.com,714-905-3022,Phoenix,PA,85231,Hatchback,Ford,2017,2024-08-25,Highway Auto
+CUST0002,Morgan,Brown,morgan.brown@example.com,774-403-9928,San Antonio,CA,68878,Sedan,Audi,2019,2024-04-19,Prime Motors
+CUST0550,Jamie,Williams,jamie.williams@autoclub.com,841-675-1022,Los Angeles,TX,53634,Coupe,Chevrolet,2018,2025-09-04,City Cars
+CUST0153,Quinn,Rodriguez,quinn.rodriguez@example.com,714-856-3762,San Jose,AZ,30210,Convertible,Toyota,2012,2023-12-19,AutoWorld
+CUST0752,Morgan,Brown,morgan.brown1@carsales.net,733-529-4007,San Diego,PA,10792,Sedan,Honda,2011,2023-02-07,AutoWorld
+CUST0655,Alex,Johnson,alex.johnson1@autoclub.com,640-316-4714,Los Angeles,AZ,39372,Coupe,Audi,2017,2024-05-30,City Cars
+CUST0052,Quinn,Johnson,quinn.johnson@example.com,555-745-8018,Philadelphia,NY,76317,Sedan,Audi,2020,2023-12-12,Highway Auto
+CUST0141,Casey,Williams,casey.williams@carsales.net,908-709-7018,Dallas,IL,20828,Sedan,Chevrolet,2021,2023-06-24,Metro Vehicles
+CUST0106,Casey,Johnson,casey.johnson@autoclub.com,625-345-1019,Dallas,AZ,90422,Convertible,Tesla,2020,2025-09-18,City Cars
+CUST0072,Jamie,Rodriguez,jamie.rodriguez@example.com,873-755-8569,San Antonio,NY,34586,Convertible,Audi,2018,2023-10-31,Highway Auto
+CUST0788,Peyton,Davis,peyton.davis1@autoclub.com,847-868-8292,Philadelphia,NY,25728,Sedan,Chevrolet,2011,2025-05-24,Metro Vehicles
+CUST0265,Riley,Jones,riley.jones1@autoclub.com,602-917-6345,Philadelphia,TX,45645,SUV,Honda,2013,2025-06-10,Metro Vehicles
+CUST0475,Jamie,Rodriguez,jamie.rodriguez2@example.com,499-682-3204,Los Angeles,PA,45968,Hatchback,BMW,2015,2022-11-26,Prime Motors
+CUST0563,Taylor,Smith,taylor.smith2@autoclub.com,862-922-5842,San Diego,IL,85199,Convertible,Tesla,2020,2025-01-12,Highway Auto
+CUST0382,Casey,Martinez,casey.martinez2@example.com,635-337-5170,San Diego,CA,20986,Coupe,Honda,2014,2023-07-27,AutoWorld
+CUST0406,Quinn,Martinez,quinn.martinez@mail.com,999-491-6818,Philadelphia,PA,76904,Sedan,Chevrolet,2017,2023-05-09,Metro Vehicles
+CUST0716,Morgan,Johnson,morgan.johnson3@carsales.net,879-829-2062,Chicago,AZ,60871,Coupe,Chevrolet,2022,2023-01-02,Metro Vehicles
+CUST0439,Jamie,Smith,jamie.smith5@mail.com,491-810-1267,New York,CA,49562,SUV,Honda,2010,2024-03-04,City Cars
+CUST0393,Riley,Rodriguez,riley.rodriguez4@autoclub.com,910-653-7178,San Jose,TX,41886,Hatchback,Tesla,2022,2023-12-15,Highway Auto
+CUST0779,Riley,Smith,riley.smith1@mail.com,597-633-6237,Philadelphia,PA,26555,Sedan,Chevrolet,2018,2024-08-12,AutoWorld
+CUST0215,Morgan,Garcia,morgan.garcia@mail.com,668-309-3219,Phoenix,NY,61864,Coupe,Chevrolet,2015,2023-09-23,City Cars
+CUST0709,Morgan,Brown,morgan.brown@carsales.net,838-418-4916,San Diego,PA,53452,SUV,Chevrolet,2022,2023-10-02,Prime Motors
+CUST0670,Jamie,Martinez,jamie.martinez3@carsales.net,470-798-9172,San Antonio,TX,74165,SUV,Honda,2021,2023-07-10,Metro Vehicles
+CUST0365,Casey,Brown,casey.brown@mail.com,929-957-8145,Phoenix,IL,27603,Hatchback,Chevrolet,2020,2023-12-31,Highway Auto
+CUST0130,Alex,Garcia,alex.garcia4@carsales.net,767-305-9452,Los Angeles,IL,20993,Coupe,Chevrolet,2022,2024-12-16,Metro Vehicles
+CUST0214,Riley,Jones,riley.jones@carsales.net,349-264-3739,San Antonio,IL,65194,Sedan,Ford,2014,2023-02-22,City Cars
+CUST0395,Avery,Rodriguez,avery.rodriguez4@autoclub.com,917-469-5067,Phoenix,NY,62288,Sedan,BMW,2020,2023-12-10,Prime Motors
+CUST0446,Avery,Davis,avery.davis@mail.com,980-338-8879,Dallas,CA,73944,Convertible,BMW,2016,2024-10-04,Metro Vehicles
+CUST0404,Avery,Miller,avery.miller@carsales.net,346-273-7986,San Antonio,NY,31409,Coupe,Chevrolet,2010,2024-08-28,AutoWorld
+CUST0499,Jordan,Brown,jordan.brown@mail.com,794-973-1003,Chicago,PA,29558,Coupe,Chevrolet,2017,2022-11-17,Metro Vehicles
+CUST0459,Alex,Miller,alex.miller@carsales.net,621-510-8258,Phoenix,CA,34632,SUV,Toyota,2011,2025-02-13,Metro Vehicles
+CUST0356,Alex,Johnson,alex.johnson1@example.com,255-382-5127,Dallas,NY,85361,Coupe,Chevrolet,2023,2024-07-31,Highway Auto
+CUST0208,Alex,Johnson,alex.johnson2@carsales.net,437-277-6580,San Jose,AZ,88067,Sedan,Tesla,2016,2024-01-11,City Cars
+CUST0252,Jordan,Rodriguez,jordan.rodriguez2@mail.com,484-285-6077,Los Angeles,AZ,36633,Convertible,Ford,2022,2024-12-26,Highway Auto
+CUST0116,Casey,Williams,casey.williams@example.com,722-848-2868,Dallas,AZ,35415,Coupe,Tesla,2024,2023-11-25,Prime Motors
+CUST0280,Quinn,Johnson,quinn.johnson1@autoclub.com,509-530-3235,Chicago,PA,67261,Truck,Ford,2022,2023-02-16,Prime Motors
+CUST0390,Taylor,Johnson,taylor.johnson@autoclub.com,998-609-6785,San Antonio,TX,86818,Sedan,Tesla,2013,2022-12-15,AutoWorld
+CUST0697,Casey,Smith,casey.smith@carsales.net,399-542-2340,San Jose,NY,39573,Sedan,Honda,2021,2023-06-26,Prime Motors
+CUST0463,Peyton,Brown,peyton.brown@carsales.net,614-994-1685,San Jose,PA,59856,Hatchback,BMW,2021,2024-02-08,Metro Vehicles
+CUST0003,Jamie,Miller,jamie.miller@autoclub.com,359-420-6514,Los Angeles,NY,59797,Coupe,BMW,2011,2023-11-05,City Cars
+CUST0586,Avery,Williams,avery.williams1@carsales.net,980-569-5723,Dallas,PA,15322,Hatchback,Toyota,2011,2024-01-08,Highway Auto
+CUST0102,Jamie,Johnson,jamie.johnson@example.com,870-866-4522,San Antonio,TX,39949,Hatchback,Chevrolet,2016,2023-12-16,Highway Auto
+CUST0236,Taylor,Martinez,taylor.martinez@mail.com,411-411-1972,San Jose,IL,79767,Coupe,Tesla,2014,2024-11-30,City Cars
+CUST0514,Morgan,Martinez,morgan.martinez1@autoclub.com,255-857-5331,Los Angeles,NY,31967,Hatchback,Ford,2017,2023-08-16,Highway Auto
+CUST0574,Alex,Williams,alex.williams2@autoclub.com,672-909-3219,Philadelphia,CA,16932,Hatchback,Tesla,2014,2023-11-01,City Cars
+CUST0411,Jordan,Jones,jordan.jones@mail.com,286-870-7387,Phoenix,CA,42426,Hatchback,Tesla,2021,2024-04-07,Prime Motors
+CUST0410,Morgan,Williams,morgan.williams@carsales.net,305-297-2045,San Diego,AZ,17055,Convertible,Audi,2010,2023-08-19,AutoWorld
+CUST0250,Casey,Williams,casey.williams1@carsales.net,782-630-6986,Dallas,PA,32645,Sedan,Toyota,2022,2023-03-21,Metro Vehicles
+CUST0726,Avery,Smith,avery.smith9@mail.com,333-424-6957,Phoenix,PA,11268,Coupe,Honda,2017,2023-11-14,Highway Auto
+CUST0224,Casey,Johnson,casey.johnson1@autoclub.com,245-927-2885,New York,IL,94930,Truck,Honda,2011,2024-12-08,Metro Vehicles
+CUST0222,Peyton,Martinez,peyton.martinez@mail.com,422-230-6366,Los Angeles,IL,64522,Sedan,Audi,2024,2025-05-18,Prime Motors
+CUST0170,Riley,Johnson,riley.johnson@carsales.net,604-553-3399,Phoenix,NY,47700,Coupe,Chevrolet,2021,2025-06-01,City Cars
+CUST0799,Jordan,Miller,jordan.miller6@example.com,571-541-5476,Chicago,CA,45867,Hatchback,Honda,2010,2025-04-23,Highway Auto
+CUST0344,Jamie,Williams,jamie.williams@example.com,886-257-4275,Phoenix,CA,47567,SUV,Audi,2020,2024-06-14,AutoWorld
+CUST0440,Alex,Jones,alex.jones2@mail.com,296-238-8542,Philadelphia,CA,28141,Convertible,Honda,2014,2023-10-20,Prime Motors
+CUST0275,Casey,Martinez,casey.martinez1@mail.com,230-997-5602,New York,TX,79393,SUV,Toyota,2015,2024-07-21,Prime Motors
+CUST0269,Morgan,Johnson,morgan.johnson@carsales.net,304-343-2989,New York,NY,39135,Hatchback,Ford,2012,2024-09-30,AutoWorld
+CUST0729,Peyton,Jones,peyton.jones2@example.com,375-306-3910,New York,PA,89084,SUV,Honda,2017,2025-09-16,AutoWorld
+CUST0267,Peyton,Jones,peyton.jones@example.com,347-842-1379,San Jose,NY,38183,SUV,Toyota,2023,2024-01-08,Prime Motors
+CUST0740,Quinn,Johnson,quinn.johnson2@mail.com,501-327-9759,San Antonio,CA,20169,Truck,Ford,2020,2025-10-18,Prime Motors
+CUST0615,Peyton,Davis,peyton.davis1@example.com,602-461-5929,Los Angeles,CA,48983,Hatchback,Tesla,2013,2024-12-16,City Cars
+CUST0042,Jamie,Rodriguez,jamie.rodriguez@carsales.net,362-961-8777,San Diego,IL,42406,Convertible,Chevrolet,2023,2024-04-21,Prime Motors
+CUST0049,Alex,Miller,alex.miller@mail.com,865-270-1659,New York,CA,36130,Convertible,Honda,2023,2025-09-29,Prime Motors
+CUST0712,Morgan,Williams,morgan.williams2@mail.com,222-380-5289,Los Angeles,NY,98795,Truck,Audi,2012,2023-09-25,AutoWorld
+CUST0381,Avery,Smith,avery.smith@carsales.net,734-630-7068,New York,PA,79444,Hatchback,Audi,2016,2024-07-28,Highway Auto
+CUST0408,Casey,Brown,casey.brown2@autoclub.com,524-868-5773,Phoenix,AZ,94494,Hatchback,Audi,2016,2024-05-03,City Cars
+CUST0048,Jamie,Miller,jamie.miller@mail.com,665-534-6529,San Antonio,IL,65255,Hatchback,Toyota,2014,2025-05-26,Metro Vehicles
+CUST0103,Jordan,Miller,jordan.miller8@autoclub.com,520-881-5176,Philadelphia,CA,72163,Sedan,Toyota,2011,2025-05-07,Highway Auto
+CUST0096,Alex,Smith,alex.smith@autoclub.com,449-328-4362,Los Angeles,AZ,37152,SUV,Ford,2019,2024-08-24,Prime Motors
+CUST0661,Peyton,Williams,peyton.williams2@example.com,359-261-1526,Los Angeles,IL,51262,Hatchback,Toyota,2016,2024-12-05,Highway Auto
+CUST0753,Taylor,Brown,taylor.brown@mail.com,293-377-9992,Houston,CA,76509,Truck,Chevrolet,2011,2023-06-21,City Cars
+CUST0437,Avery,Davis,avery.davis@autoclub.com,873-361-9747,San Jose,TX,56179,Convertible,Ford,2024,2024-02-03,City Cars
+CUST0512,Alex,Johnson,alex.johnson@mail.com,890-616-5305,San Diego,IL,32989,Hatchback,Honda,2014,2024-07-16,Metro Vehicles
+CUST0765,Taylor,Williams,taylor.williams1@autoclub.com,390-920-3200,Houston,TX,33853,Hatchback,BMW,2018,2025-03-29,Prime Motors
+CUST0425,Alex,Smith,alex.smith@carsales.net,904-810-3539,Philadelphia,NY,42600,Sedan,Tesla,2012,2023-01-21,Metro Vehicles
+CUST0613,Jordan,Miller,jordan.miller3@carsales.net,686-899-5036,Phoenix,CA,57578,Coupe,Toyota,2017,2023-10-18,Metro Vehicles
+CUST0094,Quinn,Davis,quinn.davis1@autoclub.com,233-906-7070,Houston,TX,68287,Sedan,Tesla,2013,2023-10-29,City Cars
+CUST0434,Casey,Rodriguez,casey.rodriguez@carsales.net,577-925-1955,San Jose,IL,79339,Coupe,Toyota,2010,2025-06-18,Prime Motors
+CUST0612,Jamie,Brown,jamie.brown@mail.com,309-379-4507,San Diego,TX,63526,Hatchback,BMW,2014,2025-07-19,City Cars
+CUST0360,Alex,Rodriguez,alex.rodriguez2@mail.com,326-242-1082,San Jose,AZ,61653,Coupe,Honda,2018,2025-05-19,City Cars
+CUST0336,Quinn,Martinez,quinn.martinez3@carsales.net,933-872-6952,San Diego,NY,22771,Sedan,Ford,2022,2024-08-12,City Cars
+CUST0520,Quinn,Williams,quinn.williams5@autoclub.com,872-982-4027,Los Angeles,PA,34151,Hatchback,Tesla,2014,2024-03-16,AutoWorld
+CUST0546,Quinn,Garcia,quinn.garcia@carsales.net,485-214-8014,Houston,CA,52899,Convertible,Honda,2016,2024-08-11,Metro Vehicles
+CUST0326,Jordan,Smith,jordan.smith1@example.com,341-879-3793,Philadelphia,IL,67372,Truck,Toyota,2019,2024-05-09,City Cars
+CUST0784,Morgan,Rodriguez,morgan.rodriguez2@carsales.net,299-334-6298,San Jose,NY,49855,Convertible,Honda,2017,2024-12-09,Highway Auto
+CUST0318,Casey,Garcia,casey.garcia@autoclub.com,968-392-3701,San Antonio,NY,39939,SUV,Tesla,2013,2025-02-14,AutoWorld
+CUST0616,Jamie,Smith,jamie.smith@autoclub.com,282-998-9055,San Diego,PA,64127,Truck,Chevrolet,2024,2023-12-29,AutoWorld
+CUST0317,Quinn,Jones,quinn.jones2@autoclub.com,266-246-5885,Phoenix,TX,78195,Coupe,Chevrolet,2019,2022-12-02,Prime Motors
+CUST0046,Quinn,Brown,quinn.brown@carsales.net,424-479-8140,San Diego,NY,60968,Truck,Honda,2015,2023-08-04,Highway Auto
+CUST0783,Alex,Rodriguez,alex.rodriguez3@carsales.net,545-632-8756,Philadelphia,TX,61257,Truck,Ford,2011,2022-11-24,City Cars
+CUST0649,Quinn,Martinez,quinn.martinez1@autoclub.com,237-699-7548,San Diego,AZ,87468,SUV,Tesla,2021,2023-02-14,AutoWorld
+CUST0734,Alex,Johnson,alex.johnson2@autoclub.com,861-667-6681,Phoenix,TX,90350,Hatchback,Honda,2023,2024-11-16,Prime Motors
+CUST0212,Avery,Davis,avery.davis@example.com,226-291-6798,Dallas,NY,88240,Hatchback,Toyota,2019,2024-01-15,City Cars
+CUST0521,Peyton,Jones,peyton.jones1@carsales.net,908-883-6298,Phoenix,CA,19698,Hatchback,Chevrolet,2014,2025-07-05,City Cars
+CUST0078,Jamie,Brown,jamie.brown@carsales.net,244-525-8749,San Antonio,TX,96991,Hatchback,Toyota,2022,2025-01-02,Prime Motors
+CUST0775,Morgan,Brown,morgan.brown@mail.com,971-875-2465,Los Angeles,TX,13830,Hatchback,Audi,2012,2024-01-11,City Cars
+CUST0677,Taylor,Smith,taylor.smith4@autoclub.com,341-558-5641,Dallas,NY,35221,Convertible,BMW,2019,2025-07-24,Prime Motors
+CUST0123,Jordan,Miller,jordan.miller@example.com,771-894-7333,Phoenix,IL,96057,Coupe,Toyota,2024,2025-01-06,Metro Vehicles
+CUST0378,Jamie,Martinez,jamie.martinez3@autoclub.com,796-985-3979,San Jose,PA,76952,Truck,Tesla,2014,2024-12-01,City Cars
+CUST0558,Jamie,Martinez,jamie.martinez1@autoclub.com,871-861-6346,San Diego,AZ,97274,Convertible,Chevrolet,2021,2022-11-20,Highway Auto
+CUST0536,Quinn,Jones,quinn.jones1@carsales.net,910-991-8798,Chicago,CA,28754,Convertible,Chevrolet,2020,2024-05-04,Highway Auto
+CUST0261,Quinn,Jones,quinn.jones@mail.com,675-577-9083,Houston,PA,81638,SUV,Toyota,2022,2024-06-25,Highway Auto
+CUST0177,Taylor,Martinez,taylor.martinez1@carsales.net,637-727-6372,Los Angeles,TX,97720,SUV,Chevrolet,2011,2024-10-27,City Cars
+CUST0643,Casey,Martinez,casey.martinez@carsales.net,975-886-8371,San Jose,IL,54739,SUV,Honda,2024,2024-10-22,AutoWorld
+CUST0768,Alex,Smith,alex.smith2@autoclub.com,969-207-1685,Los Angeles,CA,78463,Hatchback,BMW,2022,2025-10-26,Metro Vehicles
+CUST0793,Riley,Miller,riley.miller1@mail.com,633-873-1001,Houston,IL,16051,Truck,BMW,2018,2024-03-19,Highway Auto
+CUST0220,Avery,Martinez,avery.martinez@example.com,311-987-5067,Philadelphia,CA,94803,Convertible,Tesla,2019,2025-08-11,Highway Auto
+CUST0677,Taylor,Smith,taylor.smith4@autoclub.com,774-860-3028,Dallas,NY,35221,Convertible,BMW,2019,2025-07-24,Prime Motors
+CUST0701,Alex,Garcia,alex.garcia1@example.com,508-825-8075,Los Angeles,NY,98809,Coupe,Audi,2010,2025-07-26,Highway Auto
+CUST0244,Jordan,Williams,jordan.williams@mail.com,593-289-2742,San Jose,NY,55032,Hatchback,Tesla,2023,2025-03-12,Prime Motors
+CUST0129,Peyton,Garcia,peyton.garcia@autoclub.com,996-591-9239,San Antonio,TX,31241,Convertible,Honda,2023,2024-09-30,City Cars
+CUST0602,Jordan,Rodriguez,jordan.rodriguez3@mail.com,494-471-1778,Phoenix,AZ,62694,Convertible,Tesla,2022,2024-08-04,AutoWorld
+CUST0249,Jamie,Jones,jamie.jones@example.com,445-706-7322,Los Angeles,CA,75481,Convertible,Toyota,2020,2025-06-19,City Cars
+CUST0435,Avery,Johnson,avery.johnson@example.com,942-436-9710,San Antonio,CA,35312,Convertible,Tesla,2018,2024-06-18,Prime Motors
+CUST0253,Quinn,Johnson,quinn.johnson@autoclub.com,915-647-4909,New York,CA,21300,Sedan,Chevrolet,2024,2023-06-04,Metro Vehicles
+CUST0611,Jordan,Rodriguez,jordan.rodriguez9@autoclub.com,708-292-4900,San Antonio,NY,51079,Truck,Tesla,2015,2023-09-03,Prime Motors
+CUST0171,Peyton,Brown,peyton.brown2@mail.com,751-477-5450,Chicago,NY,90698,SUV,Toyota,2021,2024-07-07,Metro Vehicles
+CUST0725,Quinn,Rodriguez,quinn.rodriguez2@carsales.net,939-672-6581,Los Angeles,IL,34621,SUV,Chevrolet,2016,2023-07-08,Highway Auto
+CUST0325,Riley,Jones,riley.jones1@carsales.net,251-302-3862,New York,IL,57214,Hatchback,Tesla,2022,2024-02-08,AutoWorld
+CUST0598,Jordan,Davis,jordan.davis@autoclub.com,565-621-6755,New York,PA,42011,Truck,Ford,2013,2024-07-17,Metro Vehicles
+CUST0487,Jordan,Smith,jordan.smith4@autoclub.com,245-903-2426,Philadelphia,TX,16047,Truck,Tesla,2011,2022-12-09,City Cars
+CUST0407,Riley,Garcia,riley.garcia1@mail.com,371-855-6527,San Antonio,PA,90256,Sedan,Toyota,2019,2023-08-04,Prime Motors
+CUST0160,Jordan,Davis,jordan.davis@mail.com,470-944-6992,San Antonio,IL,15930,Convertible,BMW,2016,2025-07-28,Prime Motors
+CUST0566,Avery,Davis,avery.davis1@mail.com,702-525-9381,New York,PA,57325,Truck,Audi,2016,2025-01-11,Highway Auto
+CUST0004,Alex,Garcia,alex.garcia@example.com,587-280-5803,San Jose,IL,85674,Sedan,Tesla,2013,2025-06-20,Prime Motors
+CUST0194,Casey,Johnson,casey.johnson@carsales.net,579-294-9775,Houston,NY,45187,Sedan,Honda,2016,2025-08-21,Metro Vehicles
+CUST0305,Peyton,Williams,peyton.williams7@autoclub.com,815-208-4666,Phoenix,AZ,50037,Hatchback,Chevrolet,2021,2024-04-25,City Cars
+CUST0051,Quinn,Smith,quinn.smith@autoclub.com,789-893-7149,San Antonio,PA,35995,Sedan,Tesla,2011,2024-06-30,City Cars
+CUST0389,Riley,Brown,riley.brown6@example.com,813-722-9451,Dallas,AZ,32214,Coupe,Honda,2020,2025-08-28,AutoWorld
+CUST0202,Riley,Rodriguez,riley.rodriguez1@autoclub.com,217-714-8054,Chicago,NY,22624,SUV,Honda,2018,2025-01-09,Metro Vehicles
+CUST0038,Morgan,Rodriguez,morgan.rodriguez@carsales.net,953-373-2389,Phoenix,AZ,97012,Sedan,Audi,2020,2023-12-24,Prime Motors
+CUST0182,Alex,Rodriguez,alex.rodriguez1@mail.com,786-749-3455,Chicago,IL,78202,Truck,Honda,2017,2025-03-16,Metro Vehicles
+CUST0174,Avery,Smith,avery.smith@mail.com,627-380-1595,San Antonio,TX,34420,Sedan,Toyota,2024,2024-03-27,City Cars
+CUST0635,Peyton,Miller,peyton.miller2@mail.com,575-724-6138,Philadelphia,NY,19269,Sedan,Chevrolet,2018,2023-09-20,City Cars
+CUST0457,Jamie,Jones,jamie.jones@autoclub.com,659-755-3158,Houston,PA,28163,SUV,Ford,2019,2024-09-21,Metro Vehicles
+CUST0426,Casey,Smith,casey.smith1@example.com,564-860-3521,Dallas,NY,26492,Coupe,BMW,2017,2024-07-21,City Cars
+CUST0193,Riley,Williams,riley.williams1@carsales.net,259-775-7761,San Antonio,AZ,79467,SUV,Ford,2012,2023-09-06,Prime Motors
+CUST0442,Jordan,Martinez,jordan.martinez4@example.com,238-948-7251,Los Angeles,NY,53829,Hatchback,Audi,2015,2023-06-03,AutoWorld
+CUST0477,Riley,Rodriguez,riley.rodriguez5@autoclub.com,332-829-9132,Dallas,PA,92818,SUV,BMW,2017,2023-02-05,Prime Motors
+CUST0510,Riley,Martinez,riley.martinez2@autoclub.com,262-844-8752,San Jose,CA,85085,Truck,BMW,2010,2024-03-22,AutoWorld
+CUST0466,Alex,Rodriguez,alex.rodriguez3@mail.com,674-861-8400,Los Angeles,PA,75622,Convertible,Tesla,2011,2024-11-06,Metro Vehicles
+CUST0036,Riley,Rodriguez,riley.rodriguez@autoclub.com,882-618-6344,San Antonio,PA,48752,SUV,Chevrolet,2018,2025-02-22,Highway Auto
+CUST0235,Peyton,Jones,peyton.jones@autoclub.com,289-649-2923,Houston,CA,87060,Truck,BMW,2021,2023-11-22,Highway Auto
+CUST0187,Taylor,Brown,taylor.brown@example.com,974-223-5888,San Diego,PA,81361,Hatchback,Audi,2016,2022-11-16,Prime Motors
+CUST0198,Taylor,Smith,taylor.smith1@autoclub.com,766-798-7841,Phoenix,CA,35715,Hatchback,BMW,2015,2024-07-26,Prime Motors
+CUST0217,Quinn,Brown,quinn.brown@autoclub.com,585-487-7437,Philadelphia,NY,83905,Truck,Audi,2013,2024-11-06,Metro Vehicles
+CUST0170,Riley,Johnson,riley.johnson@carsales.net,492-767-9074,Phoenix,NY,47700,Coupe,Chevrolet,2021,2025-06-02,City Cars
+CUST0176,Morgan,Johnson,morgan.johnson1@autoclub.com,366-948-8518,Phoenix,PA,34405,Coupe,BMW,2010,2023-12-20,Prime Motors
+CUST0376,Alex,Brown,alex.brown@example.com,330-787-3639,Chicago,PA,77193,Sedan,Honda,2010,2025-01-13,City Cars
+CUST0416,Alex,Rodriguez,alex.rodriguez@autoclub.com,393-621-8161,San Antonio,CA,31400,Hatchback,Honda,2021,2023-09-03,City Cars
+CUST0304,Alex,Williams,alex.williams@mail.com,426-862-4688,Houston,IL,95404,Sedan,Audi,2016,2022-12-24,AutoWorld
+CUST0056,Quinn,Jones,quinn.jones7@example.com,850-380-2369,Phoenix,PA,63271,Truck,Chevrolet,2017,2024-07-05,Highway Auto
+CUST0776,Morgan,Jones,morgan.jones@carsales.net,886-326-3224,Dallas,PA,74482,SUV,BMW,2011,2023-12-29,Metro Vehicles
+CUST0587,Riley,Garcia,riley.garcia@autoclub.com,903-654-4700,Dallas,TX,48088,SUV,Audi,2023,2023-06-17,AutoWorld
+CUST0232,Peyton,Davis,peyton.davis@carsales.net,700-371-2354,San Jose,NY,38905,Coupe,Honda,2014,2025-09-04,Metro Vehicles
+CUST0300,Quinn,Johnson,quinn.johnson1@mail.com,652-416-7671,San Diego,AZ,59009,Convertible,Audi,2023,2025-07-17,Prime Motors
+CUST0519,Morgan,Smith,morgan.smith1@example.com,834-294-1931,San Jose,PA,38419,Truck,Toyota,2019,2025-03-05,AutoWorld
+CUST0313,Alex,Williams,alex.williams2@autoclub.com,405-550-7704,Houston,TX,28772,Sedan,Chevrolet,2015,2024-11-05,City Cars
+CUST0017,Quinn,Martinez,quinn.martinez9@autoclub.com,448-684-7669,San Diego,NY,22704,Coupe,Chevrolet,2020,2023-06-11,Highway Auto
+CUST0227,Quinn,Johnson,quinn.johnson@mail.com,574-533-4228,San Diego,NY,44387,Convertible,Tesla,2020,2023-02-11,City Cars
+CUST0109,Casey,Martinez,casey.martinez@example.com,253-359-3579,San Jose,NY,98338,Hatchback,Tesla,2011,2024-04-28,Highway Auto
+CUST0289,Alex,Davis,alex.davis2@example.com,501-877-8869,Houston,NY,13373,Truck,Ford,2013,2024-11-25,AutoWorld
+CUST0594,Alex,Davis,alex.davis5@example.com,592-660-6153,San Antonio,TX,70248,SUV,BMW,2010,2025-09-03,City Cars
+CUST0062,Jordan,Johnson,jordan.johnson@carsales.net,703-275-1878,Chicago,CA,83772,SUV,Toyota,2014,2025-05-19,Metro Vehicles
+CUST0468,Casey,Williams,casey.williams3@example.com,293-316-8362,Philadelphia,NY,78657,Truck,Audi,2021,2023-09-15,Metro Vehicles
+CUST0324,Jordan,Martinez,jordan.martinez@carsales.net,352-292-9383,Los Angeles,PA,23276,Truck,Honda,2024,2024-06-03,Highway Auto
+CUST0264,Peyton,Johnson,peyton.johnson1@example.com,717-336-7461,Los Angeles,AZ,84425,Truck,Honda,2010,2023-06-03,Prime Motors
+CUST0601,Peyton,Johnson,peyton.johnson1@mail.com,544-708-9237,Philadelphia,CA,90586,Hatchback,Honda,2014,2023-10-27,Highway Auto
+CUST0605,Taylor,Smith,taylor.smith@mail.com,790-711-4489,San Diego,IL,93614,Convertible,Tesla,2018,2023-06-05,AutoWorld
+CUST0532,Peyton,Martinez,peyton.martinez1@mail.com,805-265-2742,Los Angeles,TX,87984,Sedan,Audi,2022,2024-08-15,Prime Motors
+CUST0315,Taylor,Martinez,taylor.martinez4@carsales.net,848-639-7609,San Antonio,TX,60242,Convertible,Honda,2010,2025-08-24,City Cars
+CUST0419,Taylor,Smith,taylor.smith@example.com,390-304-5622,Phoenix,CA,67464,SUV,Toyota,2021,2025-10-24,Prime Motors
+CUST0245,Peyton,Johnson,peyton.johnson@mail.com,592-291-2678,Los Angeles,IL,58177,SUV,Chevrolet,2024,2024-03-07,Prime Motors
+CUST0085,Quinn,Jones,quinn.jones@carsales.net,906-456-8484,Phoenix,CA,60422,Sedan,Honda,2023,2023-02-24,Highway Auto
+CUST0451,Avery,Garcia,avery.garcia@mail.com,911-915-1301,San Antonio,AZ,96969,Coupe,Honda,2018,2025-08-12,AutoWorld
+CUST0307,Avery,Martinez,avery.martinez2@autoclub.com,505-900-2771,San Diego,NY,54077,Coupe,Ford,2014,2024-01-14,City Cars
+CUST0222,Peyton,Martinez,peyton.martinez@mail.com,553-225-8909,Los Angeles,IL,64522,Sedan,Audi,2024,2025-05-18,Prime Motors
+CUST0050,Taylor,Garcia,taylor.garcia@example.com,777-423-8619,Phoenix,IL,31992,SUV,Ford,2019,2025-03-20,AutoWorld
+CUST0082,Peyton,Williams,peyton.williams@autoclub.com,229-247-6314,New York,IL,56984,SUV,Honda,2015,2023-06-11,Metro Vehicles
+CUST0371,Casey,Brown,casey.brown@example.com,884-411-9485,Philadelphia,TX,71561,Sedan,Toyota,2024,2023-04-23,City Cars
+CUST0398,Quinn,Smith,quinn.smith@example.com,693-580-6167,San Diego,AZ,46009,Convertible,Ford,2017,2024-10-31,Highway Auto
+CUST0287,Peyton,Smith,peyton.smith@carsales.net,869-368-8113,Chicago,NY,23272,SUV,Chevrolet,2015,2024-09-15,Metro Vehicles
+CUST0077,Peyton,Miller,peyton.miller5@carsales.net,765-981-9903,San Antonio,TX,52176,Truck,Honda,2023,2024-10-19,Metro Vehicles
+CUST0402,Casey,Miller,casey.miller@carsales.net,486-661-3947,San Jose,CA,85483,Sedan,Tesla,2020,2024-07-29,City Cars
+CUST0669,Taylor,Davis,taylor.davis2@carsales.net,283-294-2018,San Antonio,CA,72423,Sedan,Ford,2013,2023-05-11,Metro Vehicles
+CUST0341,Quinn,Brown,quinn.brown1@autoclub.com,607-551-5819,San Diego,CA,28111,Coupe,Audi,2016,2022-12-26,Metro Vehicles
+CUST0375,Morgan,Davis,morgan.davis2@autoclub.com,937-316-8889,San Diego,TX,37617,Truck,Audi,2019,2024-12-14,Highway Auto
+CUST0272,Taylor,Jones,taylor.jones@autoclub.com,656-352-1567,San Jose,AZ,90868,Hatchback,Chevrolet,2013,2024-03-15,Metro Vehicles
+CUST0452,Riley,Brown,riley.brown2@autoclub.com,254-676-1136,Los Angeles,TX,96556,Sedan,Toyota,2014,2023-11-03,City Cars
+CUST0726,Avery,Smith,avery.smith@autoclub.com,342-791-3102,Phoenix,PA,11268,Coupe,Honda,2017,2023-11-14,Highway Auto
+CUST0534,Jordan,Johnson,jordan.johnson1@autoclub.com,344-975-7801,Chicago,PA,58487,Hatchback,Honda,2018,2024-12-07,Metro Vehicles
+CUST0606,Avery,Brown,avery.brown@autoclub.com,673-351-4938,Chicago,PA,99824,Hatchback,Chevrolet,2022,2024-03-05,City Cars
+CUST0379,Peyton,Martinez,peyton.martinez1@example.com,435-587-7315,Chicago,NY,12170,Convertible,Tesla,2013,2022-12-05,Highway Auto
+CUST0454,Peyton,Rodriguez,peyton.rodriguez@example.com,240-453-9673,Phoenix,IL,74216,Sedan,Ford,2016,2024-12-23,City Cars
+CUST0271,Jordan,Smith,jordan.smith@carsales.net,251-372-8096,San Antonio,TX,13864,SUV,Ford,2016,2023-06-20,Prime Motors
+CUST0281,Avery,Martinez,avery.martinez1@autoclub.com,428-881-3872,San Antonio,IL,48602,Truck,Toyota,2012,2024-11-11,Metro Vehicles
+CUST0021,Riley,Davis,riley.davis@carsales.net,358-394-5861,Houston,NY,85914,Truck,Ford,2021,2025-07-08,AutoWorld
+CUST0276,Morgan,Jones,morgan.jones2@example.com,982-424-7363,Philadelphia,CA,33081,Truck,Tesla,2013,2024-01-28,City Cars
+CUST0642,Jordan,Rodriguez,jordan.rodriguez@example.com,316-958-8583,Chicago,CA,61505,Hatchback,Tesla,2010,2025-05-23,City Cars
+CUST0098,Morgan,Martinez,morgan.martinez@autoclub.com,216-378-5347,New York,CA,65176,Truck,Toyota,2018,2025-03-22,Highway Auto
+CUST0685,Taylor,Miller,taylor.miller1@mail.com,451-750-7942,Dallas,TX,15477,Convertible,Ford,2010,2023-04-03,Prime Motors
+CUST0351,Avery,Rodriguez,avery.rodriguez1@carsales.net,294-557-4624,Houston,PA,53500,Coupe,Honda,2015,2023-11-02,Metro Vehicles
+CUST0169,Morgan,Jones,morgan.jones@autoclub.com,430-504-5735,Houston,PA,74094,Coupe,BMW,2015,2023-03-03,City Cars
+CUST0373,Avery,Jones,avery.jones1@carsales.net,428-728-7649,Philadelphia,IL,73813,Convertible,Toyota,2022,2023-02-26,Metro Vehicles
+CUST0500,Quinn,Garcia,quinn.garcia@mail.com,410-897-6187,Phoenix,AZ,99071,Truck,Ford,2014,2023-06-03,AutoWorld
+CUST0097,Quinn,Smith,quinn.smith1@autoclub.com,348-333-9850,Phoenix,CA,24408,SUV,Toyota,2020,2025-09-18,City Cars
+CUST0328,Jordan,Williams,jordan.williams3@example.com,363-306-7816,San Jose,TX,84572,SUV,BMW,2020,2023-05-27,Highway Auto
+CUST0657,Jordan,Johnson,jordan.johnson1@example.com,775-242-9311,Los Angeles,CA,92565,Coupe,Honda,2011,2024-09-15,City Cars
+CUST0493,Jordan,Garcia,jordan.garcia1@autoclub.com,900-859-8625,San Diego,CA,39333,Coupe,Chevrolet,2012,2024-05-30,Prime Motors
+CUST0218,Alex,Garcia,alex.garcia@mail.com,648-498-2133,New York,PA,75444,SUV,Ford,2012,2024-02-28,Prime Motors
+CUST0552,Peyton,Martinez,peyton.martinez2@example.com,574-575-3871,Dallas,PA,18782,SUV,Ford,2018,2024-09-16,Prime Motors
+CUST0363,Peyton,Miller,peyton.miller1@autoclub.com,331-887-4842,San Antonio,IL,91201,Coupe,Chevrolet,2011,2024-10-09,Highway Auto
+CUST0200,Peyton,Williams,peyton.williams@example.com,736-234-2217,New York,NY,64053,Sedan,Tesla,2012,2024-07-24,Prime Motors
+CUST0330,Riley,Miller,riley.miller1@example.com,921-894-9598,San Jose,PA,84057,Convertible,BMW,2013,2023-12-18,Metro Vehicles
+CUST0623,Jamie,Williams,jamie.williams1@carsales.net,411-814-4531,Phoenix,PA,98760,SUV,Chevrolet,2013,2023-07-07,Prime Motors
+CUST0624,Alex,Jones,alex.jones2@autoclub.com,441-832-8388,Houston,IL,86402,Sedan,Toyota,2020,2023-04-16,Highway Auto
+CUST0662,Alex,Williams,alex.williams1@example.com,846-930-9516,Phoenix,TX,62691,Truck,Tesla,2024,2024-02-25,City Cars
+CUST0743,Jordan,Smith,jordan.smith1@carsales.net,228-214-6523,Houston,PA,97680,Sedan,Audi,2011,2024-08-15,Prime Motors
+CUST0569,Peyton,Rodriguez,peyton.rodriguez2@autoclub.com,267-804-7156,Los Angeles,NY,63668,Hatchback,Honda,2020,2024-04-29,Metro Vehicles
+CUST0345,Riley,Brown,riley.brown1@example.com,567-663-2679,San Jose,PA,83647,Truck,Tesla,2023,2024-08-07,Metro Vehicles
+CUST0537,Morgan,Williams,morgan.williams@example.com,575-336-9416,San Jose,NY,92207,Coupe,Chevrolet,2023,2024-03-05,AutoWorld
+CUST0556,Jordan,Williams,jordan.williams1@autoclub.com,314-913-3424,San Diego,CA,36772,Coupe,Chevrolet,2018,2025-09-24,Metro Vehicles
+CUST0604,Avery,Jones,avery.jones3@carsales.net,879-752-6133,Houston,TX,62730,Hatchback,Tesla,2014,2022-12-20,Metro Vehicles
+CUST0149,Morgan,Williams,morgan.williams@mail.com,705-226-6912,Dallas,AZ,58353,Convertible,Toyota,2017,2025-02-17,AutoWorld
+CUST0288,Avery,Jones,avery.jones1@autoclub.com,504-443-2571,New York,TX,84943,SUV,Toyota,2018,2023-02-08,City Cars
+CUST0273,Peyton,Smith,peyton.smith9@carsales.net,486-592-3248,San Antonio,CA,94233,SUV,Tesla,2024,2022-11-30,Metro Vehicles
+CUST0571,Avery,Garcia,avery.garcia1@mail.com,227-202-3523,Phoenix,IL,93958,Sedan,Tesla,2023,2023-03-18,City Cars
+CUST0266,Jordan,Williams,jordan.williams3@mail.com,781-953-5380,Philadelphia,TX,25825,SUV,Chevrolet,2018,2023-11-07,City Cars
+CUST0151,Casey,Williams,casey.williams@mail.com,986-332-8088,Dallas,NY,26274,Coupe,Honda,2018,2024-12-31,Prime Motors
+CUST0762,Jamie,Davis,jamie.davis3@example.com,730-393-7929,Chicago,TX,43144,Convertible,BMW,2021,2024-03-01,Highway Auto
+CUST0192,Casey,Davis,casey.davis1@autoclub.com,913-626-7688,Chicago,IL,59343,SUV,Audi,2012,2023-03-16,Prime Motors
+CUST0764,Jamie,Jones,jamie.jones9@carsales.net,372-703-1025,Dallas,NY,64767,Truck,Ford,2018,2023-07-10,Highway Auto
+CUST0172,Morgan,Brown,morgan.brown1@example.com,302-623-6411,San Diego,NY,99285,Sedan,BMW,2022,2025-02-01,Prime Motors
+CUST0517,Jordan,Jones,jordan.jones4@carsales.net,672-991-4961,San Jose,CA,78151,Coupe,BMW,2015,2024-11-06,AutoWorld
+CUST0168,Jamie,Miller,jamie.miller1@mail.com,670-745-6608,Dallas,IL,98587,Convertible,Chevrolet,2022,2024-05-17,Prime Motors
+CUST0013,Casey,Jones,casey.jones@mail.com,259-446-2290,Los Angeles,PA,73699,Convertible,Audi,2023,2025-06-21,Prime Motors
+CUST0445,Jamie,Williams,jamie.williams2@carsales.net,544-284-8796,San Jose,PA,16463,Coupe,Toyota,2018,2023-08-15,Highway Auto
+CUST0145,Alex,Martinez,alex.martinez@mail.com,895-660-7077,Philadelphia,TX,20077,Convertible,Ford,2019,2025-02-01,Highway Auto
+CUST0022,Alex,Martinez,alex.martinez1@example.com,988-285-5385,San Jose,AZ,20500,Sedan,BMW,2023,2024-10-20,AutoWorld
+CUST0564,Casey,Johnson,casey.johnson2@carsales.net,241-342-2914,Phoenix,NY,62642,Hatchback,Ford,2019,2024-08-15,AutoWorld
+CUST0638,Quinn,Martinez,quinn.martinez4@carsales.net,292-974-7922,Philadelphia,AZ,34426,Sedan,Toyota,2016,2023-06-21,Metro Vehicles
+CUST0390,Taylor,Johnson,taylor.johnson4@autoclub.com,636-690-2005,San Antonio,TX,86818,Sedan,Tesla,2013,2022-12-15,AutoWorld
+CUST0167,Jamie,Rodriguez,jamie.rodriguez2@carsales.net,953-944-2020,Chicago,AZ,37176,Truck,Chevrolet,2018,2024-01-14,Metro Vehicles
+CUST0797,Morgan,Johnson,morgan.johnson3@autoclub.com,848-913-4156,Philadelphia,AZ,96155,Convertible,Honda,2020,2022-12-28,Highway Auto
+CUST0608,Morgan,Smith,morgan.smith@mail.com,517-675-8952,Dallas,TX,65314,SUV,Honda,2020,2025-08-26,City Cars
+CUST0296,Alex,Martinez,alex.martinez2@carsales.net,315-624-3451,Chicago,AZ,87061,Sedan,BMW,2019,2025-04-18,AutoWorld
+CUST0262,Alex,Brown,alex.brown@autoclub.com,851-910-1157,Philadelphia,NY,96154,Sedan,Honda,2016,2024-02-19,Metro Vehicles
+CUST0058,Casey,Davis,casey.davis@autoclub.com,560-919-8434,Phoenix,IL,42951,Truck,Honda,2013,2025-03-07,City Cars
+CUST0504,Alex,Williams,alex.williams1@carsales.net,873-647-3224,Los Angeles,CA,94180,Hatchback,Audi,2022,2023-07-12,Metro Vehicles
+CUST0407,Riley,Garcia,riley.garcia1@mail.com,536-266-6198,San Antonio,PA,90256,Sedan,Toyota,2019,2023-08-04,Prime Motors
+CUST0502,Alex,Brown,alex.brown1@carsales.net,919-804-7459,Philadelphia,PA,60173,Hatchback,BMW,2016,2023-09-20,Prime Motors
+CUST0096,Alex,Smith,alex.smith3@example.com,924-756-2290,Los Angeles,AZ,37152,SUV,Ford,2019,2024-08-21,Prime Motors
+CUST0180,Casey,Martinez,casey.martinez@mail.com,424-336-8834,Chicago,TX,89395,Truck,BMW,2015,2023-07-12,Highway Auto
+CUST0444,Casey,Rodriguez,casey.rodriguez2@mail.com,356-251-7436,San Diego,AZ,85399,SUV,Chevrolet,2018,2025-05-09,City Cars
+CUST0551,Quinn,Rodriguez,quinn.rodriguez1@mail.com,901-282-6500,New York,AZ,98428,Sedan,Chevrolet,2015,2025-07-27,City Cars
+CUST0067,Jordan,Smith,jordan.smith5@example.com,406-853-1530,Los Angeles,NY,71433,Truck,Chevrolet,2021,2024-02-26,City Cars
+CUST0181,Avery,Brown,avery.brown@mail.com,896-972-2341,Dallas,TX,79228,Sedan,BMW,2021,2023-10-31,AutoWorld
+CUST0589,Jamie,Martinez,jamie.martinez2@example.com,959-372-2060,Philadelphia,CA,54385,Sedan,Honda,2013,2023-08-05,Highway Auto
+CUST0132,Jordan,Miller,jordan.miller1@mail.com,228-526-2623,Philadelphia,CA,28035,Hatchback,Tesla,2010,2024-04-01,Prime Motors
+CUST0346,Jamie,Brown,jamie.brown@autoclub.com,909-880-1769,San Antonio,TX,64600,Convertible,Toyota,2022,2024-02-08,AutoWorld
+CUST0032,Peyton,Brown,peyton.brown@mail.com,671-558-6000,Houston,CA,13101,Hatchback,Ford,2020,2024-10-10,City Cars
+CUST0560,Peyton,Williams,peyton.williams2@autoclub.com,230-748-1377,Chicago,CA,97340,SUV,Honda,2022,2024-12-30,AutoWorld
+CUST0266,Jordan,Williams,jordan.williams2@example.com,368-660-8635,Philadelphia,TX,25825,SUV,Chevrolet,2018,2023-11-07,City Cars
+CUST0555,Avery,Jones,avery.jones2@carsales.net,835-576-2075,Houston,TX,21443,SUV,Ford,2011,2023-09-01,AutoWorld
+CUST0725,Quinn,Rodriguez,quinn.rodriguez2@carsales.net,425-503-5399,Los Angeles,IL,34621,SUV,Chevrolet,2016,2023-07-03,Highway Auto
+CUST0323,Jamie,Jones,jamie.jones@mail.com,240-761-9132,Houston,PA,73001,Sedan,Toyota,2015,2024-07-17,AutoWorld
+CUST0353,Jamie,Johnson,jamie.johnson@carsales.net,462-753-5633,New York,AZ,59146,Hatchback,Chevrolet,2018,2023-01-03,AutoWorld
+CUST0260,Alex,Davis,alex.davis1@example.com,676-489-6090,Philadelphia,NY,82494,Coupe,Honda,2017,2025-10-24,City Cars
+CUST0073,Peyton,Smith,peyton.smith5@carsales.net,473-762-3146,Phoenix,TX,73532,Truck,BMW,2011,2025-09-11,Prime Motors
+CUST0354,Riley,Brown,riley.brown1@autoclub.com,726-284-2572,Chicago,AZ,79888,SUV,Tesla,2010,2025-06-28,Prime Motors
+CUST0659,Morgan,Garcia,morgan.garcia2@autoclub.com,493-717-3805,Los Angeles,IL,58815,Coupe,Tesla,2021,2023-07-14,Prime Motors
+CUST0120,Jordan,Johnson,jordan.johnson1@carsales.net,673-794-1672,San Diego,AZ,95437,Convertible,Chevrolet,2013,2024-01-21,Metro Vehicles
+CUST0680,Casey,Davis,casey.davis8@autoclub.com,561-508-6467,Dallas,CA,47401,Coupe,Audi,2012,2024-10-31,AutoWorld
+CUST0076,Jordan,Jones,jordan.jones@carsales.net,548-719-5377,New York,IL,49132,SUV,Chevrolet,2023,2023-02-11,Metro Vehicles
+CUST0090,Morgan,Davis,morgan.davis@autoclub.com,292-604-1228,Phoenix,AZ,26199,Truck,Tesla,2017,2023-10-17,City Cars
+CUST0117,Morgan,Johnson,morgan.johnson@mail.com,462-402-3842,San Jose,CA,95918,Truck,Chevrolet,2011,2024-11-12,Highway Auto
+CUST0690,Jamie,Rodriguez,jamie.rodriguez4@example.com,864-866-2270,Dallas,NY,98029,Coupe,Audi,2017,2025-03-02,Highway Auto
+CUST0422,Jamie,Garcia,jamie.garcia@mail.com,955-234-4263,San Diego,PA,22315,Hatchback,Chevrolet,2018,2024-09-09,City Cars
+CUST0314,Taylor,Miller,taylor.miller1@example.com,204-662-5481,Houston,CA,85534,Hatchback,Audi,2022,2024-12-20,AutoWorld
+CUST0549,Alex,Garcia,alex.garcia1@autoclub.com,365-920-8524,San Jose,PA,86501,Hatchback,Audi,2010,2023-04-23,Prime Motors
+CUST0022,Alex,Martinez,alex.martinez8@example.com,612-237-9740,New York,AZ,20500,Sedan,BMW,2023,2024-10-30,AutoWorld
+CUST0093,Jamie,Garcia,jamie.garcia@autoclub.com,886-960-9850,San Antonio,AZ,30253,Truck,Toyota,2024,2023-07-14,Highway Auto
+CUST0334,Peyton,Smith,peyton.smith3@example.com,613-622-1587,Dallas,AZ,10022,Convertible,BMW,2023,2025-05-07,City Cars
+CUST0540,Riley,Brown,riley.brown6@autoclub.com,457-542-8424,New York,NY,16875,SUV,Audi,2024,2024-11-14,AutoWorld
+CUST0161,Casey,Rodriguez,casey.rodriguez@autoclub.com,275-595-9261,San Diego,AZ,46663,SUV,Toyota,2023,2025-03-11,Highway Auto
+CUST0482,Riley,Martinez,riley.martinez1@autoclub.com,768-748-1306,Houston,AZ,99848,Sedan,Honda,2015,2023-11-16,City Cars
+CUST0428,Peyton,Brown,peyton.brown3@mail.com,756-556-6303,San Diego,IL,88470,Sedan,BMW,2024,2024-12-16,Prime Motors
+CUST0641,Jordan,Smith,jordan.smith3@example.com,722-635-7766,Los Angeles,TX,96619,Coupe,Ford,2021,2024-06-09,Metro Vehicles
+CUST0720,Avery,Martinez,avery.martinez3@autoclub.com,636-661-8660,San Antonio,TX,58170,Coupe,Ford,2022,2023-01-26,Highway Auto
+CUST0302,Peyton,Smith,peyton.smith7@carsales.net,921-403-5488,Philadelphia,TX,76207,Truck,Toyota,2016,2025-02-26,Prime Motors
+CUST0646,Alex,Brown,alex.brown1@example.com,414-692-3378,Houston,TX,92058,Sedan,Ford,2023,2024-10-15,Highway Auto
+CUST0112,Riley,Jones,riley.jones@autoclub.com,322-207-9149,San Antonio,CA,26932,Truck,Honda,2016,2022-11-15,Metro Vehicles
+CUST0285,Avery,Davis,avery.davis1@example.com,690-791-4695,Chicago,TX,19661,Coupe,Toyota,2022,2025-09-02,City Cars
+CUST0327,Casey,Williams,casey.williams1@example.com,610-609-8479,Phoenix,TX,72684,Truck,Audi,2022,2023-06-30,Prime Motors
+CUST0507,Peyton,Miller,peyton.miller2@example.com,794-693-2311,Chicago,PA,78997,Hatchback,BMW,2023,2024-04-16,AutoWorld
+CUST0184,Alex,Davis,alex.davis@autoclub.com,203-963-4570,San Jose,NY,15936,Truck,Toyota,2016,2023-12-05,Metro Vehicles
+CUST0761,Taylor,Jones,taylor.jones1@carsales.net,897-350-5166,Houston,AZ,85804,Sedan,Toyota,2020,2024-12-14,AutoWorld
+CUST0239,Peyton,Johnson,peyton.johnson@example.com,612-727-5558,Philadelphia,TX,73968,Truck,Toyota,2015,2025-11-04,Highway Auto
+CUST0005,Riley,Johnson,riley.johnson@mail.com,303-589-5554,San Diego,PA,57819,Coupe,Honda,2012,2023-10-13,City Cars
+CUST0661,Peyton,Williams,peyton.williams2@example.com,934-729-2140,Los Angeles,IL,51262,Hatchback,Toyota,2016,2024-12-08,Highway Auto
+CUST0009,Avery,Garcia,avery.garcia@example.com,973-248-2796,Chicago,PA,30969,Convertible,Toyota,2022,2023-06-29,Highway Auto
+CUST0617,Taylor,Jones,taylor.jones1@example.com,560-630-9973,Philadelphia,TX,13584,Truck,Tesla,2022,2025-07-26,Prime Motors
+CUST0671,Taylor,Garcia,taylor.garcia2@carsales.net,656-301-2226,Dallas,NY,37871,Sedan,Tesla,2017,2023-03-16,Prime Motors
+CUST0092,Peyton,Jones,peyton.jones@carsales.net,319-343-1742,New York,IL,74569,SUV,BMW,2011,2025-04-24,Prime Motors
+CUST0136,Jordan,Rodriguez,jordan.rodriguez@autoclub.com,269-738-9914,Dallas,AZ,82633,Hatchback,Toyota,2010,2023-09-02,Highway Auto
+CUST0165,Alex,Martinez,alex.martinez1@carsales.net,471-871-4728,New York,AZ,72973,Truck,Tesla,2012,2022-12-02,Metro Vehicles
+CUST0292,Jordan,Johnson,jordan.johnson@autoclub.com,754-623-4727,Dallas,NY,60738,Hatchback,BMW,2023,2022-12-05,Highway Auto
+CUST0158,Casey,Martinez,casey.martinez@autoclub.com,394-981-3610,San Diego,AZ,71186,Hatchback,Toyota,2017,2024-02-17,AutoWorld
+CUST0579,Taylor,Garcia,taylor.garcia2@autoclub.com,376-926-5991,New York,PA,25544,Truck,Honda,2013,2025-02-19,Prime Motors
+CUST0618,Peyton,Williams,peyton.williams1@example.com,610-404-6006,Chicago,AZ,20778,SUV,BMW,2011,2024-12-21,Prime Motors
+CUST0006,Jordan,Martinez,jordan.martinez@mail.com,746-946-5010,New York,TX,59735,Truck,Ford,2014,2024-08-16,AutoWorld
+CUST0479,Casey,Rodriguez,casey.rodriguez3@mail.com,211-855-4296,Phoenix,IL,18891,Convertible,BMW,2014,2024-03-05,City Cars
+CUST0501,Quinn,Smith,quinn.smith1@carsales.net,330-501-2022,Philadelphia,AZ,16963,Sedan,Audi,2010,2023-11-05,City Cars
+CUST0412,Taylor,Rodriguez,taylor.rodriguez1@mail.com,229-235-6846,Philadelphia,TX,71235,Convertible,Chevrolet,2023,2024-05-01,Prime Motors
+CUST0138,Taylor,Smith,taylor.smith@autoclub.com,759-546-3868,San Diego,PA,72722,SUV,Toyota,2020,2024-11-01,Highway Auto
+CUST0186,Jamie,Davis,jamie.davis@example.com,899-877-9835,Chicago,PA,55582,Convertible,Chevrolet,2011,2024-11-09,Metro Vehicles
+CUST0465,Jamie,Rodriguez,jamie.rodriguez1@example.com,394-498-8201,San Antonio,IL,47475,Hatchback,Ford,2017,2024-12-04,Metro Vehicles
+CUST0316,Alex,Miller,alex.miller1@mail.com,218-892-1067,Houston,CA,55134,Sedan,Chevrolet,2014,2025-02-18,Metro Vehicles
+CUST0020,Taylor,Davis,taylor.davis@carsales.net,692-418-7570,New York,CA,59672,Coupe,Audi,2010,2023-09-02,Highway Auto
+CUST0203,Avery,Jones,avery.jones@autoclub.com,473-606-2294,Philadelphia,TX,70161,Truck,Honda,2019,2024-06-29,City Cars
+CUST0664,Morgan,Jones,morgan.jones3@example.com,237-750-6480,San Antonio,PA,26515,SUV,Toyota,2018,2024-04-07,Metro Vehicles
+CUST0298,Taylor,Martinez,taylor.martinez2@carsales.net,673-885-2531,Houston,NY,72287,Coupe,Toyota,2024,2024-05-08,City Cars
+CUST0780,Avery,Garcia,avery.garcia1@autoclub.com,348-503-4586,San Diego,PA,69740,SUV,Tesla,2012,2024-04-08,AutoWorld
+CUST0405,Peyton,Miller,peyton.miller3@autoclub.com,569-568-5222,Philadelphia,NY,63970,Truck,BMW,2011,2023-11-21,Prime Motors
+CUST0128,Peyton,Martinez,peyton.martinez@autoclub.com,970-966-8355,Houston,AZ,41348,SUV,Ford,2014,2023-03-25,Metro Vehicles
+CUST0572,Jamie,Williams,jamie.williams@carsales.net,904-860-5009,New York,NY,46335,Convertible,Tesla,2017,2025-06-26,City Cars
+CUST0350,Peyton,Martinez,peyton.martinez1@autoclub.com,274-924-6207,Dallas,CA,34100,Convertible,Honda,2018,2025-06-23,Highway Auto
+CUST0467,Taylor,Davis,taylor.davis1@carsales.net,531-661-1408,Chicago,TX,87373,Hatchback,Toyota,2024,2024-09-22,City Cars
+CUST0008,Taylor,Jones,taylor.jones@mail.com,452-962-9830,Phoenix,PA,86622,Coupe,Honda,2016,2023-08-15,Prime Motors
+CUST0068,Avery,Rodriguez,avery.rodriguez@carsales.net,648-282-1653,San Antonio,PA,52247,Sedan,Toyota,2019,2024-06-15,Prime Motors
+CUST0122,Avery,Rodriguez,avery.rodriguez@mail.com,572-581-5634,San Antonio,TX,54350,Truck,Tesla,2020,2025-07-25,City Cars
+CUST0240,Casey,Johnson,casey.johnson1@carsales.net,423-639-4470,San Diego,IL,52318,Coupe,BMW,2023,2024-04-08,Metro Vehicles
+CUST0420,Alex,Garcia,alex.garcia1@mail.com,550-630-6104,San Diego,IL,70776,Coupe,Toyota,2021,2025-09-06,Prime Motors
+CUST0084,Morgan,Garcia,morgan.garcia@autoclub.com,670-461-1153,San Diego,IL,98815,Sedan,Chevrolet,2018,2024-12-21,City Cars
+CUST0134,Morgan,Jones,morgan.jones@example.com,248-444-7878,San Jose,TX,18232,Convertible,BMW,2011,2023-01-21,AutoWorld
+CUST0718,Alex,Brown,alex.brown2@mail.com,407-662-4840,San Antonio,CA,50107,Convertible,Honda,2016,2023-09-29,City Cars
+CUST0778,Jordan,Johnson,jordan.johnson3@autoclub.com,958-806-4082,Los Angeles,AZ,58200,Hatchback,BMW,2012,2024-02-07,AutoWorld
+CUST0648,Quinn,Brown,quinn.brown2@mail.com,501-783-7418,New York,IL,11032,Hatchback,Audi,2011,2023-06-09,Highway Auto
+CUST0294,Taylor,Johnson,taylor.johnson@carsales.net,377-371-4471,Houston,CA,15593,Truck,Chevrolet,2016,2025-06-02,Prime Motors
+CUST0681,Taylor,Jones,taylor.jones@carsales.net,894-373-1965,San Jose,IL,33784,Coupe,Chevrolet,2010,2025-07-13,AutoWorld
+CUST0274,Alex,Davis,alex.davis1@autoclub.com,691-757-8940,Philadelphia,AZ,75849,Coupe,Honda,2015,2023-09-06,AutoWorld
+CUST0733,Taylor,Garcia,taylor.garcia2@example.com,373-312-4678,Phoenix,IL,84609,Hatchback,Chevrolet,2024,2023-02-08,Metro Vehicles
+CUST0738,Jamie,Miller,jamie.miller1@carsales.net,399-606-1618,New York,IL,25031,Coupe,Tesla,2021,2025-02-03,Highway Auto
+CUST0370,Taylor,Martinez,taylor.martinez1@mail.com,953-949-8921,Philadelphia,NY,38681,SUV,Toyota,2022,2023-02-15,City Cars
+CUST0535,Alex,Williams,alex.williams@example.com,847-827-7162,Chicago,NY,73827,Sedan,Honda,2011,2025-10-27,AutoWorld
+CUST0683,Jamie,Johnson,jamie.johnson@autoclub.com,262-525-8615,Dallas,TX,18579,Hatchback,Tesla,2017,2025-09-11,Prime Motors
+CUST0133,Peyton,Garcia,peyton.garcia@example.com,617-959-9250,Chicago,CA,81932,Hatchback,Toyota,2021,2022-11-26,City Cars
+CUST0030,Morgan,Johnson,morgan.johnson@autoclub.com,998-773-7658,San Jose,PA,30257,SUV,Audi,2024,2024-07-13,Prime Motors
+CUST0495,Quinn,Martinez,quinn.martinez2@mail.com,720-305-7646,Los Angeles,IL,82895,Coupe,BMW,2020,2025-06-17,Highway Auto
+CUST0374,Taylor,Garcia,taylor.garcia1@mail.com,435-278-9430,Phoenix,CA,29692,Coupe,BMW,2012,2024-12-22,AutoWorld
+CUST0219,Jamie,Davis,jamie.davis2@example.com,659-812-8851,San Jose,TX,80040,Convertible,Toyota,2018,2023-07-07,City Cars
+CUST0223,Casey,Jones,casey.jones@autoclub.com,666-411-9537,San Diego,IL,72411,Truck,Tesla,2011,2023-05-27,Highway Auto
+CUST0464,Quinn,Rodriguez,quinn.rodriguez1@example.com,733-311-8399,San Diego,NY,42207,Truck,Toyota,2018,2023-08-22,Metro Vehicles
+CUST0256,Riley,Rodriguez,riley.rodriguez1@example.com,469-929-2262,San Diego,TX,76949,Hatchback,Audi,2015,2025-07-19,Metro Vehicles
+CUST0015,Peyton,Rodriguez,peyton.rodriguez@carsales.net,323-453-4681,Los Angeles,IL,12757,Convertible,Honda,2019,2024-07-26,AutoWorld
+CUST0388,Jamie,Martinez,jamie.martinez@autoclub.com,928-811-1941,Chicago,PA,74797,SUV,Audi,2017,2025-10-19,Metro Vehicles
+CUST0676,Casey,Johnson,casey.johnson3@carsales.net,596-438-7478,Philadelphia,AZ,16005,Truck,Ford,2020,2023-05-17,AutoWorld
+CUST0303,Casey,Garcia,casey.garcia1@carsales.net,381-685-6730,Philadelphia,CA,43903,Coupe,Toyota,2021,2025-05-08,Highway Auto
+CUST0688,Casey,Miller,casey.miller1@autoclub.com,970-924-8417,Phoenix,CA,96805,SUV,Chevrolet,2015,2023-12-11,Metro Vehicles
+CUST0135,Avery,Martinez,avery.martinez@mail.com,935-347-5772,San Antonio,NY,90584,Convertible,Chevrolet,2015,2024-07-05,Prime Motors
+CUST0173,Jamie,Garcia,jamie.garcia@carsales.net,866-404-5706,Philadelphia,IL,94659,Truck,BMW,2010,2025-05-10,Prime Motors
+CUST0545,Casey,Brown,casey.brown3@autoclub.com,818-360-3784,San Jose,AZ,40107,Convertible,Chevrolet,2011,2023-07-20,Prime Motors
+CUST0312,Riley,Garcia,riley.garcia2@example.com,681-254-2166,San Diego,CA,75598,Convertible,Ford,2011,2023-09-20,Highway Auto
+CUST0014,Taylor,Garcia,taylor.garcia@mail.com,471-740-7932,Houston,AZ,36365,Hatchback,Tesla,2021,2024-02-10,City Cars
+CUST0678,Peyton,Rodriguez,peyton.rodriguez2@example.com,323-874-9713,Chicago,NY,46039,SUV,Audi,2022,2024-09-14,Metro Vehicles
+CUST0391,Jordan,Rodriguez,jordan.rodriguez2@autoclub.com,943-772-6703,Philadelphia,IL,39661,Hatchback,Chevrolet,2019,2024-10-07,Metro Vehicles
+CUST0081,Avery,Smith,avery.smith@example.com,935-437-4533,Houston,PA,21846,Truck,Tesla,2016,2025-04-22,AutoWorld
+CUST0153,Quinn,Rodriguez,quinn.rodriguez7@mail.com,396-349-7984,Houston,AZ,30210,Convertible,Toyota,2012,2023-12-14,AutoWorld
+CUST0614,Alex,Smith,alex.smith@mail.com,459-765-7302,Phoenix,PA,57560,Convertible,Audi,2024,2025-03-05,Prime Motors
+CUST0553,Avery,Johnson,avery.johnson1@carsales.net,955-970-4437,Houston,IL,56230,Convertible,Tesla,2024,2024-05-11,Highway Auto
+CUST0221,Casey,Davis,casey.davis@example.com,210-300-5239,Houston,AZ,77999,Hatchback,Ford,2018,2024-08-14,Highway Auto
+CUST0375,Morgan,Davis,morgan.davis2@mail.com,626-353-3988,San Diego,TX,37617,Truck,Audi,2019,2024-12-17,Highway Auto
+CUST0631,Alex,Garcia,alex.garcia2@autoclub.com,926-774-8949,San Diego,TX,24744,Sedan,Ford,2023,2025-01-13,AutoWorld
+CUST0547,Alex,Davis,alex.davis3@example.com,241-681-9261,Chicago,TX,79615,Truck,Audi,2016,2023-03-04,AutoWorld
+CUST0498,Peyton,Miller,peyton.miller1@example.com,655-380-6046,San Antonio,NY,88415,Coupe,Chevrolet,2011,2023-09-25,AutoWorld
+CUST0115,Jamie,Johnson,jamie.johnson@mail.com,646-803-7560,Dallas,NY,61873,Truck,Ford,2023,2024-02-13,Prime Motors
+CUST0694,Quinn,Martinez,quinn.martinez3@mail.com,266-802-3101,Los Angeles,CA,44029,Convertible,Tesla,2024,2024-07-31,City Cars
+CUST0747,Avery,Martinez,avery.martinez1@mail.com,457-297-6314,San Antonio,PA,27423,Truck,Audi,2015,2024-11-15,City Cars
+CUST0196,Morgan,Martinez,morgan.martinez@mail.com,606-445-6269,Phoenix,TX,71112,Coupe,Ford,2018,2023-11-05,City Cars
+CUST0757,Riley,Garcia,riley.garcia1@autoclub.com,584-775-8878,Los Angeles,IL,27911,SUV,Honda,2021,2023-03-24,Prime Motors
+CUST0053,Peyton,Johnson,peyton.johnson@carsales.net,415-747-2903,Philadelphia,TX,33086,Truck,Ford,2021,2022-12-07,Metro Vehicles
+CUST0430,Quinn,Brown,quinn.brown2@autoclub.com,938-264-9830,San Antonio,CA,78690,Convertible,Honda,2020,2023-01-26,Metro Vehicles
+CUST0671,Taylor,Garcia,taylor.garcia2@carsales.net,332-921-9408,Dallas,NY,37871,Sedan,Tesla,2017,2023-03-16,Prime Motors
+CUST0591,Taylor,Garcia,taylor.garcia1@example.com,325-456-9017,San Diego,CA,92361,Sedan,Tesla,2012,2025-09-10,AutoWorld
+CUST0424,Morgan,Johnson,morgan.johnson1@mail.com,848-644-6316,New York,CA,46188,Hatchback,Audi,2019,2025-03-09,Prime Motors
+CUST0154,Jordan,Smith,jordan.smith1@autoclub.com,866-415-7825,San Jose,PA,13969,Truck,Ford,2017,2024-03-26,Highway Auto
+CUST0658,Peyton,Rodriguez,peyton.rodriguez1@carsales.net,950-301-3527,Philadelphia,IL,28058,Hatchback,Chevrolet,2011,2024-09-22,AutoWorld
+CUST0625,Taylor,Miller,taylor.miller2@carsales.net,903-417-7283,San Antonio,PA,88275,Sedan,BMW,2014,2025-06-13,AutoWorld
+CUST0570,Peyton,Martinez,peyton.martinez2@mail.com,404-390-7254,Phoenix,AZ,74302,Convertible,Ford,2010,2024-03-01,Highway Auto
+CUST0018,Peyton,Smith,peyton.smith@example.com,262-612-6559,Los Angeles,CA,35112,SUV,Chevrolet,2013,2023-05-06,Prime Motors
+CUST0429,Peyton,Jones,peyton.jones1@autoclub.com,754-575-8439,New York,PA,76316,Sedan,BMW,2016,2024-10-26,City Cars
+CUST0523,Taylor,Rodriguez,taylor.rodriguez1@carsales.net,423-828-2740,San Diego,PA,43947,Sedan,Toyota,2011,2025-08-30,Metro Vehicles
+CUST0528,Jordan,Miller,jordan.miller2@carsales.net,286-847-8175,Houston,CA,14679,Truck,BMW,2013,2025-09-19,Prime Motors
+CUST0562,Taylor,Miller,taylor.miller@carsales.net,752-366-9743,Phoenix,NY,13266,SUV,Chevrolet,2016,2023-01-22,City Cars
+CUST0527,Jordan,Garcia,jordan.garcia2@autoclub.com,863-407-3893,Dallas,NY,60353,Coupe,Tesla,2020,2024-10-14,Highway Auto
+CUST0392,Alex,Jones,alex.jones1@mail.com,616-718-2744,Dallas,NY,75951,Sedan,Audi,2014,2023-12-14,Metro Vehicles
+CUST0333,Jamie,Davis,jamie.davis@mail.com,280-670-8277,San Jose,TX,21536,Hatchback,Ford,2023,2023-01-24,AutoWorld
+CUST0226,Jamie,Smith,jamie.smith1@mail.com,660-806-8037,San Antonio,NY,38153,Truck,Audi,2013,2024-04-18,AutoWorld
+CUST0431,Riley,Miller,riley.miller9@carsales.net,856-529-2809,San Diego,AZ,96362,SUV,Honda,2011,2025-08-12,AutoWorld
+CUST0749,Morgan,Smith,morgan.smith2@example.com,516-442-8020,Houston,AZ,20405,Coupe,Chevrolet,2010,2025-02-01,City Cars
+CUST0121,Taylor,Smith,taylor.smith5@carsales.net,202-955-7449,Phoenix,PA,32617,Truck,Chevrolet,2010,2024-06-20,Highway Auto
+CUST0731,Jamie,Davis,jamie.davis1@mail.com,313-332-9789,San Antonio,TX,19012,SUV,Audi,2016,2024-09-13,Prime Motors
+CUST0680,Casey,Davis,casey.davis3@autoclub.com,293-317-2627,Dallas,CA,47401,Coupe,Audi,2012,2024-10-31,AutoWorld
+CUST0372,Jordan,Rodriguez,jordan.rodriguez1@autoclub.com,959-469-9918,San Jose,CA,59369,Coupe,BMW,2020,2023-09-26,AutoWorld
+CUST0191,Avery,Brown,avery.brown@carsales.net,507-481-1998,Dallas,AZ,32955,Convertible,Chevrolet,2020,2023-06-19,AutoWorld
+CUST0791,Quinn,Rodriguez,quinn.rodriguez2@example.com,971-971-4399,Los Angeles,CA,88525,Sedan,BMW,2021,2024-11-06,Highway Auto
+CUST0490,Avery,Miller,avery.miller1@autoclub.com,637-944-5562,Philadelphia,CA,32449,Convertible,Ford,2011,2024-02-11,Metro Vehicles
+CUST0380,Taylor,Martinez,taylor.martinez1@example.com,381-687-1639,Dallas,AZ,25403,Truck,Honda,2011,2023-02-26,Metro Vehicles
+CUST0735,Quinn,Davis,quinn.davis2@carsales.net,593-874-4005,San Jose,NY,61583,SUV,Audi,2021,2025-08-12,Prime Motors
+CUST0302,Peyton,Smith,peyton.smith4@example.com,807-326-1871,Philadelphia,TX,76207,Truck,Toyota,2016,2025-03-01,Prime Motors
+CUST0071,Casey,Davis,casey.davis@carsales.net,495-878-7561,Dallas,NY,69614,Coupe,Ford,2011,2024-02-04,AutoWorld
+CUST0105,Quinn,Jones,quinn.jones@autoclub.com,306-791-9313,Houston,CA,96079,Sedan,Ford,2017,2024-08-07,Metro Vehicles
+CUST0041,Alex,Rodriguez,alex.rodriguez@mail.com,324-667-3184,San Diego,PA,79616,Hatchback,BMW,2018,2024-01-30,Metro Vehicles
+CUST0650,Avery,Smith,avery.smith1@carsales.net,790-523-2040,Phoenix,PA,64675,Sedan,Chevrolet,2024,2023-03-16,Metro Vehicles
+CUST0636,Taylor,Brown,taylor.brown@carsales.net,291-221-4411,Chicago,TX,62742,Sedan,Ford,2014,2024-12-29,Highway Auto
+CUST0670,Jamie,Martinez,jamie.martinez8@mail.com,475-408-7479,Houston,TX,74165,SUV,Honda,2021,2023-07-10,Metro Vehicles
+CUST0728,Quinn,Martinez,quinn.martinez5@carsales.net,590-409-7400,Los Angeles,AZ,60650,Sedan,Ford,2013,2023-03-13,Metro Vehicles
+CUST0211,Jordan,Smith,jordan.smith2@autoclub.com,655-568-5419,Los Angeles,CA,21442,Hatchback,BMW,2012,2023-06-11,Metro Vehicles
+CUST0462,Riley,Davis,riley.davis1@mail.com,960-887-4323,Houston,NY,33209,Convertible,Chevrolet,2024,2023-05-25,City Cars
+CUST0703,Casey,Smith,casey.smith3@example.com,729-536-4153,Los Angeles,NY,11610,Convertible,Audi,2019,2025-06-24,Prime Motors
+CUST0610,Casey,Martinez,casey.martinez2@autoclub.com,265-616-6954,Los Angeles,TX,28423,Convertible,Tesla,2013,2025-03-25,Metro Vehicles
+CUST0567,Casey,Davis,casey.davis2@autoclub.com,212-491-6651,Philadelphia,IL,68402,SUV,Tesla,2023,2025-05-14,Highway Auto
+CUST0751,Alex,Rodriguez,alex.rodriguez2@carsales.net,863-495-1388,Houston,PA,53420,SUV,BMW,2015,2024-07-01,AutoWorld
+CUST0164,Quinn,Miller,quinn.miller@carsales.net,925-776-5911,San Diego,NY,58281,Hatchback,BMW,2015,2025-03-30,City Cars
+CUST0767,Riley,Johnson,riley.johnson2@carsales.net,327-483-2052,Philadelphia,NY,86761,Hatchback,Tesla,2013,2023-03-07,AutoWorld
+CUST0458,Taylor,Davis,taylor.davis@mail.com,871-778-3589,Philadelphia,NY,83051,SUV,Ford,2018,2025-03-12,Prime Motors
+CUST0592,Jordan,Garcia,jordan.garcia@example.com,383-591-6356,Chicago,IL,91522,Sedan,Tesla,2019,2025-04-26,Metro Vehicles
+CUST0126,Peyton,Brown,peyton.brown1@mail.com,340-358-2264,Phoenix,NY,76543,Sedan,Tesla,2022,2022-11-27,City Cars
+CUST0335,Avery,Rodriguez,avery.rodriguez1@mail.com,870-887-8474,Philadelphia,IL,17113,Hatchback,Ford,2023,2024-08-10,Metro Vehicles
+CUST0660,Taylor,Rodriguez,taylor.rodriguez2@carsales.net,433-341-8025,San Antonio,TX,70129,Truck,Ford,2023,2022-12-18,AutoWorld
+CUST0283,Jordan,Brown,jordan.brown1@autoclub.com,527-371-2453,Philadelphia,TX,11493,SUV,Tesla,2014,2024-09-06,AutoWorld
+CUST0247,Morgan,Johnson,morgan.johnson@example.com,343-970-3017,San Jose,PA,60335,Coupe,Audi,2015,2023-06-14,Prime Motors
+CUST0155,Morgan,Davis,morgan.davis1@autoclub.com,664-274-1981,Chicago,TX,64476,SUV,Ford,2017,2023-04-03,Metro Vehicles
+CUST0710,Alex,Miller,alex.miller2@example.com,275-566-1491,Dallas,NY,28664,SUV,Tesla,2014,2023-05-23,Metro Vehicles
+CUST0228,Quinn,Davis,quinn.davis1@carsales.net,801-316-6700,Philadelphia,TX,90918,Convertible,BMW,2012,2024-03-10,AutoWorld
+CUST0113,Avery,Miller,avery.miller1@example.com,606-959-1693,San Antonio,NY,70260,Coupe,BMW,2024,2025-06-03,Highway Auto
+CUST0777,Jordan,Miller,jordan.miller6@carsales.net,934-960-7252,Dallas,TX,40587,Sedan,Ford,2013,2024-05-28,AutoWorld
+CUST0460,Quinn,Jones,quinn.jones2@mail.com,810-437-4783,New York,IL,20417,SUV,BMW,2021,2023-03-09,Metro Vehicles
+CUST0183,Peyton,Johnson,peyton.johnson1@carsales.net,256-664-3161,Dallas,TX,69873,Convertible,Chevrolet,2019,2025-07-14,City Cars
+CUST0417,Jordan,Davis,jordan.davis2@mail.com,729-982-5454,Phoenix,PA,79722,Hatchback,Honda,2022,2024-05-08,AutoWorld
+CUST0537,Morgan,Williams,morgan.williams@example.com,810-384-9190,San Jose,NY,92207,Coupe,Chevrolet,2023,2024-03-03,AutoWorld
+CUST0362,Alex,Rodriguez,alex.rodriguez@carsales.net,860-762-2198,Phoenix,PA,18829,SUV,Tesla,2014,2025-04-22,Metro Vehicles
+CUST0760,Casey,Smith,casey.smith2@carsales.net,634-953-5043,Houston,TX,14522,Truck,Tesla,2024,2023-10-31,AutoWorld
+CUST0106,Casey,Johnson,casey.johnson@autoclub.com,787-431-8030,Dallas,AZ,90422,Convertible,Tesla,2020,2025-09-17,City Cars
+CUST0279,Casey,Smith,casey.smith@example.com,351-800-3320,Los Angeles,AZ,57826,Truck,Tesla,2011,2023-10-06,Highway Auto
+CUST0481,Alex,Williams,alex.williams@carsales.net,359-842-8546,Dallas,IL,70616,Truck,Toyota,2022,2023-07-16,Metro Vehicles
+CUST0544,Riley,Brown,riley.brown3@autoclub.com,330-232-1977,Phoenix,CA,24563,Hatchback,Chevrolet,2023,2023-04-01,Prime Motors
+CUST0658,Peyton,Rodriguez,peyton.rodriguez3@carsales.net,580-862-7950,Los Angeles,IL,28058,Hatchback,Chevrolet,2011,2024-09-22,AutoWorld
+CUST0040,Morgan,Davis,morgan.davis@carsales.net,609-449-3417,New York,NY,65724,Truck,BMW,2013,2024-11-14,Highway Auto
+CUST0739,Peyton,Garcia,peyton.garcia2@example.com,284-761-4969,San Diego,CA,71707,SUV,Honda,2023,2024-04-17,AutoWorld
+CUST0137,Casey,Jones,casey.jones@example.com,557-569-3283,Chicago,PA,96127,Convertible,Tesla,2020,2025-04-11,City Cars
+CUST0337,Riley,Rodriguez,riley.rodriguez3@autoclub.com,918-308-1750,Chicago,TX,28408,Sedan,Ford,2023,2023-07-25,Metro Vehicles
+CUST0246,Taylor,Johnson,taylor.johnson@example.com,824-865-3688,San Diego,IL,37925,Hatchback,BMW,2020,2025-01-03,Highway Auto
+CUST0204,Jordan,Smith,jordan.smith@example.com,615-588-7179,Dallas,TX,17355,Truck,Honda,2020,2025-10-21,AutoWorld
+CUST0064,Alex,Martinez,alex.martinez@example.com,981-412-4457,Phoenix,PA,20641,SUV,BMW,2012,2024-07-06,AutoWorld
+CUST0067,Jordan,Smith,jordan.smith1@mail.com,514-809-5728,San Diego,NY,71433,Truck,Chevrolet,2021,2024-02-26,City Cars
+CUST0044,Jamie,Williams,jamie.williams@mail.com,265-624-7678,Philadelphia,AZ,71069,SUV,Audi,2016,2025-07-05,Highway Auto
+CUST0251,Jordan,Smith,jordan.smith3@autoclub.com,420-240-1990,San Antonio,AZ,47550,Hatchback,Chevrolet,2020,2023-01-18,Highway Auto
+CUST0713,Casey,Brown,casey.brown4@autoclub.com,667-445-7056,Philadelphia,PA,32460,Truck,Toyota,2018,2023-06-05,AutoWorld
+CUST0322,Avery,Martinez,avery.martinez1@example.com,489-316-2741,San Diego,CA,89823,Convertible,Honda,2013,2024-05-20,City Cars
+CUST0045,Jamie,Martinez,jamie.martinez@example.com,983-789-7232,San Diego,NY,56105,Hatchback,BMW,2014,2023-09-03,Metro Vehicles
+CUST0290,Peyton,Johnson,peyton.johnson@autoclub.com,607-682-9013,Phoenix,NY,94130,SUV,Ford,2018,2023-09-08,Highway Auto
+CUST0723,Riley,Jones,riley.jones2@mail.com,922-818-3258,Dallas,IL,11118,Coupe,Audi,2022,2024-03-06,City Cars
+CUST0629,Riley,Jones,riley.jones3@autoclub.com,729-520-8139,Chicago,IL,74392,Convertible,Audi,2022,2025-01-04,Highway Auto
+CUST0522,Alex,Jones,alex.jones@autoclub.com,382-651-2137,San Diego,CA,89993,Truck,Chevrolet,2016,2024-11-09,AutoWorld
+CUST0079,Avery,Martinez,avery.martinez@autoclub.com,302-650-2633,Dallas,TX,12011,Hatchback,Audi,2021,2025-01-18,Prime Motors
+CUST0596,Quinn,Garcia,quinn.garcia2@carsales.net,775-360-9301,New York,TX,44523,Convertible,Tesla,2017,2023-09-28,City Cars
+CUST0016,Jordan,Smith,jordan.smith@mail.com,269-232-6413,Los Angeles,AZ,41195,SUV,BMW,2014,2023-02-19,Prime Motors
+CUST0707,Alex,Davis,alex.davis2@autoclub.com,400-405-4297,Los Angeles,IL,34819,Truck,Tesla,2020,2023-03-11,Highway Auto
+CUST0423,Casey,Williams,casey.williams2@example.com,962-762-9534,Los Angeles,IL,73075,SUV,Ford,2020,2024-03-08,AutoWorld
+CUST0233,Riley,Williams,riley.williams2@carsales.net,779-960-9115,Dallas,AZ,24838,Coupe,Audi,2019,2025-03-21,Metro Vehicles
+CUST0011,Riley,Davis,riley.davis@mail.com,664-203-5315,Dallas,CA,76542,Truck,Ford,2024,2025-04-06,Metro Vehicles
+CUST0095,Avery,Miller,avery.miller@example.com,607-482-4109,Los Angeles,TX,22015,Truck,Tesla,2020,2024-09-01,Metro Vehicles
+CUST0699,Riley,Brown,riley.brown4@example.com,684-444-6583,New York,IL,78114,Sedan,Audi,2022,2024-07-13,Metro Vehicles
+CUST0244,Jordan,Williams,jordan.williams@mail.com,731-896-8291,New York,NY,55032,Hatchback,Tesla,2023,2025-03-08,Prime Motors
+CUST0060,Morgan,Jones,morgan.jones@mail.com,569-383-5952,New York,PA,80010,Sedan,Toyota,2012,2024-04-27,Metro Vehicles
+CUST0121,Taylor,Smith,taylor.smith1@carsales.net,305-551-2381,Dallas,PA,32617,Truck,Chevrolet,2010,2024-06-20,Highway Auto
+CUST0352,Avery,Garcia,avery.garcia1@example.com,317-884-6668,San Diego,CA,94182,Sedan,Tesla,2019,2024-06-28,City Cars
+CUST0199,Peyton,Rodriguez,peyton.rodriguez1@autoclub.com,463-981-9005,San Diego,TX,32050,SUV,Honda,2021,2023-11-19,Metro Vehicles
+CUST0634,Jordan,Miller,jordan.miller2@mail.com,229-283-8540,San Diego,TX,92359,Coupe,Toyota,2014,2025-10-29,Metro Vehicles
+CUST0790,Jordan,Miller,jordan.miller2@example.com,930-750-4029,San Antonio,PA,12588,Hatchback,Toyota,2016,2022-11-20,Metro Vehicles
+CUST0429,Peyton,Jones,peyton.jones1@autoclub.com,977-773-6690,New York,PA,76316,Sedan,BMW,2016,2024-10-26,City Cars
+CUST0665,Avery,Jones,avery.jones3@autoclub.com,975-850-3621,New York,NY,80770,SUV,Audi,2019,2024-05-29,City Cars
+CUST0119,Riley,Martinez,riley.martinez1@example.com,560-719-2215,Phoenix,TX,69233,Coupe,Audi,2010,2025-07-16,City Cars
+CUST0421,Alex,Jones,alex.jones1@carsales.net,872-456-4704,Chicago,CA,42778,Sedan,Toyota,2023,2023-09-20,Prime Motors
+CUST0441,Riley,Jones,riley.jones@example.com,784-609-4562,Los Angeles,PA,52558,SUV,Chevrolet,2022,2023-02-25,Metro Vehicles
+CUST0453,Jamie,Brown,jamie.brown1@carsales.net,326-782-8999,Phoenix,TX,88263,SUV,Honda,2018,2025-05-13,Metro Vehicles
+CUST0397,Morgan,Brown,morgan.brown@autoclub.com,411-434-4322,Houston,AZ,56665,Sedan,Toyota,2012,2025-04-05,Highway Auto
+CUST0054,Avery,Garcia,avery.garcia@carsales.net,646-948-5397,Philadelphia,CA,21359,SUV,Audi,2014,2023-05-01,Highway Auto
+CUST0019,Riley,Garcia,riley.garcia@mail.com,277-653-2604,New York,PA,80855,Sedan,Audi,2023,2025-10-10,Prime Motors
+CUST0714,Taylor,Williams,taylor.williams@mail.com,396-745-7196,Philadelphia,IL,88584,Sedan,Audi,2016,2024-06-27,Metro Vehicles
+CUST0668,Riley,Jones,riley.jones1@mail.com,931-586-9514,Houston,NY,52971,Coupe,Chevrolet,2018,2024-10-11,AutoWorld
+CUST0027,Riley,Jones,riley.jones@mail.com,934-551-4335,Phoenix,AZ,74032,Sedan,Tesla,2014,2025-07-28,Highway Auto
+CUST0270,Quinn,Martinez,quinn.martinez@autoclub.com,639-403-8764,Houston,PA,68121,Sedan,Audi,2022,2025-02-19,City Cars
+CUST0022,Alex,Martinez,alex.martinez@carsales.net,714-743-3579,New York,AZ,20500,Sedan,BMW,2023,2024-10-25,AutoWorld
+CUST0234,Casey,Rodriguez,casey.rodriguez@example.com,978-936-8231,Dallas,CA,65725,Coupe,Audi,2011,2024-06-21,AutoWorld
+CUST0732,Riley,Davis,riley.davis3@carsales.net,362-818-6084,San Jose,CA,75860,Coupe,Honda,2021,2023-04-15,AutoWorld
+CUST0490,Avery,Miller,avery.miller1@autoclub.com,344-921-5641,San Jose,CA,32449,Convertible,Ford,2011,2024-02-11,Metro Vehicles
+CUST0359,Peyton,Williams,peyton.williams1@mail.com,339-964-7406,Dallas,IL,93105,Truck,Audi,2012,2024-03-09,City Cars
+CUST0663,Casey,Smith,casey.smith@autoclub.com,740-825-3406,San Antonio,TX,94394,Truck,Ford,2013,2023-05-19,Highway Auto
+CUST0721,Alex,Williams,alex.williams2@carsales.net,439-471-2243,Philadelphia,NY,48603,Convertible,BMW,2023,2023-01-17,AutoWorld
+CUST0640,Jamie,Johnson,jamie.johnson1@carsales.net,507-352-3093,Phoenix,CA,78562,Convertible,Toyota,2016,2024-03-14,Metro Vehicles
+CUST0575,Alex,Jones,alex.jones1@autoclub.com,742-854-2258,Dallas,CA,92317,Convertible,Audi,2012,2025-04-30,Prime Motors
+CUST0287,Peyton,Smith,peyton.smith@carsales.net,389-458-9049,Chicago,NY,23272,SUV,Chevrolet,2015,2024-09-15,Metro Vehicles
+CUST0043,Riley,Garcia,riley.garcia@example.com,930-492-4841,Phoenix,IL,51904,SUV,Honda,2024,2025-05-28,Prime Motors
+CUST0278,Jordan,Smith,jordan.smith2@mail.com,816-424-1326,Dallas,TX,10089,SUV,Ford,2015,2024-09-23,Prime Motors
+CUST0565,Casey,Smith,casey.smith1@example.com,969-598-3960,Phoenix,CA,12955,Truck,Tesla,2011,2023-05-12,AutoWorld
+CUST0491,Peyton,Smith,peyton.smith1@mail.com,229-682-1826,Los Angeles,TX,17051,Hatchback,Honda,2011,2023-06-20,Metro Vehicles
+CUST0297,Riley,Rodriguez,riley.rodriguez2@autoclub.com,620-470-7275,San Diego,AZ,89817,SUV,Ford,2017,2025-08-25,Highway Auto
+CUST0626,Alex,Miller,alex.miller3@mail.com,682-562-1745,New York,IL,76131,Coupe,Chevrolet,2019,2023-09-21,City Cars
+CUST0355,Jamie,Johnson,jamie.johnson1@mail.com,750-919-8130,Los Angeles,PA,99921,Hatchback,Tesla,2012,2025-09-22,City Cars
+CUST0037,Taylor,Martinez,taylor.martinez@autoclub.com,615-761-1006,Phoenix,IL,37549,Hatchback,Chevrolet,2016,2024-01-20,Highway Auto
+CUST0789,Morgan,Smith,morgan.smith1@carsales.net,480-910-2549,San Jose,CA,60326,Coupe,BMW,2017,2023-06-05,Prime Motors
+CUST0506,Alex,Martinez,alex.martinez3@carsales.net,948-442-9220,Phoenix,TX,81587,Sedan,Toyota,2019,2023-10-20,Metro Vehicles
+CUST0242,Peyton,Garcia,peyton.garcia1@example.com,638-407-3161,Phoenix,CA,45916,Coupe,Toyota,2011,2023-11-02,City Cars
+CUST0689,Casey,Smith,casey.smith2@mail.com,861-202-8807,New York,NY,98172,Convertible,Tesla,2012,2023-07-17,Highway Auto
+CUST0338,Morgan,Brown,morgan.brown2@example.com,602-420-8488,Houston,PA,54293,Sedan,Tesla,2011,2023-07-15,Metro Vehicles
+CUST0561,Alex,Miller,alex.miller2@mail.com,651-466-7056,Chicago,CA,83726,Truck,Ford,2021,2025-08-30,City Cars
+CUST0100,Alex,Garcia,alex.garcia@carsales.net,636-902-2768,San Diego,PA,68138,Coupe,BMW,2011,2025-05-28,Prime Motors
+CUST0061,Riley,Williams,riley.williams@carsales.net,305-212-5658,San Diego,TX,67733,Sedan,Ford,2015,2024-10-28,Highway Auto
+CUST0343,Jordan,Miller,jordan.miller1@carsales.net,796-784-7839,Dallas,IL,65363,Convertible,Toyota,2022,2025-10-14,AutoWorld
+CUST0055,Quinn,Martinez,quinn.martinez1@carsales.net,544-229-9098,Dallas,CA,73904,Coupe,Ford,2013,2023-11-12,City Cars
+CUST0347,Riley,Brown,riley.brown@carsales.net,430-848-7025,San Jose,AZ,89087,Coupe,Chevrolet,2013,2024-10-09,Prime Motors
+CUST0034,Alex,Johnson,alex.johnson@carsales.net,553-946-6139,San Antonio,AZ,77033,Convertible,Honda,2011,2023-09-13,City Cars
+CUST0679,Peyton,Johnson,peyton.johnson1@autoclub.com,611-803-1737,San Diego,NY,54558,Hatchback,Toyota,2016,2024-11-05,Metro Vehicles
+CUST0270,Quinn,Martinez,quinn.martinez@autoclub.com,276-222-2056,Houston,PA,68121,Sedan,Audi,2022,2025-02-19,City Cars
+CUST0483,Alex,Miller,alex.miller1@carsales.net,841-747-3719,San Jose,AZ,61061,Coupe,Tesla,2012,2025-03-15,City Cars
+CUST0114,Quinn,Davis,quinn.davis@carsales.net,496-317-7636,New York,IL,32527,Truck,Ford,2022,2023-04-12,AutoWorld
+CUST0654,Jamie,Garcia,jamie.garcia2@autoclub.com,440-414-1770,New York,IL,44184,SUV,Audi,2015,2024-12-20,Metro Vehicles
+CUST0059,Jordan,Rodriguez,jordan.rodriguez1@mail.com,396-421-8933,Phoenix,PA,87278,Convertible,Ford,2022,2022-12-01,AutoWorld
+CUST0705,Riley,Martinez,riley.martinez2@autoclub.com,540-666-3323,Phoenix,AZ,80928,SUV,Chevrolet,2022,2025-01-15,City Cars
+CUST0320,Alex,Johnson,alex.johnson@example.com,249-906-2897,San Antonio,TX,59840,Hatchback,Tesla,2011,2024-06-10,Prime Motors
+CUST0766,Taylor,Brown,taylor.brown1@example.com,967-387-4143,Phoenix,TX,67767,Truck,Honda,2020,2025-03-31,AutoWorld
+CUST0248,Morgan,Jones,morgan.jones1@example.com,454-766-5668,New York,PA,49537,Convertible,BMW,2013,2022-12-15,Prime Motors
+CUST0722,Riley,Brown,riley.brown5@example.com,321-273-6902,New York,AZ,36254,Truck,Ford,2015,2024-10-03,City Cars
+CUST0548,Peyton,Garcia,peyton.garcia2@mail.com,285-771-1203,San Antonio,CA,27394,SUV,Tesla,2015,2024-03-14,AutoWorld
+CUST0295,Taylor,Martinez,taylor.martinez1@autoclub.com,527-944-2097,Los Angeles,TX,82923,Coupe,BMW,2016,2024-01-12,Highway Auto
+CUST0162,Casey,Miller,casey.miller@autoclub.com,973-347-4261,San Jose,AZ,62610,Sedan,Toyota,2018,2025-08-19,Prime Motors
+CUST0755,Jordan,Miller,jordan.miller4@carsales.net,586-371-8712,San Diego,TX,76229,SUV,Audi,2019,2023-06-06,Highway Auto
+CUST0748,Peyton,Johnson,peyton.johnson2@autoclub.com,218-823-8354,San Antonio,AZ,93963,Convertible,BMW,2021,2024-07-21,AutoWorld
+CUST0258,Morgan,Smith,morgan.smith@carsales.net,572-592-3458,Chicago,NY,82465,SUV,Ford,2022,2023-07-05,Prime Motors
+CUST0795,Morgan,Smith,morgan.smith2@mail.com,345-506-4526,Chicago,AZ,82361,Coupe,Honda,2013,2023-11-05,Metro Vehicles
+CUST0230,Quinn,Davis,quinn.davis2@carsales.net,390-698-9804,Chicago,AZ,31871,SUV,Honda,2017,2024-03-28,City Cars
+CUST0024,Casey,Brown,casey.brown@autoclub.com,605-334-5915,San Diego,IL,19508,Convertible,BMW,2010,2023-04-16,AutoWorld
+CUST0339,Jordan,Garcia,jordan.garcia@carsales.net,874-803-9260,Chicago,TX,10568,Convertible,Chevrolet,2018,2025-08-02,Metro Vehicles
+CUST0554,Riley,Smith,riley.smith1@example.com,581-553-8412,San Diego,AZ,79033,Hatchback,Tesla,2023,2025-03-03,Metro Vehicles
+CUST0053,Peyton,Johnson,peyton.johnson@carsales.net,570-850-8532,Chicago,TX,33086,Truck,Ford,2021,2022-12-07,Metro Vehicles
+CUST0237,Riley,Martinez,riley.martinez@autoclub.com,726-895-2560,Chicago,TX,17770,Truck,Audi,2014,2025-02-23,Prime Motors
+CUST0511,Riley,Garcia,riley.garcia3@example.com,329-717-2259,Phoenix,IL,27372,Coupe,Audi,2019,2024-04-13,City Cars
+CUST0104,Jordan,Miller,jordan.miller@mail.com,769-261-6400,Los Angeles,TX,56346,Truck,Toyota,2023,2023-06-27,City Cars
+CUST0306,Peyton,Jones,peyton.jones@mail.com,677-509-9530,San Jose,TX,86609,Convertible,Tesla,2011,2025-10-25,City Cars
+CUST0530,Alex,Davis,alex.davis3@example.com,416-869-9570,San Diego,PA,80328,Sedan,Toyota,2012,2024-07-20,Prime Motors
+CUST0081,Avery,Smith,avery.smith@example.com,440-846-5708,Houston,PA,21846,Truck,Tesla,2016,2025-04-22,AutoWorld
+CUST0583,Taylor,Rodriguez,taylor.rodriguez2@mail.com,717-783-2119,Los Angeles,AZ,11832,Truck,Honda,2018,2024-08-22,City Cars
+CUST0727,Jamie,Davis,jamie.davis2@autoclub.com,533-801-1380,San Jose,NY,28236,Convertible,Tesla,2012,2024-01-03,Metro Vehicles
+CUST0248,Morgan,Jones,morgan.jones1@carsales.net,357-583-9502,New York,PA,49537,Convertible,BMW,2013,2022-12-15,Prime Motors
+CUST0702,Jamie,Johnson,jamie.johnson2@carsales.net,438-813-1173,San Diego,TX,70844,Convertible,BMW,2022,2023-06-17,AutoWorld
+CUST0216,Jamie,Martinez,jamie.martinez2@mail.com,507-528-4290,San Diego,IL,33283,Coupe,Tesla,2016,2024-01-26,Highway Auto
+CUST0366,Casey,Jones,casey.jones@carsales.net,764-311-3879,San Jose,NY,46780,Convertible,Honda,2023,2025-01-27,City Cars
+CUST0742,Jordan,Davis,jordan.davis1@autoclub.com,654-253-1076,New York,TX,36442,Coupe,Honda,2024,2024-06-16,Prime Motors
+CUST0754,Taylor,Brown,taylor.brown1@mail.com,634-380-5079,Phoenix,IL,85552,Coupe,Audi,2017,2024-09-23,Highway Auto
+CUST0585,Taylor,Miller,taylor.miller1@carsales.net,634-419-9425,Houston,TX,24790,Sedan,Chevrolet,2022,2024-02-05,AutoWorld
+CUST0213,Jamie,Davis,jamie.davis1@example.com,942-772-4977,San Jose,AZ,32227,SUV,Honda,2020,2023-09-22,City Cars
+CUST0195,Avery,Brown,avery.brown1@carsales.net,413-540-5967,New York,CA,34906,Truck,Audi,2021,2025-03-14,Highway Auto
+CUST0509,Peyton,Garcia,peyton.garcia@carsales.net,787-951-6431,San Antonio,IL,48616,Sedan,Tesla,2014,2024-12-01,Metro Vehicles
+CUST0541,Peyton,Rodriguez,peyton.rodriguez1@example.com,272-440-8287,San Jose,AZ,52725,Truck,Tesla,2016,2024-09-28,City Cars
+CUST0349,Riley,Smith,riley.smith@autoclub.com,677-926-3536,New York,CA,52287,Truck,BMW,2019,2025-07-28,City Cars
+CUST0074,Taylor,Jones,taylor.jones@example.com,765-617-2527,Houston,NY,70482,Hatchback,Tesla,2011,2024-12-29,City Cars
+CUST0800,Jordan,Johnson,jordan.johnson@mail.com,739-945-6022,San Jose,TX,22522,Truck,BMW,2018,2023-11-26,City Cars
+CUST0582,Quinn,Brown,quinn.brown1@mail.com,389-886-6759,New York,NY,29078,Convertible,Ford,2023,2024-04-20,City Cars
+CUST0418,Taylor,Williams,taylor.williams@autoclub.com,313-852-8460,San Jose,TX,45669,SUV,Ford,2021,2023-02-06,AutoWorld
+CUST0369,Avery,Johnson,avery.johnson@carsales.net,572-714-1173,Houston,AZ,99674,SUV,Chevrolet,2012,2022-12-23,Prime Motors
+CUST0770,Casey,Davis,casey.davis1@carsales.net,825-258-6833,Philadelphia,NY,10404,Truck,Audi,2017,2023-08-10,Prime Motors
+CUST0209,Peyton,Garcia,peyton.garcia@mail.com,564-766-7150,San Antonio,CA,99088,Sedan,Audi,2019,2023-09-23,Metro Vehicles
+CUST0645,Jamie,Martinez,jamie.martinez2@carsales.net,510-833-6910,San Antonio,IL,21486,Sedan,Honda,2012,2025-02-06,AutoWorld
+CUST0025,Jordan,Rodriguez,jordan.rodriguez@mail.com,718-471-3170,Philadelphia,NY,42018,SUV,Chevrolet,2015,2024-04-05,Metro Vehicles
+CUST0597,Riley,Miller,riley.miller2@example.com,228-804-1739,Chicago,IL,55727,Truck,Ford,2022,2025-09-15,Highway Auto
+CUST0089,Avery,Miller,avery.miller@autoclub.com,368-463-8894,Phoenix,PA,54396,Hatchback,Toyota,2022,2025-03-19,Prime Motors
+CUST0197,Avery,Garcia,avery.garcia1@carsales.net,300-939-8692,Philadelphia,CA,58589,Sedan,BMW,2015,2023-07-16,Prime Motors
+CUST0542,Morgan,Johnson,morgan.johnson2@autoclub.com,433-300-4884,San Antonio,CA,59221,Sedan,Chevrolet,2024,2024-08-15,Metro Vehicles
+CUST0166,Jamie,Williams,jamie.williams1@mail.com,232-786-2800,Houston,NY,67807,SUV,Chevrolet,2015,2023-07-06,Prime Motors
+CUST0207,Quinn,Brown,quinn.brown1@carsales.net,893-753-6435,San Antonio,PA,28343,Convertible,Tesla,2022,2025-06-02,City Cars
+CUST0231,Peyton,Martinez,peyton.martinez@example.com,567-209-8939,Chicago,CA,60324,Truck,Chevrolet,2018,2023-01-09,Highway Auto
+CUST0293,Quinn,Brown,quinn.brown2@carsales.net,506-280-7468,New York,AZ,84870,Convertible,Tesla,2024,2022-12-17,Metro Vehicles
+CUST0449,Alex,Brown,alex.brown@mail.com,901-582-3555,Los Angeles,NY,17148,Coupe,Toyota,2013,2025-01-11,City Cars
+CUST0503,Taylor,Garcia,taylor.garcia2@mail.com,392-768-7301,Philadelphia,TX,30220,SUV,Toyota,2014,2025-02-25,AutoWorld
+CUST0259,Jamie,Miller,jamie.miller1@autoclub.com,279-785-7108,Los Angeles,AZ,98254,SUV,Honda,2024,2025-07-25,Metro Vehicles
+CUST0201,Alex,Brown,alex.brown@carsales.net,582-261-8916,San Diego,NY,10866,Sedan,Toyota,2018,2023-07-21,Metro Vehicles
+CUST0511,Riley,Garcia,riley.garcia7@autoclub.com,663-375-6355,Phoenix,IL,27372,Coupe,Audi,2019,2024-04-13,City Cars
+CUST0588,Peyton,Miller,peyton.miller1@mail.com,213-890-9055,Los Angeles,TX,67417,Sedan,Honda,2018,2025-05-19,Highway Auto
+CUST0581,Jordan,Smith,jordan.smith2@example.com,433-737-9243,Chicago,NY,49537,Sedan,Audi,2020,2025-10-19,AutoWorld
+CUST0137,Casey,Jones,casey.jones@example.com,565-269-6649,Houston,PA,96127,Convertible,Tesla,2020,2025-04-11,City Cars
+CUST0387,Jordan,Williams,jordan.williams@carsales.net,814-645-2444,Los Angeles,IL,39067,Convertible,Toyota,2015,2025-05-30,Highway Auto
+CUST0461,Peyton,Miller,peyton.miller@mail.com,596-703-8763,Chicago,CA,35330,Hatchback,Audi,2013,2025-09-04,AutoWorld
+CUST0111,Peyton,Rodriguez,peyton.rodriguez@autoclub.com,246-425-7475,San Jose,NY,11007,SUV,Audi,2013,2024-03-02,Prime Motors
+CUST0329,Casey,Martinez,casey.martinez1@example.com,900-944-3140,San Diego,TX,24802,Hatchback,Toyota,2024,2023-07-21,AutoWorld
+CUST0693,Morgan,Smith,morgan.smith1@mail.com,853-605-2817,Phoenix,AZ,75578,Convertible,Honda,2017,2024-11-25,Metro Vehicles
+CUST0706,Quinn,Miller,quinn.miller1@autoclub.com,577-208-9481,San Jose,PA,98906,SUV,BMW,2012,2025-07-15,Metro Vehicles
+CUST0647,Taylor,Garcia,taylor.garcia1@carsales.net,222-319-3721,Chicago,PA,68361,Sedan,Audi,2017,2023-03-20,Highway Auto
+CUST0622,Alex,Rodriguez,alex.rodriguez1@carsales.net,991-664-9096,Los Angeles,CA,36626,Coupe,Tesla,2013,2024-05-13,Highway Auto
+CUST0384,Quinn,Jones,quinn.jones1@autoclub.com,748-633-6990,San Jose,IL,99208,Hatchback,BMW,2016,2024-09-18,Metro Vehicles
+CUST0106,Casey,Johnson,casey.johnson2@example.com,468-384-2520,Philadelphia,AZ,90422,Convertible,Tesla,2020,2025-09-17,City Cars
+CUST0075,Avery,Jones,avery.jones@carsales.net,694-683-4993,San Diego,AZ,28958,Convertible,BMW,2016,2024-10-15,Prime Motors
+CUST0039,Riley,Brown,riley.brown@mail.com,350-225-1757,Houston,TX,90120,Hatchback,Chevrolet,2023,2025-06-13,Metro Vehicles
+CUST0394,Quinn,Smith,quinn.smith@carsales.net,319-464-2106,San Antonio,PA,38885,Coupe,Chevrolet,2020,2024-07-27,City Cars
+CUST0627,Taylor,Rodriguez,taylor.rodriguez2@example.com,794-383-5264,Chicago,AZ,74597,Hatchback,Honda,2024,2023-12-16,AutoWorld
+CUST0066,Jordan,Brown,jordan.brown@autoclub.com,840-803-4241,San Antonio,NY,81376,Coupe,Audi,2013,2025-01-08,Prime Motors
+CUST0745,Jordan,Brown,jordan.brown1@mail.com,308-565-6298,Chicago,NY,62709,Sedan,Chevrolet,2020,2024-02-01,Prime Motors
+CUST0108,Jordan,Williams,jordan.williams1@example.com,293-964-9691,Houston,TX,65028,SUV,Ford,2017,2023-12-12,City Cars
+CUST0243,Taylor,Smith,taylor.smith2@carsales.net,840-512-4836,San Antonio,PA,21953,Sedan,Honda,2021,2025-04-29,Highway Auto
+CUST0704,Quinn,Williams,quinn.williams@autoclub.com,563-631-8887,San Jose,TX,34369,Sedan,Toyota,2013,2025-02-01,Prime Motors
+CUST0798,Taylor,Miller,taylor.miller3@carsales.net,588-226-5055,Los Angeles,IL,26334,Truck,BMW,2018,2025-03-29,Highway Auto
+CUST0512,Alex,Johnson,alex.johnson@mail.com,805-956-3476,San Diego,IL,32989,Hatchback,Honda,2014,2024-07-14,Metro Vehicles
+CUST0682,Casey,Williams,casey.williams3@carsales.net,531-464-7152,Los Angeles,NY,36549,Hatchback,BMW,2013,2024-07-13,Metro Vehicles
+CUST0506,Alex,Martinez,alex.martinez3@carsales.net,251-861-5078,Phoenix,TX,81587,Sedan,Toyota,2019,2023-10-20,Metro Vehicles
+CUST0238,Morgan,Williams,morgan.williams@autoclub.com,453-979-7434,San Diego,CA,85684,Truck,Chevrolet,2020,2024-05-08,Highway Auto
+CUST0756,Alex,Davis,alex.davis@carsales.net,285-977-5918,San Jose,AZ,30027,Coupe,Chevrolet,2018,2024-11-15,Highway Auto
+CUST0031,Jamie,Smith,jamie.smith@mail.com,954-540-7745,Houston,IL,30866,Hatchback,Audi,2022,2025-04-02,AutoWorld
+CUST0047,Taylor,Martinez,taylor.martinez@example.com,603-806-1444,Los Angeles,PA,66179,SUV,Toyota,2012,2023-04-09,City Cars
+CUST0414,Morgan,Johnson,morgan.johnson1@carsales.net,515-574-7753,Phoenix,CA,49789,Convertible,Audi,2010,2025-11-09,Prime Motors
+CUST0633,Quinn,Williams,quinn.williams3@carsales.net,278-452-9161,Los Angeles,IL,13402,Hatchback,Ford,2014,2025-03-05,Metro Vehicles
+CUST0357,Peyton,Davis,peyton.davis1@carsales.net,523-217-7381,Los Angeles,AZ,10773,Truck,BMW,2020,2025-07-03,AutoWorld
+CUST0772,Alex,Miller,alex.miller3@example.com,848-568-1749,Philadelphia,PA,68236,Hatchback,Tesla,2013,2023-02-21,Metro Vehicles
+CUST0792,Casey,Johnson,casey.johnson@example.com,331-788-4378,Chicago,NY,83727,Sedan,Toyota,2014,2025-08-30,Metro Vehicles
+CUST0332,Peyton,Garcia,peyton.garcia1@mail.com,276-969-9055,Philadelphia,CA,53371,Convertible,Honda,2014,2025-07-29,Metro Vehicles
+CUST0785,Peyton,Jones,peyton.jones1@mail.com,414-423-4205,New York,IL,85455,Hatchback,Chevrolet,2011,2025-01-11,Prime Motors
+CUST0133,Peyton,Garcia,peyton.garcia@example.com,281-219-5193,Houston,CA,81932,Hatchback,Toyota,2021,2022-11-25,City Cars
+CUST0539,Riley,Smith,riley.smith@mail.com,315-352-8772,San Diego,CA,30940,Sedan,Tesla,2020,2025-08-13,City Cars
+CUST0750,Morgan,Williams,morgan.williams2@carsales.net,409-857-1621,Houston,PA,88390,SUV,Ford,2017,2024-01-06,City Cars
+CUST0590,Peyton,Jones,peyton.jones2@autoclub.com,974-859-7557,Philadelphia,TX,97382,Hatchback,BMW,2019,2023-08-04,City Cars
+CUST0185,Alex,Johnson,alex.johnson1@carsales.net,232-493-7698,Chicago,CA,94085,Coupe,Chevrolet,2021,2023-07-03,Highway Auto
+CUST0736,Riley,Rodriguez,riley.rodriguez6@autoclub.com,882-268-4559,San Diego,TX,82459,Sedan,Audi,2011,2023-10-16,AutoWorld
+CUST0621,Riley,Williams,riley.williams@example.com,610-832-8027,San Jose,IL,29562,SUV,BMW,2011,2023-10-18,AutoWorld
+CUST0484,Alex,Jones,alex.jones1@carsales.net,288-708-4893,Philadelphia,TX,49666,Coupe,Honda,2013,2022-11-30,AutoWorld
+CUST0386,Morgan,Garcia,morgan.garcia1@mail.com,302-419-9328,San Antonio,IL,82165,SUV,Chevrolet,2019,2025-07-26,AutoWorld
+CUST0769,Riley,Garcia,riley.garcia@carsales.net,975-545-8036,Philadelphia,IL,99372,Coupe,Audi,2024,2023-12-08,Prime Motors
+CUST0070,Taylor,Martinez,taylor.martinez@carsales.net,850-703-2494,San Diego,IL,63523,Truck,Toyota,2015,2024-01-22,Prime Motors
+CUST0404,Avery,Miller,avery.miller@carsales.net,507-456-1781,San Antonio,NY,31409,Coupe,Chevrolet,2010,2024-08-25,AutoWorld
+CUST0771,Alex,Martinez,alex.martinez2@example.com,743-486-5072,Philadelphia,TX,91048,Convertible,Chevrolet,2020,2023-03-12,Prime Motors
+CUST0675,Peyton,Miller,peyton.miller@carsales.net,686-937-3175,Chicago,AZ,93422,Truck,Chevrolet,2017,2023-05-03,Prime Motors
+CUST0286,Riley,Johnson,riley.johnson@example.com,550-374-7151,Chicago,PA,19830,Coupe,BMW,2018,2025-05-03,Metro Vehicles
+CUST0733,Taylor,Garcia,taylor.garcia2@example.com,608-819-5044,Dallas,IL,84609,Hatchback,Chevrolet,2024,2023-02-08,Metro Vehicles
+CUST0471,Riley,Smith,riley.smith@carsales.net,709-710-9904,New York,AZ,74679,Convertible,Tesla,2013,2024-08-22,Highway Auto
+CUST0577,Avery,Jones,avery.jones2@autoclub.com,997-696-7750,Philadelphia,CA,23424,Convertible,Honda,2013,2024-12-28,Prime Motors
+CUST0744,Taylor,Smith,taylor.smith4@carsales.net,724-310-6359,Philadelphia,AZ,92154,Convertible,Chevrolet,2013,2024-09-11,Highway Auto
+CUST0361,Morgan,Davis,morgan.davis@mail.com,364-388-4617,San Jose,IL,35470,Truck,Audi,2011,2024-11-03,Metro Vehicles
+CUST0156,Taylor,Miller,taylor.miller1@autoclub.com,951-553-7532,Chicago,IL,77499,Coupe,Honda,2018,2025-04-06,Highway Auto
+CUST0672,Avery,Miller,avery.miller2@example.com,816-618-2807,Los Angeles,IL,84942,Convertible,Honda,2014,2025-08-19,AutoWorld
+CUST0179,Morgan,Smith,morgan.smith@example.com,676-514-3616,San Antonio,PA,75866,Truck,Toyota,2024,2024-02-12,City Cars
+CUST0065,Taylor,Smith,taylor.smith@carsales.net,661-905-8699,Phoenix,NY,40340,Truck,Audi,2014,2024-04-09,Highway Auto
+CUST0526,Jordan,Martinez,jordan.martinez1@autoclub.com,541-898-5961,San Antonio,NY,92873,Coupe,BMW,2020,2025-05-08,City Cars
+CUST0400,Peyton,Johnson,peyton.johnson2@carsales.net,523-905-1137,New York,PA,37623,Coupe,Ford,2016,2025-04-17,Metro Vehicles
+CUST0538,Avery,Brown,avery.brown1@mail.com,320-742-2567,San Jose,IL,80742,Hatchback,Audi,2018,2024-08-17,Prime Motors
+CUST0724,Jamie,Davis,jamie.davis3@example.com,683-869-9399,Chicago,TX,39829,Hatchback,Honda,2013,2024-09-06,Metro Vehicles
+CUST0358,Jordan,Miller,jordan.miller1@example.com,496-902-5937,San Jose,NY,46899,Hatchback,Chevrolet,2022,2023-05-28,AutoWorld
+CUST0513,Alex,Miller,alex.miller1@example.com,348-809-3525,San Diego,TX,60222,Truck,Tesla,2013,2023-05-23,Prime Motors
+CUST0400,Peyton,Johnson,peyton.johnson2@carsales.net,525-729-3595,New York,PA,37623,Coupe,Ford,2016,2025-04-14,Metro Vehicles
+CUST0163,Casey,Garcia,casey.garcia@carsales.net,352-820-9446,Chicago,IL,90356,Hatchback,BMW,2015,2024-12-12,City Cars
+CUST0010,Jamie,Martinez,jamie.martinez@carsales.net,741-457-1188,Los Angeles,PA,80381,Truck,Ford,2022,2024-05-12,AutoWorld
+CUST0284,Casey,Jones,casey.jones1@example.com,937-201-1788,San Antonio,TX,65004,Hatchback,Chevrolet,2012,2023-07-16,City Cars
+CUST0470,Taylor,Smith,taylor.smith3@carsales.net,515-516-8311,Phoenix,PA,33684,SUV,Toyota,2011,2025-02-13,Metro Vehicles
+CUST0741,Peyton,Miller,peyton.miller3@mail.com,421-931-1564,Dallas,CA,67941,Truck,Audi,2021,2025-08-04,Metro Vehicles
+CUST0403,Morgan,Rodriguez,morgan.rodriguez1@carsales.net,590-400-3389,Chicago,TX,11276,Hatchback,Honda,2012,2023-07-05,Metro Vehicles
+CUST0456,Jamie,Williams,jamie.williams1@example.com,947-591-9531,San Jose,PA,99983,SUV,BMW,2013,2023-07-09,Prime Motors
+CUST0635,Peyton,Miller,peyton.miller2@mail.com,416-249-5635,Philadelphia,NY,19269,Sedan,Chevrolet,2018,2023-09-20,City Cars
+CUST0673,Casey,Jones,casey.jones1@autoclub.com,510-501-8961,New York,CA,28630,Sedan,Ford,2022,2023-06-30,City Cars
+CUST0667,Peyton,Jones,peyton.jones1@example.com,664-547-4868,San Jose,AZ,92279,Convertible,Honda,2020,2022-11-13,City Cars
+CUST0035,Alex,Davis,alex.davis@example.com,732-751-4228,Philadelphia,TX,19171,Convertible,Ford,2020,2024-01-03,AutoWorld
+CUST0311,Avery,Williams,avery.williams@autoclub.com,870-291-4641,Philadelphia,CA,50250,Coupe,Ford,2016,2024-01-01,Metro Vehicles
+CUST0012,Quinn,Brown,quinn.brown@mail.com,582-980-3646,Dallas,AZ,10074,Hatchback,Toyota,2019,2024-01-16,AutoWorld
+CUST0399,Morgan,Martinez,morgan.martinez1@mail.com,255-738-7933,San Diego,AZ,14268,Hatchback,Audi,2018,2023-11-29,Prime Motors
+CUST0309,Riley,Davis,riley.davis2@carsales.net,597-954-1578,Chicago,PA,84978,Coupe,Tesla,2023,2024-10-15,Prime Motors
+CUST0469,Quinn,Williams,quinn.williams1@carsales.net,763-589-1719,Chicago,IL,84120,SUV,Audi,2023,2025-01-06,Prime Motors
+CUST0291,Casey,Williams,casey.williams2@carsales.net,245-469-8204,San Diego,IL,39654,Convertible,Toyota,2023,2024-05-08,Prime Motors
+CUST0611,Jordan,Rodriguez,jordan.rodriguez2@example.com,917-837-8811,San Jose,NY,51079,Truck,Tesla,2015,2023-09-03,Prime Motors
+CUST0152,Casey,Brown,casey.brown1@autoclub.com,731-490-2292,Phoenix,CA,93238,SUV,Tesla,2018,2024-04-26,City Cars
+CUST0436,Avery,Rodriguez,avery.rodriguez3@carsales.net,964-308-6864,San Diego,PA,97194,SUV,Audi,2016,2025-04-10,Prime Motors
+CUST0476,Morgan,Martinez,morgan.martinez1@example.com,311-785-9666,Los Angeles,TX,89269,Hatchback,BMW,2024,2024-03-31,City Cars
+CUST0715,Quinn,Brown,quinn.brown4@autoclub.com,352-535-5049,New York,PA,46709,Convertible,BMW,2023,2025-02-24,Highway Auto
+CUST0486,Riley,Miller,riley.miller@mail.com,987-300-9456,Los Angeles,CA,14791,Truck,Audi,2017,2023-09-03,Metro Vehicles
+CUST0282,Jamie,Martinez,jamie.martinez1@example.com,386-816-6213,San Jose,CA,93839,Hatchback,Honda,2019,2025-04-10,City Cars
+CUST0794,Taylor,Martinez,taylor.martinez5@carsales.net,911-520-9563,Philadelphia,AZ,80544,Truck,Toyota,2018,2024-09-06,AutoWorld
+CUST0377,Taylor,Rodriguez,taylor.rodriguez@carsales.net,813-777-1305,Phoenix,NY,38389,Hatchback,Honda,2017,2023-03-20,Prime Motors
+CUST0505,Jamie,Martinez,jamie.martinez4@mail.com,665-721-7948,Dallas,TX,60425,SUV,Chevrolet,2015,2024-08-04,Metro Vehicles
+CUST0603,Quinn,Johnson,quinn.johnson2@autoclub.com,479-268-9700,San Diego,TX,37490,Truck,Audi,2015,2025-06-05,City Cars
+CUST0684,Alex,Jones,alex.jones@example.com,452-981-3057,Phoenix,AZ,63313,Truck,BMW,2017,2025-05-22,Prime Motors
+CUST0796,Jamie,Johnson,jamie.johnson1@autoclub.com,466-590-3675,San Antonio,TX,20912,Truck,Honda,2014,2023-06-22,Metro Vehicles
+CUST0488,Alex,Martinez,alex.martinez@autoclub.com,854-414-6257,Houston,CA,47560,Coupe,Audi,2014,2022-11-15,Highway Auto
+CUST0450,Jordan,Jones,jordan.jones7@autoclub.com,926-403-2813,New York,PA,80517,Convertible,BMW,2013,2024-09-19,City Cars
+CUST0717,Peyton,Williams,peyton.williams2@autoclub.com,929-582-9609,San Diego,PA,74853,Convertible,Chevrolet,2017,2024-05-09,Metro Vehicles
+CUST0175,Quinn,Martinez,quinn.martinez1@example.com,543-491-8444,Dallas,AZ,74738,Convertible,Chevrolet,2024,2025-02-08,City Cars
+CUST0763,Quinn,Jones,quinn.jones2@carsales.net,970-945-2456,Los Angeles,PA,85053,SUV,Ford,2022,2023-12-05,Prime Motors
+CUST0146,Casey,Jones,casey.jones1@mail.com,316-226-4048,San Diego,AZ,60723,Coupe,Audi,2024,2025-03-13,City Cars
+CUST0190,Alex,Williams,alex.williams1@autoclub.com,439-949-6224,San Jose,AZ,98150,SUV,Ford,2023,2024-01-23,Prime Motors
+CUST0023,Morgan,Davis,morgan.davis@example.com,783-452-1651,San Jose,NY,64948,Coupe,Ford,2020,2022-12-05,Prime Motors
+CUST0652,Casey,Martinez,casey.martinez1@carsales.net,334-500-7395,San Antonio,PA,95524,Hatchback,Audi,2021,2023-11-03,Prime Motors
+CUST0150,Riley,Davis,riley.davis1@carsales.net,738-620-7708,San Jose,NY,26426,Hatchback,Chevrolet,2015,2025-06-11,Metro Vehicles
+CUST0127,Quinn,Williams,quinn.williams@carsales.net,357-366-3962,San Jose,CA,67366,Coupe,Tesla,2010,2023-07-22,Prime Motors
+CUST0632,Morgan,Jones,morgan.jones1@mail.com,372-967-9335,Phoenix,AZ,96918,Convertible,Toyota,2019,2024-09-01,Metro Vehicles
+CUST0674,Morgan,Williams,morgan.williams1@carsales.net,202-325-9970,Philadelphia,NY,15856,Convertible,Ford,2016,2023-02-28,Metro Vehicles
+CUST0450,Jordan,Jones,jordan.jones3@carsales.net,682-223-6437,Houston,PA,80517,Convertible,BMW,2013,2024-09-18,City Cars
+CUST0698,Taylor,Miller,taylor.miller2@autoclub.com,264-841-2584,New York,TX,66616,Convertible,Audi,2022,2025-09-21,City Cars
+CUST0628,Casey,Rodriguez,casey.rodriguez1@carsales.net,345-466-2914,Philadelphia,NY,26760,Truck,Ford,2017,2024-04-13,Highway Auto
+CUST0267,Peyton,Jones,peyton.jones@example.com,292-361-5984,San Jose,NY,38183,SUV,Toyota,2023,2024-01-08,Prime Motors
+CUST0560,Peyton,Williams,peyton.williams2@mail.com,928-748-5673,Chicago,CA,97340,SUV,Honda,2022,2024-12-30,AutoWorld
+CUST0241,Taylor,Martinez,taylor.martinez2@carsales.net,551-898-1793,New York,NY,92074,Sedan,Toyota,2022,2023-04-13,Prime Motors
+CUST0189,Jordan,Martinez,jordan.martinez@example.com,657-812-1797,Houston,PA,15798,SUV,BMW,2016,2023-05-26,Prime Motors
+CUST0496,Jamie,Martinez,jamie.martinez1@carsales.net,444-835-4992,Dallas,CA,73225,Coupe,Honda,2016,2025-06-27,Metro Vehicles
+CUST0415,Casey,Jones,casey.jones1@carsales.net,747-208-9059,San Diego,IL,11197,Coupe,BMW,2022,2023-06-12,Prime Motors
+CUST0308,Morgan,Williams,morgan.williams1@mail.com,258-814-7620,Philadelphia,PA,28340,Truck,Chevrolet,2021,2025-09-18,City Cars
+CUST0579,Taylor,Garcia,taylor.garcia1@carsales.net,295-516-1138,New York,PA,25544,Truck,Honda,2013,2025-02-19,Prime Motors
+CUST0401,Riley,Williams,riley.williams@autoclub.com,442-475-8722,San Jose,IL,57962,Hatchback,Honda,2012,2023-01-23,Highway Auto
+CUST0455,Casey,Jones,casey.jones2@mail.com,713-482-2015,Phoenix,TX,13862,SUV,Honda,2018,2024-04-15,City Cars
+CUST0518,Alex,Johnson,alex.johnson2@example.com,621-300-9605,Los Angeles,PA,68450,Truck,Ford,2015,2024-08-17,City Cars
+CUST0026,Riley,Martinez,riley.martinez@example.com,883-767-5905,Los Angeles,CA,44664,Truck,BMW,2011,2025-04-04,Prime Motors
+CUST0107,Alex,Williams,alex.williams@autoclub.com,919-980-6062,Philadelphia,IL,10800,Convertible,Tesla,2012,2025-01-20,Highway Auto
+CUST0254,Quinn,Smith,quinn.smith2@autoclub.com,882-959-3877,Los Angeles,NY,27984,SUV,Chevrolet,2021,2025-10-17,City Cars
+CUST0533,Jamie,Miller,jamie.miller@carsales.net,532-323-9943,Chicago,IL,37948,Convertible,Honda,2022,2025-08-08,City Cars
+CUST0124,Taylor,Miller,taylor.miller@autoclub.com,871-915-7421,Chicago,AZ,21104,Truck,Audi,2014,2023-09-30,City Cars
+CUST0619,Quinn,Davis,quinn.davis2@autoclub.com,662-689-3187,Phoenix,CA,87728,Coupe,Honda,2023,2024-01-09,AutoWorld
+CUST0157,Jordan,Jones,jordan.jones1@carsales.net,453-344-2586,New York,IL,60351,SUV,Audi,2023,2023-07-07,Prime Motors
+CUST0001,Jordan,Smith,jordan.smith@autoclub.com,450-428-3286,Los Angeles,PA,81482,Sedan,Toyota,2011,2023-06-29,AutoWorld
+CUST0069,Quinn,Martinez,quinn.martinez@example.com,983-888-5415,San Jose,NY,32962,Truck,Chevrolet,2017,2022-12-13,City Cars
+CUST0118,Quinn,Martinez,quinn.martinez2@carsales.net,897-778-6295,Philadelphia,CA,67640,Hatchback,Tesla,2011,2023-03-25,City Cars
+CUST0206,Riley,Rodriguez,riley.rodriguez@example.com,383-522-1256,Houston,AZ,28899,Sedan,Ford,2022,2023-08-17,Prime Motors
+CUST0705,Riley,Martinez,riley.martinez@carsales.net,725-867-6861,Phoenix,AZ,80928,SUV,Chevrolet,2022,2025-01-15,City Cars
+CUST0639,Casey,Garcia,casey.garcia@mail.com,863-902-3540,San Diego,AZ,92517,Sedan,Ford,2020,2022-12-01,Highway Auto
+CUST0497,Jamie,Davis,jamie.davis1@autoclub.com,757-910-4869,Chicago,PA,97766,Sedan,BMW,2011,2023-02-17,Metro Vehicles
+CUST0022,Alex,Martinez,alex.martinez9@autoclub.com,900-442-1852,New York,AZ,20500,Sedan,BMW,2023,2024-10-25,AutoWorld
+CUST0737,Avery,Miller,avery.miller1@carsales.net,661-368-5141,Houston,AZ,15850,Sedan,Tesla,2017,2025-09-16,Highway Auto
+CUST0472,Peyton,Davis,peyton.davis8@example.com,281-815-1107,Houston,AZ,46452,Sedan,Honda,2019,2024-09-10,Prime Motors
+CUST0581,Jordan,Smith,jordan.smith8@example.com,234-723-5146,New York,NY,49537,Sedan,Audi,2020,2025-10-19,AutoWorld
+CUST0159,Jamie,Rodriguez,jamie.rodriguez1@carsales.net,446-420-6781,New York,NY,46877,Coupe,BMW,2017,2023-03-22,AutoWorld
+CUST0656,Alex,Rodriguez,alex.rodriguez1@autoclub.com,354-906-9444,San Jose,PA,23650,Hatchback,Audi,2021,2025-07-29,Highway Auto
+CUST0692,Alex,Jones,alex.jones3@autoclub.com,396-292-5967,Houston,CA,74724,Coupe,Chevrolet,2015,2025-08-26,Metro Vehicles
+CUST0229,Taylor,Miller,taylor.miller@example.com,444-512-2916,Chicago,IL,28528,Hatchback,BMW,2018,2023-09-06,Prime Motors
+CUST0140,Riley,Miller,riley.miller@example.com,871-539-5476,Los Angeles,IL,67272,Truck,Chevrolet,2024,2023-08-13,Highway Auto
+CUST0508,Avery,Martinez,avery.martinez2@example.com,451-683-2279,Dallas,AZ,50959,Coupe,BMW,2019,2025-07-24,AutoWorld
+CUST0432,Morgan,Johnson,morgan.johnson2@carsales.net,396-301-1521,San Jose,PA,60934,Convertible,BMW,2020,2023-02-10,Metro Vehicles
+CUST0576,Avery,Miller,avery.miller2@autoclub.com,901-508-5447,Philadelphia,NY,80047,SUV,Toyota,2019,2023-11-20,Prime Motors
+CUST0148,Casey,Miller,casey.miller@example.com,763-755-5757,Phoenix,CA,93584,Convertible,Honda,2012,2023-10-31,AutoWorld
+CUST0529,Peyton,Davis,peyton.davis@example.com,753-858-6041,San Diego,AZ,68891,Coupe,Toyota,2010,2025-08-26,City Cars
+CUST0210,Riley,Brown,riley.brown@example.com,284-474-3526,San Antonio,PA,93086,Coupe,Ford,2012,2023-09-04,AutoWorld
+CUST0719,Riley,Rodriguez,riley.rodriguez2@example.com,337-969-2376,Phoenix,TX,78002,Convertible,Toyota,2015,2024-07-26,Highway Auto
+CUST0758,Alex,Smith,alex.smith1@autoclub.com,703-614-7812,San Antonio,PA,58908,Coupe,Tesla,2016,2023-02-11,Metro Vehicles
+CUST0524,Riley,Garcia,riley.garcia4@example.com,709-352-1014,New York,PA,61181,Truck,Ford,2014,2025-01-03,Highway Auto
+CUST0691,Quinn,Miller,quinn.miller1@carsales.net,381-986-1138,Los Angeles,TX,58559,Hatchback,Toyota,2024,2024-10-10,Prime Motors
+CUST0599,Jordan,Johnson,jordan.johnson2@autoclub.com,317-545-3781,New York,AZ,52744,Truck,Audi,2010,2023-04-11,Highway Auto
+CUST0759,Jordan,Davis,jordan.davis@example.com,327-594-3660,Houston,TX,43457,Convertible,Tesla,2022,2023-11-27,Highway Auto
+CUST0125,Taylor,Rodriguez,taylor.rodriguez@example.com,861-886-7937,Dallas,IL,12389,SUV,Honda,2015,2024-02-16,City Cars
+CUST0063,Jamie,Martinez,jamie.martinez@mail.com,994-735-7232,San Diego,TX,48974,Coupe,BMW,2023,2023-06-15,Metro Vehicles
+CUST0340,Peyton,Rodriguez,peyton.rodriguez@mail.com,908-792-3845,Chicago,NY,60778,Convertible,Chevrolet,2020,2024-01-20,Highway Auto
+CUST0708,Quinn,Miller,quinn.miller2@autoclub.com,830-506-7859,Philadelphia,CA,23742,Hatchback,Honda,2017,2025-08-15,AutoWorld
+CUST0494,Casey,Miller,casey.miller1@carsales.net,699-230-2070,San Diego,NY,56064,SUV,Ford,2017,2023-04-10,City Cars
+CUST0023,Morgan,Davis,morgan.davis3@autoclub.com,779-262-4116,San Jose,NY,64948,Coupe,Ford,2020,2022-12-05,Prime Motors
+CUST0609,Taylor,Smith,taylor.smith3@autoclub.com,484-874-3883,New York,PA,73680,Sedan,Audi,2022,2025-09-30,AutoWorld
+CUST0342,Casey,Rodriguez,casey.rodriguez1@mail.com,405-414-5760,Philadelphia,PA,27389,Convertible,BMW,2021,2024-11-10,City Cars
+CUST0110,Peyton,Martinez,peyton.martinez@carsales.net,624-479-4531,Dallas,NY,55242,Coupe,Tesla,2016,2025-03-27,Metro Vehicles
+CUST0666,Jamie,Rodriguez,jamie.rodriguez3@example.com,949-261-7110,Phoenix,PA,76518,Sedan,Audi,2015,2025-03-01,AutoWorld
+CUST0059,Jordan,Rodriguez,jordan.rodriguez1@mail.com,564-424-5582,New York,PA,87278,Convertible,Ford,2022,2022-12-01,AutoWorld
+CUST0277,Quinn,Smith,quinn.smith3@autoclub.com,781-777-3328,San Jose,CA,74517,SUV,Chevrolet,2018,2024-02-16,AutoWorld
+CUST0057,Peyton,Smith,peyton.smith1@example.com,501-426-7625,Houston,IL,97026,Hatchback,BMW,2019,2023-10-16,Metro Vehicles
+CUST0087,Riley,Brown,riley.brown@autoclub.com,424-851-4115,San Jose,IL,98835,Truck,Toyota,2022,2025-02-02,AutoWorld
+CUST0056,Quinn,Jones,quinn.jones@example.com,729-395-2402,Houston,PA,63271,Truck,Chevrolet,2017,2024-07-05,Highway Auto
+CUST0531,Peyton,Smith,peyton.smith1@carsales.net,833-246-4976,Chicago,NY,32577,Coupe,Audi,2020,2025-07-30,AutoWorld
+CUST0782,Alex,Miller,alex.miller4@mail.com,933-415-4687,New York,CA,73898,Coupe,Audi,2021,2023-08-30,Prime Motors
+CUST0474,Quinn,Martinez,quinn.martinez1@mail.com,666-967-6901,New York,NY,49229,Hatchback,Audi,2015,2023-10-17,AutoWorld
+CUST0007,Morgan,Smith,morgan.smith@autoclub.com,610-474-2084,Houston,AZ,51245,Hatchback,Tesla,2013,2023-01-22,Highway Auto
+CUST0687,Avery,Martinez,avery.martinez4@example.com,507-291-7476,Los Angeles,CA,82938,SUV,BMW,2014,2023-06-09,Metro Vehicles
+CUST0413,Avery,Williams,avery.williams@carsales.net,846-966-8126,Dallas,PA,93824,Coupe,Chevrolet,2018,2024-02-14,Metro Vehicles
+CUST0301,Jordan,Jones,jordan.jones2@carsales.net,338-999-9589,San Jose,NY,32772,Sedan,Honda,2013,2024-09-24,AutoWorld
+CUST0090,Morgan,Davis,morgan.davis6@carsales.net,502-365-2116,Philadelphia,AZ,26199,Truck,Tesla,2017,2023-10-17,City Cars
+CUST0580,Riley,Williams,riley.williams@mail.com,333-280-7960,Los Angeles,NY,12464,Hatchback,Toyota,2022,2023-02-22,Prime Motors
+CUST0557,Taylor,Garcia,taylor.garcia1@autoclub.com,630-654-1351,Phoenix,CA,18250,Convertible,Tesla,2010,2024-07-22,City Cars
+CUST0131,Taylor,Davis,taylor.davis@example.com,427-661-6727,New York,TX,16980,Coupe,Honda,2016,2023-01-16,Highway Auto
+CUST0383,Alex,Martinez,alex.martinez1@example.com,732-207-7144,Houston,PA,51405,Sedan,Honda,2016,2023-10-30,Highway Auto
+CUST0525,Quinn,Smith,quinn.smith2@carsales.net,689-646-7617,Los Angeles,AZ,39602,Truck,Audi,2010,2023-09-14,Highway Auto
+CUST0595,Taylor,Garcia,taylor.garcia@carsales.net,337-519-7374,San Diego,NY,84560,Truck,BMW,2020,2023-02-09,Metro Vehicles
+CUST0379,Peyton,Martinez,peyton.martinez7@carsales.net,393-612-3894,Chicago,NY,12170,Convertible,Tesla,2013,2022-12-05,Highway Auto
+CUST0630,Alex,Brown,alex.brown1@mail.com,255-435-4000,New York,TX,44108,Hatchback,Toyota,2012,2023-03-29,Highway Auto
+CUST0144,Casey,Rodriguez,casey.rodriguez@mail.com,231-346-8179,New York,CA,18812,Coupe,Chevrolet,2013,2023-10-21,Metro Vehicles
+CUST0774,Alex,Williams,alex.williams3@carsales.net,289-508-9990,San Diego,CA,68495,Truck,BMW,2011,2023-02-26,Prime Motors
+CUST0091,Quinn,Davis,quinn.davis@autoclub.com,310-891-4830,San Diego,NY,91205,Convertible,Honda,2024,2024-01-08,AutoWorld
+CUST0786,Alex,Johnson,alex.johnson3@autoclub.com,685-383-1859,Los Angeles,AZ,95209,SUV,Tesla,2015,2023-06-05,Highway Auto
+CUST0028,Riley,Smith,riley.smith@example.com,541-989-3143,Phoenix,CA,67912,Convertible,Toyota,2018,2023-06-18,AutoWorld
+CUST0573,Quinn,Garcia,quinn.garcia1@carsales.net,464-843-8799,Los Angeles,IL,77177,Coupe,Honda,2021,2025-10-05,Metro Vehicles
+CUST0029,Jordan,Williams,jordan.williams@example.com,578-796-3426,San Antonio,CA,15482,Sedan,Ford,2014,2023-10-25,Prime Motors
+CUST0421,Alex,Jones,alex.jones@carsales.net,273-756-8702,Chicago,CA,42778,Sedan,Toyota,2023,2023-09-20,Prime Motors
+CUST0478,Riley,Brown,riley.brown3@example.com,321-224-8616,Los Angeles,PA,37175,Hatchback,Toyota,2022,2023-07-14,City Cars
+CUST0438,Jamie,Davis,jamie.davis@autoclub.com,823-446-9939,Houston,TX,82120,Coupe,Chevrolet,2024,2024-06-07,Highway Auto
+CUST0480,Alex,Johnson,alex.johnson@autoclub.com,549-605-1477,Chicago,CA,53321,Truck,Chevrolet,2023,2023-12-18,Highway Auto
+CUST0367,Jordan,Johnson,jordan.johnson@example.com,719-846-1511,San Jose,AZ,63101,Sedan,BMW,2022,2024-08-31,City Cars
+CUST0730,Jamie,Jones,jamie.jones2@mail.com,438-498-9591,Los Angeles,TX,17530,Sedan,Honda,2015,2022-12-14,City Cars
+CUST0516,Jamie,Miller,jamie.miller@example.com,299-744-6797,San Antonio,AZ,95467,Coupe,Ford,2023,2024-04-30,City Cars
+CUST0321,Morgan,Smith,morgan.smith2@autoclub.com,630-877-2654,Dallas,IL,91631,Hatchback,Audi,2019,2025-02-02,AutoWorld
+CUST0711,Casey,Smith,casey.smith2@example.com,403-402-5654,Chicago,CA,44340,Coupe,Audi,2021,2024-11-18,Metro Vehicles
+CUST0453,Jamie,Brown,jamie.brown1@carsales.net,720-926-2631,Philadelphia,TX,88263,SUV,Honda,2018,2025-05-13,Metro Vehicles
+CUST0142,Taylor,Rodriguez,taylor.rodriguez@autoclub.com,528-305-2311,Philadelphia,PA,48750,Convertible,Tesla,2014,2023-05-11,Highway Auto
+CUST0099,Peyton,Miller,peyton.miller@example.com,662-715-4629,San Jose,NY,96363,Hatchback,Tesla,2018,2024-03-02,AutoWorld
+CUST0448,Casey,Miller,casey.miller@mail.com,528-552-1396,Phoenix,CA,55838,Convertible,Honda,2019,2023-05-19,Highway Auto
+CUST0385,Peyton,Williams,peyton.williams1@autoclub.com,772-768-8925,Phoenix,IL,85713,Truck,Honda,2015,2023-08-17,AutoWorld
+CUST0188,Morgan,Garcia,morgan.garcia1@autoclub.com,358-482-4088,Los Angeles,NY,96533,SUV,Honda,2016,2025-10-08,AutoWorld
+CUST0559,Riley,Martinez,riley.martinez@mail.com,513-375-5259,Houston,TX,58745,SUV,Ford,2014,2025-08-05,City Cars
+CUST0473,Alex,Miller,alex.miller@example.com,348-233-5889,Philadelphia,NY,16426,SUV,Honda,2011,2023-07-10,City Cars
+CUST0644,Quinn,Jones,quinn.jones1@example.com,644-747-1293,New York,TX,25293,Truck,Chevrolet,2010,2024-11-23,Highway Auto
+CUST0581,Jordan,Smith,jordan.smith2@example.com,680-321-5145,New York,NY,49537,Sedan,Audi,2020,2025-10-19,AutoWorld
+CUST0088,Riley,Garcia,riley.garcia1@example.com,793-573-3153,Los Angeles,IL,52823,SUV,Honda,2021,2023-07-13,Prime Motors
+CUST0143,Taylor,Garcia,taylor.garcia7@autoclub.com,290-395-7043,San Jose,TX,45986,Sedan,Tesla,2020,2025-07-15,Highway Auto
+CUST0568,Jamie,Garcia,jamie.garcia1@autoclub.com,367-945-7944,San Antonio,CA,86962,SUV,Honda,2019,2025-05-17,City Cars
+CUST0427,Peyton,Brown,peyton.brown@example.com,905-586-6868,Chicago,IL,15175,Convertible,Ford,2017,2023-05-28,Metro Vehicles
+CUST0139,Alex,Jones,alex.jones@mail.com,244-404-1686,Philadelphia,IL,77552,Coupe,Toyota,2016,2023-03-16,Prime Motors
+CUST0257,Taylor,Miller,taylor.miller@mail.com,461-991-2685,San Jose,PA,25117,Sedan,Toyota,2013,2023-01-02,AutoWorld
+CUST0205,Peyton,Davis,peyton.davis@autoclub.com,779-297-9653,New York,CA,37710,Coupe,Toyota,2024,2023-03-12,AutoWorld
+CUST0787,Morgan,Smith,morgan.smith3@example.com,446-606-9005,Phoenix,PA,88139,Truck,Audi,2012,2023-10-03,AutoWorld
+CUST0700,Quinn,Garcia,quinn.garcia@example.com,840-657-3045,Los Angeles,NY,14370,Truck,Toyota,2016,2024-02-07,Prime Motors
+CUST0143,Taylor,Garcia,taylor.garcia@autoclub.com,657-243-6776,San Jose,TX,45986,Sedan,Tesla,2020,2025-07-15,Highway Auto
+CUST0593,Peyton,Garcia,peyton.garcia3@mail.com,500-877-9157,San Diego,AZ,44296,Convertible,BMW,2018,2023-12-07,AutoWorld
+CUST0331,Jordan,Davis,jordan.davis1@mail.com,693-554-7305,Chicago,AZ,90335,Truck,Honda,2010,2025-10-17,Metro Vehicles
+CUST0696,Riley,Johnson,riley.johnson1@carsales.net,707-570-9474,New York,PA,39431,Hatchback,BMW,2010,2024-04-19,Highway Auto
+CUST0447,Morgan,Brown,morgan.brown3@example.com,472-995-8046,Philadelphia,PA,85499,Truck,Chevrolet,2011,2025-03-24,Highway Auto
+CUST0578,Avery,Martinez,avery.martinez3@example.com,627-671-2251,Los Angeles,CA,12277,Coupe,Tesla,2017,2023-11-27,City Cars
+CUST0178,Morgan,Smith,morgan.smith1@autoclub.com,592-441-8319,Phoenix,IL,49576,Coupe,Tesla,2019,2025-10-17,City Cars
+CUST0319,Quinn,Rodriguez,quinn.rodriguez@mail.com,326-575-1612,San Antonio,PA,43526,Convertible,Toyota,2022,2022-11-10,Metro Vehicles
+CUST0310,Avery,Garcia,avery.garcia@autoclub.com,719-507-3785,Dallas,CA,48506,SUV,Tesla,2011,2023-03-21,City Cars
+CUST0268,Casey,Davis,casey.davis1@example.com,893-506-5262,Chicago,NY,63004,Convertible,Tesla,2023,2023-04-28,Metro Vehicles
+CUST0101,Jordan,Williams,jordan.williams@autoclub.com,839-848-9984,Philadelphia,TX,88301,Hatchback,BMW,2018,2024-03-16,Metro Vehicles
+CUST0409,Quinn,Rodriguez,quinn.rodriguez@carsales.net,623-371-4012,New York,CA,40753,Truck,Tesla,2020,2024-06-12,AutoWorld
+CUST0433,Riley,Smith,riley.smith1@autoclub.com,426-820-2161,New York,CA,95950,Hatchback,Audi,2017,2025-05-30,AutoWorld
+CUST0396,Peyton,Miller,peyton.miller2@autoclub.com,423-787-5408,Chicago,PA,99536,Hatchback,Tesla,2024,2024-10-16,Prime Motors
+CUST0653,Quinn,Brown,quinn.brown3@autoclub.com,907-967-2412,San Diego,CA,32713,Convertible,Chevrolet,2013,2024-12-24,AutoWorld
+CUST0695,Morgan,Smith,morgan.smith3@autoclub.com,897-773-8437,New York,TX,94012,Coupe,Chevrolet,2020,2025-07-26,Highway Auto
+CUST0255,Avery,Rodriguez,avery.rodriguez@autoclub.com,370-580-3079,Phoenix,PA,25473,Coupe,Audi,2022,2025-09-10,Highway Auto
+CUST0364,Casey,Martinez,casey.martinez1@autoclub.com,910-798-3496,San Jose,AZ,57774,Hatchback,Honda,2022,2024-02-01,AutoWorld
+CUST0485,Casey,Smith,casey.smith@mail.com,294-654-9290,New York,TX,75543,Coupe,Chevrolet,2012,2024-10-16,Metro Vehicles
+CUST0033,Jordan,Jones,jordan.jones@autoclub.com,856-721-7548,Dallas,IL,13617,SUV,BMW,2011,2024-05-24,City Cars
+CUST0225,Taylor,Rodriguez,taylor.rodriguez@mail.com,538-773-7985,San Diego,CA,63090,SUV,Tesla,2020,2024-10-28,Highway Auto
+CUST0298,Taylor,Martinez,taylor.martinez3@carsales.net,239-605-6431,Houston,NY,72287,Coupe,Toyota,2024,2024-05-08,City Cars
+CUST0083,Jamie,Martinez,jamie.martinez1@mail.com,374-379-2293,San Jose,TX,91226,Hatchback,BMW,2020,2024-07-04,Prime Motors
+CUST0600,Quinn,Rodriguez,quinn.rodriguez1@carsales.net,473-220-8695,San Jose,NY,51486,Coupe,BMW,2016,2023-09-02,AutoWorld
+CUST0443,Morgan,Martinez,morgan.martinez@example.com,849-996-7266,New York,IL,78731,Convertible,BMW,2010,2024-01-26,Prime Motors
