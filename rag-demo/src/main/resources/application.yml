@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: rag-demo
+  
+  datasource:
+    url: jdbc:h2:mem:ragdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+ollama:
+  base-url: http://ollama:11434
+  model: deepseek-r1
+
+chroma:
+  base-url: http://chroma:8000
+  collection-name: rag-documents
+
+rag:
+  top-k: 3
+  min-score: 0.6
+
+logging:
+  level:
+    com.ragdemo: INFO
+    dev.langchain4j: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+

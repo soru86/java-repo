@@ -1,0 +1,70 @@
+services:
+  chroma:
+    image: chromadb/chroma:0.4.24
+    container_name: rag-chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma-data:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSIST_DIRECTORY=/chroma/chroma
+    # Using service_started instead of healthcheck - Chroma 0.4.22 supports v1 API
+    networks:
+      - rag-network
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: rag-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:11434/api/tags" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    networks:
+      - rag-network
+    # Note: You'll need to pull the deepseek-r1 model after container starts
+    # Run: docker exec rag-ollama ollama pull deepseek-r1
+
+  rag-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      chroma:
+        condition: service_started
+      ollama:
+        condition: service_started
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - CHROMA_BASE_URL=http://chroma:8000
+      - SPRING_PROFILES_ACTIVE=docker
+    volumes:
+      - ./uploads:/app/uploads
+    networks:
+      - rag-network
+    healthcheck:
+      test: [ "CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/actuator/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+volumes:
+  chroma-data:
+  ollama-data:
+
+
+networks:
+  rag-network:
+    driver: bridge

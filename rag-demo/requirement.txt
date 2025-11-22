@@ -1,0 +1,39 @@
+Technical Requirements Statement
+The objective is to architect and implement a conversational AI service utilizing a microservices architecture based on the Java Spring Boot framework. This service shall incorporate the LangChain4j library to facilitate an advanced Retrieval-Augmented Generation (RAG) paradigm.
+
+Core Functionality and Architecture
+RAG Implementation:
+The system must implement a RAG pipeline to enhance the contextual relevance of Large Language Model (LLM) responses. This involves:
+
+Document Ingestion:
+Processing a Portable Document Format (PDF) document as the source corpus for knowledge extraction.
+Embedding Generation and Persistence: Generating vector embeddings from the document's content. These high-dimensional representations of textual data must be persisted within a dedicated Vector Database (Vector DB) for efficient semantic search.
+
+LLM Integration:
+The application must integrate with the Deepseek R1 Large Language Model (LLM).
+Local and Offline Deployment: The LLM is required to be hosted and executed locally via the Ollama LLM engine, necessitating an offline mode of operation for the core inference process.
+
+Knowledge Base Training:
+The LLM's effective knowledge base must be augmented (trained) using the contextual information extracted and embedded from the provided PDF document.
+
+Response Generation:
+Upon receiving a user prompt from the chat interface, the system must execute the following sequence:
+
+Vector Retrieval:
+Query the Vector DB to identify the top-k semantically similar (close-matching) embeddings/chunks relative to the input prompt's vector representation.
+
+Context Augmentation:
+Construct a final prompt by interleaving the retrieved context (relevant document snippets) with the user's original query.
+
+Inference:
+Submit the augmented prompt to the Deepseek R1 LLM via the Ollama engine to generate a contextually grounded and coherent response.
+
+State Management:
+The application must implement a mechanism to effectively maintain the session history (chat history) to ensure contextual continuity and coherence across a sequence of conversational turns.
+Deployment and Infrastructure
+
+Containerization:
+The entire application stack, encompassing the Spring Boot microservice, the Ollama LLM engine, and the Vector DB instance, must be containerized using Docker.
+
+Orchestration:
+A Docker Compose configuration file is mandatory to define, configure, and orchestrate the multi-container application environment, enabling simplified deployment and management of the integrated system.
